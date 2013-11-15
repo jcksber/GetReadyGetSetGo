@@ -10,4 +10,13 @@
 
 @interface Activity : NSObject
 
+@property(nonatomic, strong) NSString *title;
+@property(nonatomic, strong) NSString *learningInfo;
+@property(nonatomic, strong) NSString *summary;
+@property(nonatomic, strong) UIImage *picture;
+@property(nonatomic, strong) UIImage *userPicture;
+@property(nonatomic, strong) NSMutableArray *tags;
+@property(nonatomic) BOOL *childHasCompleted;
+
+
 @end

@@ -10,4 +10,20 @@
 
 @implementation Activity
 
+-(id)init
+{
+    self = [super init];
+    if (self) {
+        _title = @"";
+        _learningInfo = @"";
+        _summary = @"";
+        _picture = nil;
+        _userPicture = nil;
+        _tags = [[NSMutableArray alloc] init];
+        _childHasCompleted = NO;
+    }
+    
+    return self;
+}
+
 @end
