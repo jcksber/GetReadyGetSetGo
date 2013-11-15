@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Kid-->
+        <!--Kid Info View Controller - Kid-->
         <scene sceneID="9Yh-Eh-Oeo">
             <objects>
-                <viewController id="Zhb-eF-CKq" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="KidInfo" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Zhb-eF-CKq" customClass="KidInfoViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="D4A-Uw-pSt"/>
                         <viewControllerLayoutGuide type="bottom" id="eU3-pb-a1r"/>
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kid info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMA-ep-YSa">
-                                <rect key="frame" x="124" y="181" width="59" height="21"/>
+                                <rect key="frame" x="82" y="100" width="59" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
