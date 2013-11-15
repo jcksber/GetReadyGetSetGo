@@ -14,6 +14,7 @@
 + (ActivityListManager *)getInstance;
 - (void) initializeData;
 
+@property(nonatomic, strong) NSArray *activities;
 @property(nonatomic, strong) Activity *currentActivity;
 @property(nonatomic, strong) NSArray *allTags;
 

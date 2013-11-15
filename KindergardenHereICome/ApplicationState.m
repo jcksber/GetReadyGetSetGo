@@ -22,12 +22,15 @@
 
 -(void) initializeData
 {
+    
     self.currentKid = [[Kid alloc] init];
+    self.activityListManager = [ActivityListManager getInstance];
+    [self.activityListManager initializeData];
+    self.currentActivity = [self.activityListManager currentActivity];
 
     [self setupBooks];
     self.currentBook = [self.currentKid.books firstObject];
-    
-    
+        
     for (int i = 0; i<10; i++) {
         Activity *activity = [[Activity alloc] init];
         activity.title = @"My Book Title";
