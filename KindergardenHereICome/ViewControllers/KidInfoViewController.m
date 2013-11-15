@@ -7,6 +7,8 @@
 //
 
 #import "KidInfoViewController.h"
+#import "ApplicationState.h"
+#import "Kid.h"
 
 @interface KidInfoViewController ()
 
@@ -27,6 +29,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    [self.kidAgeLabel setText:[NSString stringWithFormat:@"Age: %@", [ApplicationState getInstance].currentKid.age]];
+    [self.kidNameLabel setText:[ApplicationState getInstance].currentKid.name];
+    [self.kidPortraitImageView setImage:[ApplicationState getInstance].currentKid.picture];
 }
 
 - (void)didReceiveMemoryWarning
