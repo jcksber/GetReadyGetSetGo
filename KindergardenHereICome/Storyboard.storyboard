@@ -29,6 +29,9 @@
                                 <state key="normal" title="Kid">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="gko-F2-iaL" kind="push" id="U41-Rw-c93"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SZu-xZ-Baf">
                                 <rect key="frame" x="99" y="311" width="111" height="30"/>
@@ -36,6 +39,9 @@
                                 <state key="normal" title="Book of the Day">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="JOY-4G-iQr" kind="push" id="sbX-GL-QYP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="36O-W3-59g">
                                 <rect key="frame" x="78" y="76" width="141" height="30"/>
@@ -43,6 +49,9 @@
                                 <state key="normal" title="Activity Engagement">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="XNm-bw-F0o" kind="push" id="LJb-ul-4LT"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Activity 140 char" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfm-yR-6Tb">
                                 <rect key="frame" x="69" y="160" width="128" height="21"/>
@@ -85,6 +94,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="BcA-3a-4zI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F4H-YH-3uz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -141,6 +151,7 @@
                             <outlet property="delegate" destination="PSp-Pc-Md7" id="mFq-mi-GVn"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="ghJ-ya-10c"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ofo-3D-S9x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -169,6 +180,7 @@
                             <outlet property="delegate" destination="Sqe-d6-L2t" id="89o-KM-du2"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="Yw3-Bc-teR"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zgK-uM-9rX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -201,6 +213,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="5jk-KK-eOA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bPH-JA-s14" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -237,6 +250,9 @@
                                 <state key="normal" title="Book Wish List">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="PSp-Pc-Md7" kind="push" id="qSG-Of-3F5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jRJ-bG-Aer">
                                 <rect key="frame" x="132" y="455" width="142" height="30"/>
@@ -244,10 +260,14 @@
                                 <state key="normal" title="Activities Completed">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Sqe-d6-L2t" kind="push" id="plI-iK-VrM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="CC4-AF-RaG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hVa-UH-ta4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
