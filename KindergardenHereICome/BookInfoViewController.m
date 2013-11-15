@@ -35,6 +35,7 @@
     [[self bookTitle] setText:[book title]];
     [[self bookAuthor] setText:[book author]];
     [[self bookCoverImageView] setImage:[book picture]];
+    [self setTitle:@"Today's Book"];
 
 }
 
