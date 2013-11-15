@@ -16,6 +16,7 @@
 @property(nonatomic, strong) UIImage *picture;
 @property(nonatomic, strong) UIImage *userPicture;
 @property(nonatomic, strong) NSArray *tags;
+@property(nonatomic, strong) UIImage *icon;
 @property(nonatomic) BOOL childHasCompleted;
 
 

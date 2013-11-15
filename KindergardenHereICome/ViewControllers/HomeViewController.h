@@ -13,6 +13,7 @@
 @interface HomeViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *activityTitle;
 @property (strong, nonatomic) IBOutlet UILabel *activityDescription;
+@property (strong, nonatomic) IBOutlet UIImageView *activityIcon;
 @property (strong, nonatomic)Activity *activity;
 
 @property (strong, nonatomic) IBOutlet UIImageView *bookCoverImageView;
