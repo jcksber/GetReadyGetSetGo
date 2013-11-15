@@ -9,6 +9,7 @@
 #import "BookListViewController.h"
 #import "ApplicationState.h"
 #import "Book.h"
+#import "BookCell.h"
 
 @interface BookListViewController ()
 
@@ -22,7 +23,7 @@
     if (self) {
         // Custom initialization
         
-        [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"BookCell"];
+        [self.tableView registerClass:[BookCell class] forCellReuseIdentifier:@"BookCell"];
         
     }
     return self;
@@ -60,12 +61,13 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"BookCell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    BookCell *cell = (BookCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     Book *book = [[ApplicationState getInstance].currentKid.books objectAtIndex:indexPath.row   ];
     
-    cell.textLabel.text = book.title;
-    cell.detailTextLabel.text = book.title;
+    cell.titleLabel.text = book.title;
+    cell.authorLabel.text = book.author;
+    cell.bookImageView.image = book.picture;
     // Configure the cell...
     
     return cell;
