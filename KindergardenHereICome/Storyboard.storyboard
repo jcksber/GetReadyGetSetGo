@@ -152,7 +152,7 @@
                                 <rect key="frame" x="13" y="77" width="294" height="207"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RSG_Star-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="LCq-tS-IRd">
+                                    <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RSG_Star-04.png" translatesAutoresizingMaskIntoConstraints="NO" id="LCq-tS-IRd">
                                         <rect key="frame" x="9" y="10" width="32" height="32"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <accessibility key="accessibilityConfiguration">
@@ -167,7 +167,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Brief Description" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p3z-Wz-8va">
-                                        <rect key="frame" x="20" y="103" width="254" height="62"/>
+                                        <rect key="frame" x="20" y="107" width="254" height="62"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -595,7 +595,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="RSG_Star-01.png" width="133" height="133"/>
+        <image name="RSG_Star-04.png" width="133" height="133"/>
         <image name="facebook-color.png" width="133" height="133"/>
         <image name="home2.png" width="32" height="32"/>
         <image name="red-background.png" width="640" height="1136"/>
