@@ -134,7 +134,7 @@
         <!--Home View Controller-->
         <scene sceneID="PH8-of-TbG">
             <objects>
-                <viewController storyboardIdentifier="Home" id="MFz-bK-r9n" userLabel="Home View Controller" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Home" id="MFz-bK-r9n" userLabel="Home View Controller" customClass="HomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ug1-1j-7Ro"/>
                         <viewControllerLayoutGuide type="bottom" id="kKq-Sc-sDS"/>
@@ -216,7 +216,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Book Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9f-ht-OT5">
-                                        <rect key="frame" x="127" y="13" width="121" height="138"/>
+                                        <rect key="frame" x="127" y="13" width="121" height="99"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -236,6 +236,13 @@
                                             <segue destination="JOY-4G-iQr" kind="push" id="Sor-Qq-Tch"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Author" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z3Z-iv-My1">
+                                        <rect key="frame" x="140" y="120" width="134" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.9301757812" green="0.9301757812" blue="0.9301757812" alpha="1" colorSpace="calibratedRGB"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -247,6 +254,17 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="home2.png" id="bvL-Ie-47Q"/>
                     <navigationItem key="navigationItem" title="Get Ready, Set, Go!" id="LBT-12-btc"/>
+                    <connections>
+                        <outlet property="bookAuthor" destination="z3Z-iv-My1" id="523-Vo-Biu"/>
+                        <outlet property="bookCoverImageView" destination="5F1-DM-myl" id="e0k-uC-8gn"/>
+                        <outlet property="bookTitle" destination="V9f-ht-OT5" id="Fq7-xG-BYo"/>
+                        <outlet property="shareActivityFacebook" destination="6oE-V0-3RN" id="auq-TP-lG1"/>
+                        <outlet property="shareActivityTwitter" destination="Ntk-KJ-cag" id="lPt-7v-b0B"/>
+                        <outlet property="shareBookFacebook" destination="DBy-tK-I8q" id="yUS-GO-juk"/>
+                        <outlet property="shareBookTwitter" destination="0Nu-sE-bJP" id="xbx-oK-5vU"/>
+                        <outlet property="shareFacebook" destination="DBy-tK-I8q" id="uya-75-6le"/>
+                        <outlet property="shareTwitter" destination="Ntk-KJ-cag" id="Rrn-gX-Wav"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rg9-xV-iGb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
