@@ -7,11 +7,15 @@
 //
 
 #import "AppDelegate.h"
+#import "ApplicationState.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    if (![ApplicationState getInstance].currentKid) {
+        [[ApplicationState getInstance] initializeData];
+    }
     
     return YES;
 }

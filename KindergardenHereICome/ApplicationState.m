@@ -20,6 +20,12 @@
     return _sharedObject;
 }
 
+-(void) initializeData
+{
+    self.currentKid = [[Kid alloc] init];
+    self.currentKid
+}
+
 
 
 
