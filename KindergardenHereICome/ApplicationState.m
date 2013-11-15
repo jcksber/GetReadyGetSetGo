@@ -26,18 +26,16 @@
     self.currentKid = [[Kid alloc] init];
     self.activityListManager = [ActivityListManager getInstance];
     [self.activityListManager initializeData];
-    
     self.currentActivity = [self.activityListManager currentActivity];
-    self.currentBook = [ApplicationState getNextBook];
-    
-    for (int i = 0; i<10; i++) {
-        Book *book = [[Book alloc] init];
-        book = [ApplicationState getNextBook];
-        [self.currentKid.books addObject:book];
 
+    [self setupBooks];
+    self.currentBook = [self.currentKid.books firstObject];
+        
+    for (int i = 0; i<10; i++) {
         Activity *activity = [[Activity alloc] init];
-        activity = [ApplicationState getNextActivity];
+        activity.title = @"My Book Title";
         [self.currentKid.activities addObject:activity];
+        
         
     }
     
@@ -56,17 +54,108 @@
     return book;
 }
 
-+(Activity *)getNextActivity
+-(void) setupBooks
 {
-    Activity *activity = [[Activity alloc] init];
-    [activity setTitle:@"Activity name"];
-    [activity setLearningInfo:@"Activity learning info for parents"];
-    [activity setChildHasCompleted:false];
-    [activity setPicture:[UIImage imageNamed:@"photo.png"]];
-    [activity setUserPicture:[UIImage imageNamed:@"photo.png"]];
-    [activity setTags:[NSMutableArray arrayWithArray:@[@"Colors", @"Numbers"]]];
+    Book *book = [[Book alloc] init];
+    [book setTitle:@"Doug Unplugged"];
+    [book setAuthor:@"Dan Yaccarino"];
+    [book setBookDescription:@""];
+    [book setPicture:[UIImage imageNamed:@"doug.jpg"]];
+    book.tags = [@[@"Information, communication and technology literacy"] mutableCopy];
+    book.childHasRead = NO;
+    [self.currentKid.books addObject:book];
+
+    book = [[Book alloc] init];
+    [book setTitle:@"Follow the Line to School"];
+    [book setAuthor:@"Laura Ljungkvist"];
+    [book setBookDescription:@""];
+    [book setPicture:[UIImage imageNamed:@"follow.jpg"]];
+    book.tags = [@[@"Information, Communication, and Technology literacy", @"Interactions between people and ther environment"] mutableCopy];
+    book.childHasRead = NO;
+    [self.currentKid.books addObject:book];
     
-    return activity;
+    book = [[Book alloc] init];
+    [book setTitle:@"How Many Jelly Beans? "];
+    [book setAuthor:@"Andrea Menotti"];
+    [book setBookDescription:@""];
+    [book setPicture:[UIImage imageNamed:@"howmany.jpg"]];
+    book.tags = [@[@"Numbers", @"Number values", @"Pro-social relationship with peers"] mutableCopy];
+    book.childHasRead = NO;
+    [self.currentKid.books addObject:book];
+    
+    book = [[Book alloc] init];
+    [book setTitle:@"I Ain't Gonna Paint No More!"];
+    [book setAuthor:@"Karen Beaumont"];
+    [book setBookDescription:@""];
+    [book setPicture:[UIImage imageNamed:@"iaint.jpg"]];
+    book.tags = [@[@"Art", @"Self-Regulation"] mutableCopy];
+    book.childHasRead = NO;
+    [self.currentKid.books addObject:book];
+    
+    book = [[Book alloc] init];
+    [book setTitle:@"LMNO Peas"];
+    [book setAuthor:@"Keith Bakers"];
+    [book setBookDescription:@""];
+    [book setPicture:[UIImage imageNamed:@"lmno.jpg"]];
+    book.tags = [@[@"Letter recogonition"] mutableCopy];
+    book.childHasRead = NO;
+    [self.currentKid.books addObject:book];
+    
+    book = [[Book alloc] init];
+    [book setTitle:@"One"];
+    [book setAuthor:@"Kathryn Otoshi"];
+    [book setBookDescription:@""];
+    [book setPicture:[UIImage imageNamed:@"one.jpg"]];
+    book.tags = [@[@"Pro-Social Relationship with Peers"] mutableCopy];
+    book.childHasRead = NO;
+    [self.currentKid.books addObject:book];
+    
+    book = [[Book alloc] init];
+    [book setTitle:@"Rosie Revere, Engineer"];
+    [book setAuthor:@"Andrea Besty"];
+    [book setBookDescription:@""];
+    [book setPicture:[UIImage imageNamed:@"rosie.jpg"]];
+    book.tags = [@[@"The Design World", @"Technology and engineering design"] mutableCopy];
+    book.childHasRead = NO;
+    [self.currentKid.books addObject:book];
+    
+    book = [[Book alloc] init];
+    [book setTitle:@"The Sleepy Little Alphabet: A Bedtime Story from Alphabet Town"];
+    [book setAuthor:@"Judy Sierra"];
+    [book setBookDescription:@""];
+    [book setPicture:[UIImage imageNamed:@"sleepy.jpg"]];
+    book.tags = [@[@"Letters", @"family", @"self regulation", @"self concept"] mutableCopy];
+    book.childHasRead = NO;
+    [self.currentKid.books addObject:book];
+    
+    book = [[Book alloc] init];
+    [book setTitle:@"Train"];
+    [book setAuthor:@"Elisha Cooper "];
+    [book setBookDescription:@""];
+    [book setPicture:[UIImage imageNamed:@"train.jpg"]];
+    book.tags = [@[@"transit"] mutableCopy];
+    book.childHasRead = NO;
+    [self.currentKid.books addObject:book];
+    
+    book = [[Book alloc] init];
+    [book setTitle:@"Up, Down, and Around"];
+    [book setAuthor:@"Kathyern Ayers"];
+    [book setBookDescription:@""];
+    [book setPicture:[UIImage imageNamed:@"updown.jpg"]];
+    book.tags = [@[@"science", @"gardening", @"pa one book"] mutableCopy];
+    book.childHasRead = NO;
+    [self.currentKid.books addObject:book];
+    
+    book = [[Book alloc] init];
+    [book setTitle:@"Whose Shoes?: A Shoe for Every Job"];
+    [book setAuthor:@"Stephen R. Swinburne"];
+    [book setBookDescription:@""];
+    [book setPicture:[UIImage imageNamed:@"whoseshoes.jpg"]];
+    book.tags = [@[@"pa one book",@"shoes", @"careers", @"social studies thinking"] mutableCopy];
+    book.childHasRead = NO;
+    [self.currentKid.books addObject:book];
+    
 }
+
 
 @end
