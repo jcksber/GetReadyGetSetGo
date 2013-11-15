@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Kid-->
+        <!--Kid Info View Controller - Kid-->
         <scene sceneID="9Yh-Eh-Oeo">
             <objects>
-                <viewController id="Zhb-eF-CKq" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="KidInfo" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Zhb-eF-CKq" customClass="KidInfoViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="D4A-Uw-pSt"/>
                         <viewControllerLayoutGuide type="bottom" id="eU3-pb-a1r"/>
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kid info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMA-ep-YSa">
-                                <rect key="frame" x="124" y="181" width="59" height="21"/>
+                                <rect key="frame" x="82" y="100" width="59" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -55,7 +55,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Kid" id="LvB-rJ-Sny"/>
+                    <tabBarItem key="tabBarItem" title="Kid" image="user2.png" id="LvB-rJ-Sny"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Sy-lY-xjA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -66,7 +66,7 @@
             <objects>
                 <tabBarController definesPresentationContext="YES" id="ZfH-Rl-adG" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="lMz-ZO-pg9"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="qkG-u8-vGh">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -95,7 +95,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Activity Search" id="FDO-zT-BOD"/>
+                    <tabBarItem key="tabBarItem" title="Activity Search" image="search.png" id="FDO-zT-BOD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Stc-IQ-ES5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -142,7 +142,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="bvL-Ie-47Q"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home2.png" id="bvL-Ie-47Q"/>
                     <navigationItem key="navigationItem" title="Get Ready, Set, Go!" id="LBT-12-btc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rg9-xV-iGb" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -422,6 +422,11 @@
             <point key="canvasLocation" x="-3118" y="-694"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="home2.png" width="16" height="16"/>
+        <image name="search.png" width="16" height="16"/>
+        <image name="user2.png" width="16" height="16"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
