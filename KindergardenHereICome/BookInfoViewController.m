@@ -12,6 +12,11 @@
 
 @interface BookInfoViewController ()
 
+@property (strong, nonatomic) IBOutlet UILabel *bookTitle;
+@property (strong, nonatomic) IBOutlet UILabel *bookAuthor;
+@property (strong, nonatomic) IBOutlet UITextView *bookDescription;
+@property (strong, nonatomic) IBOutlet UIImageView *bookCoverImageView;
+
 @end
 
 @implementation BookInfoViewController
@@ -29,14 +34,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    
-    self.book = [[ApplicationState getInstance] currentBook];
+}
+
+-(void) viewWillAppear:(BOOL)animated
+{
     [[self bookDescription] setText:[self.book bookDescription]];
     [[self bookTitle] setText:[self.book title]];
     [[self bookAuthor] setText:[self.book author]];
     [[self bookCoverImageView] setImage:[self.book picture]];
     [self setTitle:@"Book"];
-
 }
 
 - (void)didReceiveMemoryWarning

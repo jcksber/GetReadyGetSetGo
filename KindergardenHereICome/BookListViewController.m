@@ -77,7 +77,6 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     Book *book =[[ApplicationState getInstance].currentKid.books objectAtIndex:indexPath.row   ];
-    [ApplicationState getInstance].currentBook = book;
     
     UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Storyboard" bundle:nil];
     BookInfoViewController * vc = (BookInfoViewController *)[sb instantiateViewControllerWithIdentifier:@"Book"];
