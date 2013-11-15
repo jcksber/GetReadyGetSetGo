@@ -23,6 +23,7 @@
 -(void) initializeData
 {
     self.currentKid = [[Kid alloc] init];
+    self.currentActivity = [ApplicationState getNextActivity];
     self.currentBook = [ApplicationState getNextBook];
     
     for (int i = 0; i<10; i++) {
@@ -31,9 +32,8 @@
         [self.currentKid.books addObject:book];
 
         Activity *activity = [[Activity alloc] init];
-        activity.title = @"My Book Title";
+        activity = [ApplicationState getNextActivity];
         [self.currentKid.activities addObject:activity];
-        
         
     }
     
@@ -52,5 +52,17 @@
     return book;
 }
 
++(Activity *)getNextActivity
+{
+    Activity *activity = [[Activity alloc] init];
+    [activity setTitle:@"Activity name"];
+    [activity setLearningInfo:@"Activity learning info for parents"];
+    [activity setChildHasCompleted:false];
+    [activity setPicture:[UIImage imageNamed:@"photo.png"]];
+    [activity setUserPicture:[UIImage imageNamed:@"photo.png"]];
+    [activity setTags:[NSMutableArray arrayWithArray:@[@"Colors", @"Numbers"]]];
+    
+    return activity;
+}
 
 @end

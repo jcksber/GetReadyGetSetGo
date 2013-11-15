@@ -77,6 +77,35 @@
             </objects>
             <point key="canvasLocation" x="-1806" y="-685"/>
         </scene>
+        <!--Activity List View Controller - Activity Search-->
+        <scene sceneID="U4C-Li-RSL">
+            <objects>
+                <tableViewController id="iAE-jy-sgn" customClass="ActivityListViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="fkL-9E-2aI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="xBQ-9X-ZKl">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xBQ-9X-ZKl" id="QiT-W6-xlx">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="iAE-jy-sgn" id="LwW-Ks-INz"/>
+                            <outlet property="delegate" destination="iAE-jy-sgn" id="bzo-gm-gOR"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Activity Search" image="search.png" id="mch-yx-RZ6"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eVt-9d-dGe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1803" y="139"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="rJM-Yg-xcU">
             <objects>
@@ -91,32 +120,13 @@
                     <connections>
                         <segue destination="MFz-bK-r9n" kind="relationship" relationship="viewControllers" id="jM8-RE-kRO"/>
                         <segue destination="Zhb-eF-CKq" kind="relationship" relationship="viewControllers" id="sD3-sf-1Pi"/>
-                        <segue destination="LAJ-jI-KHp" kind="relationship" relationship="viewControllers" id="kck-6A-nPW"/>
                         <segue destination="JOY-4G-iQr" kind="relationship" relationship="viewControllers" id="CT5-1E-m5x"/>
+                        <segue destination="iAE-jy-sgn" kind="relationship" relationship="viewControllers" id="Kjq-Us-tYW"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Euk-Y1-10M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2595" y="-694"/>
-        </scene>
-        <!--View Controller - Activity Search-->
-        <scene sceneID="FLp-RD-gKR">
-            <objects>
-                <viewController id="LAJ-jI-KHp" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="lsP-3u-EC4"/>
-                        <viewControllerLayoutGuide type="bottom" id="Awl-1G-j8Q"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="h34-QC-0dd">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Activity Search" image="search.png" id="FDO-zT-BOD"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Stc-IQ-ES5" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1806" y="120"/>
         </scene>
         <!--View Controller - Get Ready, Set, Go!-->
         <scene sceneID="PH8-of-TbG">
