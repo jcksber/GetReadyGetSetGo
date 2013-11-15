@@ -19,6 +19,10 @@
 		806ECB18183655B90099CBD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806ECB00183655B90099CBD9 /* UIKit.framework */; };
 		806ECB20183655B90099CBD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 806ECB1E183655B90099CBD9 /* InfoPlist.strings */; };
 		806ECB22183655B90099CBD9 /* KindergardenHereIComeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 806ECB21183655B90099CBD9 /* KindergardenHereIComeTests.m */; };
+		A891B61E1836705C0063F861 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = A891B61D1836705C0063F861 /* Book.m */; };
+		A891B6211836706A0063F861 /* Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = A891B6201836706A0063F861 /* Activity.m */; };
+		A891B6241836707F0063F861 /* Kid.m in Sources */ = {isa = PBXBuildFile; fileRef = A891B6231836707F0063F861 /* Kid.m */; };
+		A891B627183670A00063F861 /* ApplicationState.m in Sources */ = {isa = PBXBuildFile; fileRef = A891B626183670A00063F861 /* ApplicationState.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,14 @@
 		806ECB1D183655B90099CBD9 /* KindergardenHereIComeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KindergardenHereIComeTests-Info.plist"; sourceTree = "<group>"; };
 		806ECB1F183655B90099CBD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		806ECB21183655B90099CBD9 /* KindergardenHereIComeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KindergardenHereIComeTests.m; sourceTree = "<group>"; };
+		A891B61C1836705C0063F861 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		A891B61D1836705C0063F861 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		A891B61F1836706A0063F861 /* Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Activity.h; sourceTree = "<group>"; };
+		A891B6201836706A0063F861 /* Activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Activity.m; sourceTree = "<group>"; };
+		A891B6221836707F0063F861 /* Kid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kid.h; sourceTree = "<group>"; };
+		A891B6231836707F0063F861 /* Kid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kid.m; sourceTree = "<group>"; };
+		A891B625183670A00063F861 /* ApplicationState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationState.h; sourceTree = "<group>"; };
+		A891B626183670A00063F861 /* ApplicationState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationState.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +119,7 @@
 		806ECB02183655B90099CBD9 /* KindergardenHereICome */ = {
 			isa = PBXGroup;
 			children = (
+				A891B61B183670480063F861 /* Model */,
 				806ECB0B183655B90099CBD9 /* AppDelegate.h */,
 				806ECB0C183655B90099CBD9 /* AppDelegate.m */,
 				806ECB0E183655B90099CBD9 /* Images.xcassets */,
@@ -142,6 +155,21 @@
 				806ECB1E183655B90099CBD9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A891B61B183670480063F861 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A891B61C1836705C0063F861 /* Book.h */,
+				A891B61D1836705C0063F861 /* Book.m */,
+				A891B61F1836706A0063F861 /* Activity.h */,
+				A891B6201836706A0063F861 /* Activity.m */,
+				A891B6221836707F0063F861 /* Kid.h */,
+				A891B6231836707F0063F861 /* Kid.m */,
+				A891B625183670A00063F861 /* ApplicationState.h */,
+				A891B626183670A00063F861 /* ApplicationState.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A891B627183670A00063F861 /* ApplicationState.m in Sources */,
 				806ECB0D183655B90099CBD9 /* AppDelegate.m in Sources */,
+				A891B61E1836705C0063F861 /* Book.m in Sources */,
+				A891B6211836706A0063F861 /* Activity.m in Sources */,
+				A891B6241836707F0063F861 /* Kid.m in Sources */,
 				806ECB09183655B90099CBD9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +473,7 @@
 				806ECB27183655B90099CBD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		806ECB28183655B90099CBD9 /* Build configuration list for PBXNativeTarget "KindergardenHereIComeTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +482,7 @@
 				806ECB2A183655B90099CBD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
