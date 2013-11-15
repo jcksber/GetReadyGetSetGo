@@ -92,6 +92,7 @@
                         <segue destination="MFz-bK-r9n" kind="relationship" relationship="viewControllers" id="jM8-RE-kRO"/>
                         <segue destination="Zhb-eF-CKq" kind="relationship" relationship="viewControllers" id="sD3-sf-1Pi"/>
                         <segue destination="LAJ-jI-KHp" kind="relationship" relationship="viewControllers" id="kck-6A-nPW"/>
+                        <segue destination="JOY-4G-iQr" kind="relationship" relationship="viewControllers" id="CT5-1E-m5x"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Euk-Y1-10M" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -386,7 +387,7 @@
             </objects>
             <point key="canvasLocation" x="-51" y="-371"/>
         </scene>
-        <!--Book Info View Controller-->
+        <!--Book Info View Controller - Book (Temporary)-->
         <scene sceneID="IdV-NH-cHV">
             <objects>
                 <viewController storyboardIdentifier="Book" id="JOY-4G-iQr" customClass="BookInfoViewController" sceneMemberID="viewController">
@@ -424,9 +425,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Book (Temporary)" id="C2L-Of-maW"/>
                     <navigationItem key="navigationItem" id="5jk-KK-eOA"/>
                     <connections>
                         <outlet property="bookAuthor" destination="zRq-dN-cvO" id="xZn-zH-ee2"/>
+                        <outlet property="bookCoverImageView" destination="sIy-f0-1hx" id="IiO-K3-Umb"/>
                         <outlet property="bookDescription" destination="RK0-WS-mZd" id="Dj0-rw-f6X"/>
                         <outlet property="bookTitle" destination="Z49-Iw-j1A" id="n9Z-nc-0Si"/>
                     </connections>

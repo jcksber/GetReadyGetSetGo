@@ -23,7 +23,8 @@
 -(void) initializeData
 {
     self.currentKid = [[Kid alloc] init];
-
+    self.currentBook = [ApplicationState getNextBook];
+    
     for (int i = 0; i<10; i++) {
         Book *book = [[Book alloc] init];
         book = [ApplicationState getNextBook];
@@ -32,6 +33,8 @@
         Activity *activity = [[Activity alloc] init];
         activity.title = @"My Book Title";
         [self.currentKid.activities addObject:activity];
+        
+        
     }
     
 }
