@@ -9,8 +9,8 @@
             <objects>
                 <viewController storyboardIdentifier="KidInfo" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Zhb-eF-CKq" customClass="KidInfoViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="D4A-Uw-pSt"/>
-                        <viewControllerLayoutGuide type="bottom" id="eU3-pb-a1r"/>
+                        <viewControllerLayoutGuide type="top" id="rE1-Ln-kEA"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jcq-8k-apm"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bVl-8j-j7F">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -66,7 +66,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Kid" id="LvB-rJ-Sny"/>
+                    <tabBarItem key="tabBarItem" title="Kid" image="user3.png" id="LvB-rJ-Sny"/>
                     <connections>
                         <outlet property="kidAgeLabel" destination="Zic-qp-YIn" id="nhb-eJ-iBa"/>
                         <outlet property="kidNameLabel" destination="DMA-ep-YSa" id="U44-yH-bh8"/>
@@ -103,15 +103,15 @@
             <objects>
                 <viewController id="LAJ-jI-KHp" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="VTf-Uj-O74"/>
-                        <viewControllerLayoutGuide type="bottom" id="f11-HY-wDQ"/>
+                        <viewControllerLayoutGuide type="top" id="lsP-3u-EC4"/>
+                        <viewControllerLayoutGuide type="bottom" id="Awl-1G-j8Q"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="h34-QC-0dd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Activity Search" id="FDO-zT-BOD"/>
+                    <tabBarItem key="tabBarItem" title="Activity Search" image="search.png" id="FDO-zT-BOD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Stc-IQ-ES5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -122,8 +122,8 @@
             <objects>
                 <viewController storyboardIdentifier="Home" id="MFz-bK-r9n" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="cOi-VM-78P"/>
-                        <viewControllerLayoutGuide type="bottom" id="Gyz-MW-gHt"/>
+                        <viewControllerLayoutGuide type="top" id="Ug1-1j-7Ro"/>
+                        <viewControllerLayoutGuide type="bottom" id="kKq-Sc-sDS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Pca-XK-wau">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -136,7 +136,19 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H7k-0c-EyE">
                                 <rect key="frame" x="0.0" y="63" width="320" height="229"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star3.png" translatesAutoresizingMaskIntoConstraints="NO" id="LCq-tS-IRd">
+                                        <rect key="frame" x="9" y="10" width="32" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" none="YES" staticText="YES"/>
+                                        </accessibility>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" image="YES"/>
+                                </accessibility>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CbW-Xq-Dp3">
                                 <rect key="frame" x="0.0" y="292" width="320" height="226"/>
@@ -146,7 +158,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="bvL-Ie-47Q"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home2.png" id="bvL-Ie-47Q"/>
                     <navigationItem key="navigationItem" title="Get Ready, Set, Go!" id="LBT-12-btc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rg9-xV-iGb" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -158,8 +170,8 @@
             <objects>
                 <viewController storyboardIdentifier="Activity" id="XNm-bw-F0o" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="9G3-Iv-DSu"/>
-                        <viewControllerLayoutGuide type="bottom" id="30C-RM-z58"/>
+                        <viewControllerLayoutGuide type="top" id="0kv-Qg-GDC"/>
+                        <viewControllerLayoutGuide type="bottom" id="JNn-ZD-4QW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="VHx-IY-ftB">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -212,8 +224,8 @@
             <objects>
                 <viewController id="pW9-WK-b77" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="vBg-UW-pKy"/>
-                        <viewControllerLayoutGuide type="bottom" id="ZF2-Zq-Az6"/>
+                        <viewControllerLayoutGuide type="top" id="6Ei-FK-3Y5"/>
+                        <viewControllerLayoutGuide type="bottom" id="vr9-4Z-so9"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Xbz-y9-aP2">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -252,8 +264,8 @@
             <objects>
                 <viewController id="588-8t-lb1" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="zN0-zm-GRP"/>
-                        <viewControllerLayoutGuide type="bottom" id="zys-lX-lpO"/>
+                        <viewControllerLayoutGuide type="top" id="Bxg-81-jv1"/>
+                        <viewControllerLayoutGuide type="bottom" id="fIw-Lu-fru"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Wpj-OA-0B6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -379,8 +391,8 @@
             <objects>
                 <viewController storyboardIdentifier="Book" id="JOY-4G-iQr" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Fvi-5i-aaE"/>
-                        <viewControllerLayoutGuide type="bottom" id="wqy-Ln-gSW"/>
+                        <viewControllerLayoutGuide type="top" id="yrk-gy-1ck"/>
+                        <viewControllerLayoutGuide type="bottom" id="3L1-0e-pnb"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2OU-0A-PtC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -426,6 +438,12 @@
             <point key="canvasLocation" x="-3118" y="-694"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="home2.png" width="32" height="32"/>
+        <image name="search.png" width="32" height="32"/>
+        <image name="star3.png" width="32" height="32"/>
+        <image name="user3.png" width="32" height="32"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

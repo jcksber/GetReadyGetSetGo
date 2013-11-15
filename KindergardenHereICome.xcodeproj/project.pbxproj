@@ -2013,7 +2013,7 @@
 			isa = PBXGroup;
 			children = (
 				A6B8247418368E1B006078AF /* 16px */,
-				A6B8263818368E1E006078AF /* 32px */,
+				A6B8263818368E1E006078AF /* star */,
 			);
 			path = PNG;
 			sourceTree = "<group>";
@@ -2476,7 +2476,7 @@
 			path = 16px;
 			sourceTree = "<group>";
 		};
-		A6B8263818368E1E006078AF /* 32px */ = {
+		A6B8263818368E1E006078AF /* star */ = {
 			isa = PBXGroup;
 			children = (
 				A6B8263918368E1E006078AF /* accessibility.png */,
@@ -2851,10 +2851,10 @@
 				A6B827AA18368E20006078AF /* stackoverflow.png */,
 				A6B827AB18368E20006078AF /* star.png */,
 				A6B827AC18368E20006078AF /* star2.png */,
-				A6B827AD18368E20006078AF /* star3.png */,
 				A6B827AE18368E20006078AF /* stats.png */,
 				A6B827AF18368E20006078AF /* steam.png */,
 				A6B827B018368E20006078AF /* steam2.png */,
+				A6B827AD18368E20006078AF /* star3.png */,
 				A6B827B118368E20006078AF /* stop.png */,
 				A6B827B218368E20006078AF /* stop2.png */,
 				A6B827B318368E20006078AF /* stopwatch.png */,
@@ -2931,6 +2931,7 @@
 				A6B827FA18368E21006078AF /* zoom-in.png */,
 				A6B827FB18368E21006078AF /* zoom-out.png */,
 			);
+			name = star;
 			path = 32px;
 			sourceTree = "<group>";
 		};
