@@ -95,7 +95,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Activity Search" id="FDO-zT-BOD"/>
+                    <tabBarItem key="tabBarItem" title="Activity Search" image="search.png" id="FDO-zT-BOD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Stc-IQ-ES5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -142,7 +142,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="bvL-Ie-47Q"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home2.png" id="bvL-Ie-47Q"/>
                     <navigationItem key="navigationItem" title="Get Ready, Set, Go!" id="LBT-12-btc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rg9-xV-iGb" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -423,6 +423,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="home2.png" width="16" height="16"/>
+        <image name="search.png" width="16" height="16"/>
         <image name="user2.png" width="16" height="16"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
