@@ -16,6 +16,6 @@
 @property(nonatomic, strong) UIImage *picture;
 @property(nonatomic, strong) UIImage *userPicture;
 @property(nonatomic, strong) NSMutableArray *tags;
-@property(nonatomic) BOOL *childHasRead;
+@property(nonatomic) BOOL childHasRead;
 
 @end

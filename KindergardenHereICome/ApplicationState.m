@@ -23,22 +23,34 @@
 -(void) initializeData
 {
     self.currentKid = [[Kid alloc] init];
-
+    self.currentBook = [ApplicationState getNextBook];
+    
     for (int i = 0; i<10; i++) {
         Book *book = [[Book alloc] init];
-        book.title = @"My Book Title";
-        book.author = @"Stephen King";
-        book.picture = [UIImage imageNamed:@"photo.png"];
+        book = [ApplicationState getNextBook];
         [self.currentKid.books addObject:book];
 
         Activity *activity = [[Activity alloc] init];
         activity.title = @"My Book Title";
         [self.currentKid.activities addObject:activity];
+        
+        
     }
     
 }
 
-
++(Book *)getNextBook
+{
+    //static int bookIndex = 0;
+    Book *book = [[Book alloc] init];
+    [book setAuthor:@"Eric Carle"];
+    [book setTitle:@"The Very Hungry Caterpillar"];
+    [book setBookDescription:@"A caterpillar eats a lot"];
+    [book setPicture:[UIImage imageNamed:@"photo.png"]];
+    book.childHasRead = true;
+    
+    return book;
+}
 
 
 @end

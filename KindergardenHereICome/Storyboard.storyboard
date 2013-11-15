@@ -92,6 +92,7 @@
                         <segue destination="MFz-bK-r9n" kind="relationship" relationship="viewControllers" id="jM8-RE-kRO"/>
                         <segue destination="Zhb-eF-CKq" kind="relationship" relationship="viewControllers" id="sD3-sf-1Pi"/>
                         <segue destination="LAJ-jI-KHp" kind="relationship" relationship="viewControllers" id="kck-6A-nPW"/>
+                        <segue destination="JOY-4G-iQr" kind="relationship" relationship="viewControllers" id="CT5-1E-m5x"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Euk-Y1-10M" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -134,10 +135,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H7k-0c-EyE">
-                                <rect key="frame" x="0.0" y="63" width="320" height="229"/>
+                                <rect key="frame" x="13" y="77" width="294" height="207"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star3.png" translatesAutoresizingMaskIntoConstraints="NO" id="LCq-tS-IRd">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LCq-tS-IRd">
                                         <rect key="frame" x="9" y="10" width="32" height="32"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <accessibility key="accessibilityConfiguration">
@@ -443,10 +444,10 @@
             </objects>
             <point key="canvasLocation" x="-51" y="-371"/>
         </scene>
-        <!--View Controller-->
+        <!--Book Info View Controller - Book (Temporary)-->
         <scene sceneID="IdV-NH-cHV">
             <objects>
-                <viewController storyboardIdentifier="Book" id="JOY-4G-iQr" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Book" id="JOY-4G-iQr" customClass="BookInfoViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yrk-gy-1ck"/>
                         <viewControllerLayoutGuide type="bottom" id="3L1-0e-pnb"/>
@@ -455,22 +456,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Book Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z49-Iw-j1A">
-                                <rect key="frame" x="127" y="171" width="91" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Book Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z49-Iw-j1A">
+                                <rect key="frame" x="20" y="199" width="280" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Author" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zRq-dN-cvO">
+                                <rect key="frame" x="20" y="253" width="280" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Author" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zRq-dN-cvO">
-                                <rect key="frame" x="139" y="300" width="52" height="21"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sIy-f0-1hx">
+                                <rect key="frame" x="20" y="20" width="280" height="171"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Book description" translatesAutoresizingMaskIntoConstraints="NO" id="RK0-WS-mZd">
+                                <rect key="frame" x="20" y="295" width="280" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Book (Temporary)" id="C2L-Of-maW"/>
                     <navigationItem key="navigationItem" id="5jk-KK-eOA"/>
+                    <connections>
+                        <outlet property="bookAuthor" destination="zRq-dN-cvO" id="xZn-zH-ee2"/>
+                        <outlet property="bookCoverImageView" destination="sIy-f0-1hx" id="IiO-K3-Umb"/>
+                        <outlet property="bookDescription" destination="RK0-WS-mZd" id="Dj0-rw-f6X"/>
+                        <outlet property="bookTitle" destination="Z49-Iw-j1A" id="n9Z-nc-0Si"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bPH-JA-s14" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -498,7 +517,6 @@
     <resources>
         <image name="home2.png" width="32" height="32"/>
         <image name="search.png" width="32" height="32"/>
-        <image name="star3.png" width="32" height="32"/>
         <image name="user3.png" width="32" height="32"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
