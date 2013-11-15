@@ -26,9 +26,11 @@
 
     for (int i = 0; i<10; i++) {
         Book *book = [[Book alloc] init];
+        book.title = @"My Book Title";
         [self.currentKid.books addObject:book];
 
         Activity *activity = [[Activity alloc] init];
+        activity.title = @"My Book Title";
         [self.currentKid.activities addObject:activity];
     }
     
