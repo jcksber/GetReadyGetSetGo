@@ -23,7 +23,15 @@
 -(void) initializeData
 {
     self.currentKid = [[Kid alloc] init];
-    self.currentKid
+
+    for (int i = 0; i<10; i++) {
+        Book *book = [[Book alloc] init];
+        [self.currentKid.books addObject:book];
+
+        Activity *activity = [[Activity alloc] init];
+        [self.currentKid.activities addObject:activity];
+    }
+    
 }
 
 

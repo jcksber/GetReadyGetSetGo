@@ -18,6 +18,7 @@
         _age = @"4";
         _activities = [[NSMutableArray alloc] init];
         _books = [[NSMutableArray alloc] init];
+        _picture = [UIImage imageNamed:@"photo.png"];
     }
     
     return self;
