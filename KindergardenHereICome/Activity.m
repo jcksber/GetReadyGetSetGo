@@ -21,7 +21,7 @@
         _summary = @"";
         _picture = nil;
         _userPicture = nil;
-        _tags = [[NSMutableArray alloc] init];
+        _tags = [[NSArray alloc] init];
         _childHasCompleted = NO;
     }
     

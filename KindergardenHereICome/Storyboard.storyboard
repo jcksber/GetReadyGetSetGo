@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="13A598" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="hgg-7S-MlC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="hgg-7S-MlC">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--Kid Info View Controller - Kid-->
@@ -124,7 +124,6 @@
                     <connections>
                         <segue destination="MFz-bK-r9n" kind="relationship" relationship="viewControllers" id="jM8-RE-kRO"/>
                         <segue destination="Zhb-eF-CKq" kind="relationship" relationship="viewControllers" id="sD3-sf-1Pi"/>
-                        <segue destination="JOY-4G-iQr" kind="relationship" relationship="viewControllers" id="CT5-1E-m5x"/>
                         <segue destination="iAE-jy-sgn" kind="relationship" relationship="viewControllers" id="Kjq-Us-tYW"/>
                     </connections>
                 </tabBarController>
@@ -132,10 +131,10 @@
             </objects>
             <point key="canvasLocation" x="-2595" y="-694"/>
         </scene>
-        <!--View Controller - Get Ready, Set, Go!-->
+        <!--Home View Controller-->
         <scene sceneID="PH8-of-TbG">
             <objects>
-                <viewController storyboardIdentifier="Home" id="MFz-bK-r9n" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Home" id="MFz-bK-r9n" userLabel="Home View Controller" customClass="HomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ug1-1j-7Ro"/>
                         <viewControllerLayoutGuide type="bottom" id="kKq-Sc-sDS"/>
@@ -184,6 +183,13 @@
                                         <rect key="frame" x="234" y="177" width="24" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E3K-HN-7y9">
+                                        <rect key="frame" x="0.0" y="0.0" width="294" height="169"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.93017578125" green="0.93017578125" blue="0.93017578125" alpha="1" colorSpace="calibratedRGB"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -210,7 +216,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Book Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9f-ht-OT5">
-                                        <rect key="frame" x="127" y="13" width="121" height="138"/>
+                                        <rect key="frame" x="127" y="13" width="121" height="99"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -230,6 +236,13 @@
                                             <segue destination="JOY-4G-iQr" kind="push" id="Sor-Qq-Tch"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Author" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z3Z-iv-My1">
+                                        <rect key="frame" x="140" y="120" width="134" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.9301757812" green="0.9301757812" blue="0.9301757812" alpha="1" colorSpace="calibratedRGB"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -241,6 +254,17 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="home2.png" id="bvL-Ie-47Q"/>
                     <navigationItem key="navigationItem" title="Get Ready, Set, Go!" id="LBT-12-btc"/>
+                    <connections>
+                        <outlet property="bookAuthor" destination="z3Z-iv-My1" id="523-Vo-Biu"/>
+                        <outlet property="bookCoverImageView" destination="5F1-DM-myl" id="e0k-uC-8gn"/>
+                        <outlet property="bookTitle" destination="V9f-ht-OT5" id="Fq7-xG-BYo"/>
+                        <outlet property="shareActivityFacebook" destination="6oE-V0-3RN" id="auq-TP-lG1"/>
+                        <outlet property="shareActivityTwitter" destination="Ntk-KJ-cag" id="lPt-7v-b0B"/>
+                        <outlet property="shareBookFacebook" destination="DBy-tK-I8q" id="yUS-GO-juk"/>
+                        <outlet property="shareBookTwitter" destination="0Nu-sE-bJP" id="xbx-oK-5vU"/>
+                        <outlet property="shareFacebook" destination="DBy-tK-I8q" id="uya-75-6le"/>
+                        <outlet property="shareTwitter" destination="Ntk-KJ-cag" id="Rrn-gX-Wav"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rg9-xV-iGb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -642,7 +666,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="Sor-Qq-Tch"/>
-    </inferredMetricsTieBreakers>
 </document>

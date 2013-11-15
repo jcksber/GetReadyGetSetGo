@@ -14,11 +14,12 @@
 + (ActivityListManager *)getInstance;
 - (void) initializeData;
 
-@property(nonatomic, strong) NSArray *activities;
+@property(nonatomic, strong) NSMutableArray *activities;
 @property(nonatomic, strong) Activity *currentActivity;
-@property(nonatomic, strong) NSArray *allTags;
 
+- (NSArray *)allTags;
 - (Activity *)randomActivity;
 - (NSArray *)activitiesWithTag:(NSString *)tag;
+
 
 @end

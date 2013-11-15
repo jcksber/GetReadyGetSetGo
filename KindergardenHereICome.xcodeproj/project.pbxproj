@@ -26,6 +26,7 @@
 		80CDF4BF1836B53900EDF82C /* twitter-color.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CDF4BE1836B53900EDF82C /* twitter-color.png */; };
 		80CDF4C11836B54300EDF82C /* facebook-color.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CDF4C01836B54300EDF82C /* facebook-color.png */; };
 		80CDF4C31836B9A100EDF82C /* RSG_worm-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CDF4C21836B9A100EDF82C /* RSG_worm-01.png */; };
+		80CDF4C61836C32400EDF82C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CDF4C51836C32400EDF82C /* HomeViewController.m */; };
 		A6B820E0183674D2006078AF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B820DF183674D2006078AF /* Storyboard.storyboard */; };
 		A6B820E418368B23006078AF /* KidInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B820E318368B23006078AF /* KidInfoViewController.m */; };
 		A6B829C318368E25006078AF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A6B820E618368E13006078AF /* .gitignore */; };
@@ -549,6 +550,8 @@
 		80CDF4BE1836B53900EDF82C /* twitter-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-color.png"; sourceTree = "<group>"; };
 		80CDF4C01836B54300EDF82C /* facebook-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-color.png"; sourceTree = "<group>"; };
 		80CDF4C21836B9A100EDF82C /* RSG_worm-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RSG_worm-01.png"; sourceTree = "<group>"; };
+		80CDF4C41836C32400EDF82C /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = KindergardenHereICome/ViewControllers/HomeViewController.h; sourceTree = "<group>"; };
+		80CDF4C51836C32400EDF82C /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = KindergardenHereICome/ViewControllers/HomeViewController.m; sourceTree = "<group>"; };
 		A6B820DF183674D2006078AF /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = KindergardenHereICome/Storyboard.storyboard; sourceTree = "<group>"; };
 		A6B820E218368B23006078AF /* KidInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KidInfoViewController.h; path = ViewControllers/KidInfoViewController.h; sourceTree = "<group>"; };
 		A6B820E318368B23006078AF /* KidInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KidInfoViewController.m; path = ViewControllers/KidInfoViewController.m; sourceTree = "<group>"; };
@@ -1081,6 +1084,8 @@
 			children = (
 				A6B832991836918C006078AF /* assets */,
 				A6B820DF183674D2006078AF /* Storyboard.storyboard */,
+				80CDF4C41836C32400EDF82C /* HomeViewController.h */,
+				80CDF4C51836C32400EDF82C /* HomeViewController.m */,
 				806ECB02183655B90099CBD9 /* KindergardenHereICome */,
 				806ECB1B183655B90099CBD9 /* KindergardenHereIComeTests */,
 				806ECAFB183655B90099CBD9 /* Frameworks */,
@@ -2311,6 +2316,7 @@
 				A891B627183670A00063F861 /* ApplicationState.m in Sources */,
 				806ECB0D183655B90099CBD9 /* AppDelegate.m in Sources */,
 				A813CAF41836A46C00AC8E19 /* BookCell.m in Sources */,
+				80CDF4C61836C32400EDF82C /* HomeViewController.m in Sources */,
 				A891B61E1836705C0063F861 /* Book.m in Sources */,
 				A6B820E418368B23006078AF /* KidInfoViewController.m in Sources */,
 				A813CAF71836A47700AC8E19 /* ActivityCell.m in Sources */,
