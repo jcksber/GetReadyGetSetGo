@@ -481,6 +481,8 @@
 		A813CAEF18369BE500AC8E19 /* ActivityListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A813CAE918369BE500AC8E19 /* ActivityListViewController.m */; };
 		A813CAF018369BE500AC8E19 /* BookInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A813CAEB18369BE500AC8E19 /* BookInfoViewController.m */; };
 		A813CAF118369BE500AC8E19 /* BookListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A813CAED18369BE500AC8E19 /* BookListViewController.m */; };
+		A813CAF41836A46C00AC8E19 /* BookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A813CAF31836A46C00AC8E19 /* BookCell.m */; };
+		A813CAF71836A47700AC8E19 /* ActivityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A813CAF61836A47700AC8E19 /* ActivityCell.m */; };
 		A891B61E1836705C0063F861 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = A891B61D1836705C0063F861 /* Book.m */; };
 		A891B6211836706A0063F861 /* Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = A891B6201836706A0063F861 /* Activity.m */; };
 		A891B6241836707F0063F861 /* Kid.m in Sources */ = {isa = PBXBuildFile; fileRef = A891B6231836707F0063F861 /* Kid.m */; };
@@ -982,6 +984,10 @@
 		A813CAEB18369BE500AC8E19 /* BookInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookInfoViewController.m; sourceTree = "<group>"; };
 		A813CAEC18369BE500AC8E19 /* BookListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookListViewController.h; sourceTree = "<group>"; };
 		A813CAED18369BE500AC8E19 /* BookListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookListViewController.m; sourceTree = "<group>"; };
+		A813CAF21836A46C00AC8E19 /* BookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCell.h; sourceTree = "<group>"; };
+		A813CAF31836A46C00AC8E19 /* BookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCell.m; sourceTree = "<group>"; };
+		A813CAF51836A47700AC8E19 /* ActivityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityCell.h; sourceTree = "<group>"; };
+		A813CAF61836A47700AC8E19 /* ActivityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityCell.m; sourceTree = "<group>"; };
 		A891B61C1836705C0063F861 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
 		A891B61D1836705C0063F861 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 		A891B61F1836706A0063F861 /* Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Activity.h; sourceTree = "<group>"; };
@@ -1103,6 +1109,10 @@
 				A813CAED18369BE500AC8E19 /* BookListViewController.m */,
 				A6B820E218368B23006078AF /* KidInfoViewController.h */,
 				A6B820E318368B23006078AF /* KidInfoViewController.m */,
+				A813CAF21836A46C00AC8E19 /* BookCell.h */,
+				A813CAF31836A46C00AC8E19 /* BookCell.m */,
+				A813CAF51836A47700AC8E19 /* ActivityCell.h */,
+				A813CAF61836A47700AC8E19 /* ActivityCell.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -2175,8 +2185,10 @@
 				A813CAF018369BE500AC8E19 /* BookInfoViewController.m in Sources */,
 				A891B627183670A00063F861 /* ApplicationState.m in Sources */,
 				806ECB0D183655B90099CBD9 /* AppDelegate.m in Sources */,
+				A813CAF41836A46C00AC8E19 /* BookCell.m in Sources */,
 				A891B61E1836705C0063F861 /* Book.m in Sources */,
 				A6B820E418368B23006078AF /* KidInfoViewController.m in Sources */,
+				A813CAF71836A47700AC8E19 /* ActivityCell.m in Sources */,
 				A891B6211836706A0063F861 /* Activity.m in Sources */,
 				A891B6241836707F0063F861 /* Kid.m in Sources */,
 				806ECB09183655B90099CBD9 /* main.m in Sources */,

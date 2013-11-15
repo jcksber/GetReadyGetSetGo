@@ -7,6 +7,9 @@
 //
 
 #import "BookListViewController.h"
+#import "ApplicationState.h"
+#import "Book.h"
+#import "BookCell.h"
 
 @interface BookListViewController ()
 
@@ -19,6 +22,9 @@
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
+        
+        [self.tableView registerClass:[BookCell class] forCellReuseIdentifier:@"BookCell"];
+        
     }
     return self;
 }
@@ -44,23 +50,24 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    return 0;
+    return [[ApplicationState getInstance].currentKid.books count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    static NSString *CellIdentifier = @"BookCell";
+    BookCell *cell = (BookCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
+    Book *book = [[ApplicationState getInstance].currentKid.books objectAtIndex:indexPath.row   ];
+    
+    cell.titleLabel.text = book.title;
+    cell.authorLabel.text = book.author;
+    cell.bookImageView.image = book.picture;
     // Configure the cell...
     
     return cell;
