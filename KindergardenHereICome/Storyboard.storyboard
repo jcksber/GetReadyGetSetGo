@@ -129,7 +129,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tkq-Mp-fWv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RSG_GreenBkrd.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tkq-Mp-fWv">
                                 <rect key="frame" x="0.0" y="63" width="320" height="461"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -145,7 +145,7 @@
                                         </accessibility>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.97023607336956519" green="0.97023607336956519" blue="0.97023607336956519" alpha="1" colorSpace="calibratedRGB"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" image="YES"/>
                                 </accessibility>
@@ -455,6 +455,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="RSG_GreenBkrd.png" width="2667" height="4733"/>
         <image name="home2.png" width="32" height="32"/>
         <image name="search.png" width="32" height="32"/>
         <image name="user3.png" width="32" height="32"/>
