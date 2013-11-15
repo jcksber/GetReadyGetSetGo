@@ -29,13 +29,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    Book *book = [[Book alloc] init];
-    book = [[ApplicationState getInstance] currentBook];
-    [[self bookDescription] setText:[book bookDescription]];
-    [[self bookTitle] setText:[book title]];
-    [[self bookAuthor] setText:[book author]];
-    [[self bookCoverImageView] setImage:[book picture]];
-    [self setTitle:@"Today's Book"];
+    
+    self.book = [[ApplicationState getInstance] currentBook];
+    [[self bookDescription] setText:[self.book bookDescription]];
+    [[self bookTitle] setText:[self.book title]];
+    [[self bookAuthor] setText:[self.book author]];
+    [[self bookCoverImageView] setImage:[self.book picture]];
+    [self setTitle:@"Book"];
 
 }
 
