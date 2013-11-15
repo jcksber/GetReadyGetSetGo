@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		806A7BCC1836A69700B5EB2A /* Design Images in Resources */ = {isa = PBXBuildFile; fileRef = 806A7BCB1836A69700B5EB2A /* Design Images */; };
 		806ECAFD183655B90099CBD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806ECAFC183655B90099CBD9 /* Foundation.framework */; };
 		806ECAFF183655B90099CBD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806ECAFE183655B90099CBD9 /* CoreGraphics.framework */; };
 		806ECB01183655B90099CBD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806ECB00183655B90099CBD9 /* UIKit.framework */; };
@@ -481,6 +480,14 @@
 		A813CAEF18369BE500AC8E19 /* ActivityListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A813CAE918369BE500AC8E19 /* ActivityListViewController.m */; };
 		A813CAF018369BE500AC8E19 /* BookInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A813CAEB18369BE500AC8E19 /* BookInfoViewController.m */; };
 		A813CAF118369BE500AC8E19 /* BookListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A813CAED18369BE500AC8E19 /* BookListViewController.m */; };
+		A813CAF41836A46C00AC8E19 /* BookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A813CAF31836A46C00AC8E19 /* BookCell.m */; };
+		A813CAF71836A47700AC8E19 /* ActivityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A813CAF61836A47700AC8E19 /* ActivityCell.m */; };
+		A813CAFF1836A8FC00AC8E19 /* RSG_appicon120x.png in Resources */ = {isa = PBXBuildFile; fileRef = A813CAF91836A8FC00AC8E19 /* RSG_appicon120x.png */; };
+		A813CB001836A8FC00AC8E19 /* RSG_GreenBkrd.png in Resources */ = {isa = PBXBuildFile; fileRef = A813CAFA1836A8FC00AC8E19 /* RSG_GreenBkrd.png */; };
+		A813CB011836A8FC00AC8E19 /* RSG_GreyBkrd.png in Resources */ = {isa = PBXBuildFile; fileRef = A813CAFB1836A8FC00AC8E19 /* RSG_GreyBkrd.png */; };
+		A813CB021836A8FC00AC8E19 /* RSG_Loadscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = A813CAFC1836A8FC00AC8E19 /* RSG_Loadscreen.png */; };
+		A813CB031836A8FC00AC8E19 /* RSG_OrangeBkrd.png in Resources */ = {isa = PBXBuildFile; fileRef = A813CAFD1836A8FC00AC8E19 /* RSG_OrangeBkrd.png */; };
+		A813CB041836A8FC00AC8E19 /* RSG_Yellowscreen-05.png in Resources */ = {isa = PBXBuildFile; fileRef = A813CAFE1836A8FC00AC8E19 /* RSG_Yellowscreen-05.png */; };
 		A891B61E1836705C0063F861 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = A891B61D1836705C0063F861 /* Book.m */; };
 		A891B6211836706A0063F861 /* Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = A891B6201836706A0063F861 /* Activity.m */; };
 		A891B6241836707F0063F861 /* Kid.m in Sources */ = {isa = PBXBuildFile; fileRef = A891B6231836707F0063F861 /* Kid.m */; };
@@ -498,7 +505,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		806A7BCB1836A69700B5EB2A /* Design Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Design Images"; path = "KindergardenHereICome/Design Images"; sourceTree = "<group>"; };
 		806ECAF9183655B90099CBD9 /* KindergardenHereICome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindergardenHereICome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		806ECAFC183655B90099CBD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		806ECAFE183655B90099CBD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -982,6 +988,16 @@
 		A813CAEB18369BE500AC8E19 /* BookInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookInfoViewController.m; sourceTree = "<group>"; };
 		A813CAEC18369BE500AC8E19 /* BookListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookListViewController.h; sourceTree = "<group>"; };
 		A813CAED18369BE500AC8E19 /* BookListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookListViewController.m; sourceTree = "<group>"; };
+		A813CAF21836A46C00AC8E19 /* BookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCell.h; sourceTree = "<group>"; };
+		A813CAF31836A46C00AC8E19 /* BookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCell.m; sourceTree = "<group>"; };
+		A813CAF51836A47700AC8E19 /* ActivityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityCell.h; sourceTree = "<group>"; };
+		A813CAF61836A47700AC8E19 /* ActivityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityCell.m; sourceTree = "<group>"; };
+		A813CAF91836A8FC00AC8E19 /* RSG_appicon120x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RSG_appicon120x.png; sourceTree = "<group>"; };
+		A813CAFA1836A8FC00AC8E19 /* RSG_GreenBkrd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RSG_GreenBkrd.png; sourceTree = "<group>"; };
+		A813CAFB1836A8FC00AC8E19 /* RSG_GreyBkrd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RSG_GreyBkrd.png; sourceTree = "<group>"; };
+		A813CAFC1836A8FC00AC8E19 /* RSG_Loadscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RSG_Loadscreen.png; sourceTree = "<group>"; };
+		A813CAFD1836A8FC00AC8E19 /* RSG_OrangeBkrd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RSG_OrangeBkrd.png; sourceTree = "<group>"; };
+		A813CAFE1836A8FC00AC8E19 /* RSG_Yellowscreen-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RSG_Yellowscreen-05.png"; sourceTree = "<group>"; };
 		A891B61C1836705C0063F861 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
 		A891B61D1836705C0063F861 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 		A891B61F1836706A0063F861 /* Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Activity.h; sourceTree = "<group>"; };
@@ -1103,6 +1119,10 @@
 				A813CAED18369BE500AC8E19 /* BookListViewController.m */,
 				A6B820E218368B23006078AF /* KidInfoViewController.h */,
 				A6B820E318368B23006078AF /* KidInfoViewController.m */,
+				A813CAF21836A46C00AC8E19 /* BookCell.h */,
+				A813CAF31836A46C00AC8E19 /* BookCell.m */,
+				A813CAF51836A47700AC8E19 /* ActivityCell.h */,
+				A813CAF61836A47700AC8E19 /* ActivityCell.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -1597,11 +1617,25 @@
 		A6B832991836918C006078AF /* assets */ = {
 			isa = PBXGroup;
 			children = (
-				806A7BCB1836A69700B5EB2A /* Design Images */,
+				A813CAF81836A8FC00AC8E19 /* Design Images */,
 				A6B8329A1836919F006078AF /* photo.png */,
 				A6B820E518368E13006078AF /* Keyamoon-IcoMoon--limited--7a3e6bc */,
 			);
 			name = assets;
+			sourceTree = "<group>";
+		};
+		A813CAF81836A8FC00AC8E19 /* Design Images */ = {
+			isa = PBXGroup;
+			children = (
+				A813CAF91836A8FC00AC8E19 /* RSG_appicon120x.png */,
+				A813CAFA1836A8FC00AC8E19 /* RSG_GreenBkrd.png */,
+				A813CAFB1836A8FC00AC8E19 /* RSG_GreyBkrd.png */,
+				A813CAFC1836A8FC00AC8E19 /* RSG_Loadscreen.png */,
+				A813CAFD1836A8FC00AC8E19 /* RSG_OrangeBkrd.png */,
+				A813CAFE1836A8FC00AC8E19 /* RSG_Yellowscreen-05.png */,
+			);
+			name = "Design Images";
+			path = "KindergardenHereICome/Design Images";
 			sourceTree = "<group>";
 		};
 		A891B61B183670480063F861 /* Model */ = {
@@ -1728,6 +1762,7 @@
 				A6B8305318368E25006078AF /* profile.png in Resources */,
 				A6B8301F18368E25006078AF /* neutral2.png in Resources */,
 				A6B82F8018368E25006078AF /* deviantart.png in Resources */,
+				A813CB011836A8FC00AC8E19 /* RSG_GreyBkrd.png in Resources */,
 				A6B82FE018368E25006078AF /* heart.png in Resources */,
 				A6B830CD18368E25006078AF /* yahoo.png in Resources */,
 				A6B830B918368E25006078AF /* volume-decrease.png in Resources */,
@@ -1841,6 +1876,7 @@
 				A6B82FA918368E25006078AF /* file-word.png in Resources */,
 				A6B82F4518368E25006078AF /* briefcase.png in Resources */,
 				A6B82F1118368E25006078AF /* address-book.png in Resources */,
+				A813CB021836A8FC00AC8E19 /* RSG_Loadscreen.png in Resources */,
 				A6B8308118368E25006078AF /* stackoverflow.png in Resources */,
 				A6B8301E18368E25006078AF /* neutral.png in Resources */,
 				A6B82F2D18368E25006078AF /* arrow-up-right2.png in Resources */,
@@ -1867,6 +1903,7 @@
 				A6B8300218368E25006078AF /* lightning.png in Resources */,
 				A6B82FF018368E25006078AF /* info2.png in Resources */,
 				A6B82F3018368E25006078AF /* arrow-up2.png in Resources */,
+				A813CB031836A8FC00AC8E19 /* RSG_OrangeBkrd.png in Resources */,
 				A6B82F6018368E25006078AF /* checkmark2.png in Resources */,
 				A6B8300D18368E25006078AF /* loop3.png in Resources */,
 				A6B82FE718368E25006078AF /* html52.png in Resources */,
@@ -1973,6 +2010,7 @@
 				A6B8303518368E25006078AF /* paste3.png in Resources */,
 				A6B82F9018368E25006078AF /* eject.png in Resources */,
 				A6B830BE18368E25006078AF /* volume-mute.png in Resources */,
+				A813CB001836A8FC00AC8E19 /* RSG_GreenBkrd.png in Resources */,
 				A6B830C118368E25006078AF /* warning.png in Resources */,
 				A6B8307B18368E25006078AF /* spinner2.png in Resources */,
 				A6B8309E18368E25006078AF /* tongue2.png in Resources */,
@@ -1993,7 +2031,6 @@
 				A6B8306718368E25006078AF /* scissors.png in Resources */,
 				A6B82F5718368E25006078AF /* cancel-circle.png in Resources */,
 				A6B8303B18368E25006078AF /* paypal3.png in Resources */,
-				806A7BCC1836A69700B5EB2A /* Design Images in Resources */,
 				A6B830CB18368E25006078AF /* xing.png in Resources */,
 				A6B830CE18368E25006078AF /* yelp.png in Resources */,
 				A6B8301D18368E25006078AF /* music.png in Resources */,
@@ -2036,6 +2073,7 @@
 				A6B8300F18368E25006078AF /* mail.png in Resources */,
 				A6B8306A18368E25006078AF /* settings.png in Resources */,
 				A6B82F3318368E25006078AF /* backward.png in Resources */,
+				A813CB041836A8FC00AC8E19 /* RSG_Yellowscreen-05.png in Resources */,
 				A6B82F6218368E25006078AF /* clock.png in Resources */,
 				A6B82FB618368E25006078AF /* first.png in Resources */,
 				A6B8329818368E26006078AF /* README in Resources */,
@@ -2068,6 +2106,7 @@
 				A6B82FF518368E25006078AF /* key.png in Resources */,
 				A6B8300718368E25006078AF /* location.png in Resources */,
 				A6B82FCC18368E25006078AF /* github2.png in Resources */,
+				A813CAFF1836A8FC00AC8E19 /* RSG_appicon120x.png in Resources */,
 				A6B8303218368E25006078AF /* paragraph-right2.png in Resources */,
 				A6B8308418368E25006078AF /* star3.png in Resources */,
 				A6B82FD718368E25006078AF /* google.png in Resources */,
@@ -2175,8 +2214,10 @@
 				A813CAF018369BE500AC8E19 /* BookInfoViewController.m in Sources */,
 				A891B627183670A00063F861 /* ApplicationState.m in Sources */,
 				806ECB0D183655B90099CBD9 /* AppDelegate.m in Sources */,
+				A813CAF41836A46C00AC8E19 /* BookCell.m in Sources */,
 				A891B61E1836705C0063F861 /* Book.m in Sources */,
 				A6B820E418368B23006078AF /* KidInfoViewController.m in Sources */,
+				A813CAF71836A47700AC8E19 /* ActivityCell.m in Sources */,
 				A891B6211836706A0063F861 /* Activity.m in Sources */,
 				A891B6241836707F0063F861 /* Kid.m in Sources */,
 				806ECB09183655B90099CBD9 /* main.m in Sources */,
