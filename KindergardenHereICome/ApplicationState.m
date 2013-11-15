@@ -27,6 +27,8 @@
     for (int i = 0; i<10; i++) {
         Book *book = [[Book alloc] init];
         book.title = @"My Book Title";
+        book.author = @"Stephen King";
+        book.picture = [UIImage imageNamed:@"photo.png"];
         [self.currentKid.books addObject:book];
 
         Activity *activity = [[Activity alloc] init];
