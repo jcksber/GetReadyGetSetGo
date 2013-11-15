@@ -7,7 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Book.h"
+#import "Activity.h"
+#import "Kid.h"
 
 @interface ApplicationState : NSObject
+
++ (ApplicationState *)getInstance;
+
+@property (nonatomic, strong) Book *currentBook;
+@property (nonatomic, strong) Activity *currentActivity;
+@property (nonatomic, strong) Kid *currentKid;
+
 
 @end
