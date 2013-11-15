@@ -23,6 +23,8 @@
 		80CDF4B91836AAD700EDF82C /* RSG_Star-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CDF4B71836AAD700EDF82C /* RSG_Star-04.png */; };
 		80CDF4BC1836B2FA00EDF82C /* jean-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CDF4BA1836B2FA00EDF82C /* jean-background.png */; };
 		80CDF4BD1836B2FA00EDF82C /* red-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CDF4BB1836B2FA00EDF82C /* red-background.png */; };
+		80CDF4BF1836B53900EDF82C /* twitter-color.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CDF4BE1836B53900EDF82C /* twitter-color.png */; };
+		80CDF4C11836B54300EDF82C /* facebook-color.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CDF4C01836B54300EDF82C /* facebook-color.png */; };
 		A6B820E0183674D2006078AF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B820DF183674D2006078AF /* Storyboard.storyboard */; };
 		A6B820E418368B23006078AF /* KidInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B820E318368B23006078AF /* KidInfoViewController.m */; };
 		A6B829C318368E25006078AF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A6B820E618368E13006078AF /* .gitignore */; };
@@ -529,6 +531,8 @@
 		80CDF4B71836AAD700EDF82C /* RSG_Star-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RSG_Star-04.png"; sourceTree = "<group>"; };
 		80CDF4BA1836B2FA00EDF82C /* jean-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jean-background.png"; sourceTree = "<group>"; };
 		80CDF4BB1836B2FA00EDF82C /* red-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-background.png"; sourceTree = "<group>"; };
+		80CDF4BE1836B53900EDF82C /* twitter-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-color.png"; sourceTree = "<group>"; };
+		80CDF4C01836B54300EDF82C /* facebook-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-color.png"; sourceTree = "<group>"; };
 		A6B820DF183674D2006078AF /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = KindergardenHereICome/Storyboard.storyboard; sourceTree = "<group>"; };
 		A6B820E218368B23006078AF /* KidInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KidInfoViewController.h; path = ViewControllers/KidInfoViewController.h; sourceTree = "<group>"; };
 		A6B820E318368B23006078AF /* KidInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KidInfoViewController.m; path = ViewControllers/KidInfoViewController.m; sourceTree = "<group>"; };
@@ -1138,6 +1142,8 @@
 		A6B820E518368E13006078AF /* Keyamoon-IcoMoon--limited--7a3e6bc */ = {
 			isa = PBXGroup;
 			children = (
+				80CDF4C01836B54300EDF82C /* facebook-color.png */,
+				80CDF4BE1836B53900EDF82C /* twitter-color.png */,
 				A6B820E618368E13006078AF /* .gitignore */,
 				A6B820E718368E13006078AF /* Icons */,
 				A6B829C018368E25006078AF /* Import Me.svg */,
@@ -1848,6 +1854,7 @@
 				A6B82FE118368E25006078AF /* heart2.png in Resources */,
 				A6B830AC18368E25006078AF /* unlocked.png in Resources */,
 				A6B82F5D18368E25006078AF /* checkbox-unchecked.png in Resources */,
+				80CDF4BF1836B53900EDF82C /* twitter-color.png in Resources */,
 				A6B82F2818368E25006078AF /* arrow-right3.png in Resources */,
 				A6B82F3F18368E25006078AF /* book.png in Resources */,
 				A6B8308918368E25006078AF /* stop2.png in Resources */,
@@ -2182,6 +2189,7 @@
 				A6B820E0183674D2006078AF /* Storyboard.storyboard in Resources */,
 				A6B8306F18368E25006078AF /* shuffle.png in Resources */,
 				A6B8302718368E25006078AF /* omega.png in Resources */,
+				80CDF4C11836B54300EDF82C /* facebook-color.png in Resources */,
 				A6B8303618368E25006078AF /* pause.png in Resources */,
 				A6B830C318368E25006078AF /* windows8.png in Resources */,
 				A6B8303A18368E25006078AF /* paypal2.png in Resources */,

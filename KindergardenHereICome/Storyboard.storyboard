@@ -163,15 +163,15 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="facebook.png" translatesAutoresizingMaskIntoConstraints="NO" id="6oE-V0-3RN">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="facebook-color.png" translatesAutoresizingMaskIntoConstraints="NO" id="6oE-V0-3RN">
                                         <rect key="frame" x="261" y="177" width="24" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" none="YES" image="YES" staticText="YES"/>
                                         </accessibility>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="twitter.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ntk-KJ-cag">
-                                        <rect key="frame" x="229" y="177" width="24" height="24"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="twitter-color.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ntk-KJ-cag">
+                                        <rect key="frame" x="234" y="177" width="24" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
@@ -586,11 +586,11 @@
     </scenes>
     <resources>
         <image name="RSG_Star-01.png" width="133" height="133"/>
-        <image name="facebook.png" width="32" height="32"/>
+        <image name="facebook-color.png" width="133" height="133"/>
         <image name="home2.png" width="32" height="32"/>
         <image name="red-background.png" width="640" height="1136"/>
         <image name="search.png" width="32" height="32"/>
-        <image name="twitter.png" width="32" height="32"/>
+        <image name="twitter-color.png" width="133" height="133"/>
         <image name="user3.png" width="32" height="32"/>
     </resources>
     <color key="tintColor" red="0.49607080219999999" green="0.13228952390000001" blue="0.11860211449999999" alpha="1" colorSpace="calibratedRGB"/>
