@@ -609,9 +609,11 @@
         <image name="RSG_Star-04.png" width="133" height="133"/>
         <image name="RSG_worm-01.png" width="500" height="500"/>
         <image name="facebook-color.png" width="133" height="133"/>
+        <image name="facebook-color.png" width="133" height="133"/>
         <image name="home2.png" width="32" height="32"/>
         <image name="red-background.png" width="640" height="1136"/>
         <image name="search.png" width="32" height="32"/>
+        <image name="twitter-color.png" width="133" height="133"/>
         <image name="twitter-color.png" width="133" height="133"/>
         <image name="user3.png" width="32" height="32"/>
     </resources>

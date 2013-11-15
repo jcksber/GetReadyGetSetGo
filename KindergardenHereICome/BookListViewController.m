@@ -79,8 +79,10 @@
     Book *book =[[ApplicationState getInstance].currentKid.books objectAtIndex:indexPath.row   ];
     [ApplicationState getInstance].currentBook = book;
     
-    BookInfoViewController *vc = [[BookInfoViewController alloc] init];
+    BookInfoViewController *vc = [[BookInfoViewController alloc] initWithNibName:nil bundle:nil];
     vc.book = book;
+    vc.view.backgroundColor = [UIColor blueColor];
+    
     [self.navigationController pushViewController:vc animated:YES];
     
 }
