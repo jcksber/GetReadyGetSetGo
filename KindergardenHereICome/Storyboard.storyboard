@@ -66,7 +66,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Kid" id="LvB-rJ-Sny"/>
+                    <tabBarItem key="tabBarItem" title="Kid" image="user2.png" id="LvB-rJ-Sny"/>
                     <connections>
                         <outlet property="kidAgeLabel" destination="Zic-qp-YIn" id="nhb-eJ-iBa"/>
                         <outlet property="kidNameLabel" destination="DMA-ep-YSa" id="U44-yH-bh8"/>
@@ -111,7 +111,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Activity Search" id="FDO-zT-BOD"/>
+                    <tabBarItem key="tabBarItem" title="Activity Search" image="search.png" id="FDO-zT-BOD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Stc-IQ-ES5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -146,7 +146,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="bvL-Ie-47Q"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home.png" id="bvL-Ie-47Q"/>
                     <navigationItem key="navigationItem" title="Get Ready, Set, Go!" id="LBT-12-btc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rg9-xV-iGb" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -426,6 +426,11 @@
             <point key="canvasLocation" x="-3118" y="-694"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="home.png" width="32" height="32"/>
+        <image name="search.png" width="32" height="32"/>
+        <image name="user2.png" width="32" height="32"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
