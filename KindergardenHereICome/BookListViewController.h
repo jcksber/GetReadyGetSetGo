@@ -10,4 +10,8 @@
 
 @interface BookListViewController : UITableViewController
 
+@property (nonatomic) BOOL showReadBooks;
+
+
+
 @end

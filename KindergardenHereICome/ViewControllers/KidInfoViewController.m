@@ -9,6 +9,7 @@
 #import "KidInfoViewController.h"
 #import "ApplicationState.h"
 #import "Kid.h"
+#import "BookListViewController.h"
 
 @interface KidInfoViewController ()
 
@@ -38,6 +39,16 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"read"]) {
+        ((BookListViewController*)segue.destinationViewController).showReadBooks = YES;
+    }else     if ([segue.identifier isEqualToString:@"notread"]) {
+        ((BookListViewController*)segue.destinationViewController).showReadBooks = NO;
+    }
+    
 }
 
 @end
