@@ -7,7 +7,8 @@
 //
 
 #import "ActivityListViewController.h"
-#import "ActivityListManager.h"
+#import "ApplicationState.h"
+#import "ActivityCell.h"
 
 @interface ActivityListViewController ()
 
@@ -20,6 +21,7 @@
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
+        [self.tableView registerClass:[ActivityCell class] forCellReuseIdentifier:@"ActivityCell"];
     }
     return self;
 }
@@ -54,15 +56,19 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return [[[ActivityListManager getInstance] activities] count];
+    return [[[[ApplicationState getInstance] activityListManager] activities] count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    static NSString *CellIdentifier = @"ActivityCell";
+    ActivityCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
+    Activity *activity = [[[[ApplicationState getInstance] activityListManager] activities] objectAtIndex:indexPath.row];
+    cell.titleLabel.text = activity.title;
+    // TODO:
+    //cell.activityImageView setImage:[]
     
     return cell;
 }

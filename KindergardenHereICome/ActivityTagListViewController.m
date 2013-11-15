@@ -8,6 +8,7 @@
 
 #import "ActivityTagListViewController.h"
 #import "ApplicationState.h"
+#import "ActivityCell.h"
 
 @interface ActivityTagListViewController ()
 
@@ -60,17 +61,20 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return [[[[ApplicationState getInstance] activityListManager] allTags] count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    static NSString *CellIdentifier = @"ActivityCell";
+    ActivityCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
+    Activity *activity = [[[[ApplicationState getInstance] activityListManager] activities] objectAtIndex:indexPath.row];
+    cell.titleLabel.text = activity.title;
+    // TODO:
+    //cell.activityImageView setImage:[]
     
     return cell;
 }
