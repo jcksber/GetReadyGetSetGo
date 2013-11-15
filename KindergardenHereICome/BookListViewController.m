@@ -13,7 +13,7 @@
 #import "BookInfoViewController.h"
 
 @interface BookListViewController ()
-
+@property (nonatomic,strong) NSArray *books;
 @end
 
 @implementation BookListViewController
@@ -39,6 +39,16 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    NSPredicate *p;
+    if (self.showReadBooks) {
+  p  =[NSPredicate predicateWithFormat:@"childHasRead = YES "];
+    }
+    else{
+        p    =[NSPredicate predicateWithFormat:@"childHasRead = NO OR childHasRead = NIL"];
+    }
+
+    _books = [[ApplicationState getInstance].currentKid.books filteredArrayUsingPredicate:p];
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning
@@ -56,7 +66,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [[ApplicationState getInstance].currentKid.books count];
+    return [ _books count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -64,7 +74,7 @@
     static NSString *CellIdentifier = @"BookCell";
     BookCell *cell = (BookCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    Book *book = [[ApplicationState getInstance].currentKid.books objectAtIndex:indexPath.row   ];
+    Book *book = [_books objectAtIndex:indexPath.row   ];
     
     cell.titleLabel.text = book.title;
     cell.authorLabel.text = book.author;
@@ -76,7 +86,7 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    Book *book =[[ApplicationState getInstance].currentKid.books objectAtIndex:indexPath.row   ];
+    Book *book =[_books objectAtIndex:indexPath.row   ];
     
     UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Storyboard" bundle:nil];
     BookInfoViewController * vc = (BookInfoViewController *)[sb instantiateViewControllerWithIdentifier:@"Book"];
