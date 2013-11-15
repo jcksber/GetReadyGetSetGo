@@ -19,6 +19,8 @@
 		806ECB18183655B90099CBD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806ECB00183655B90099CBD9 /* UIKit.framework */; };
 		806ECB20183655B90099CBD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 806ECB1E183655B90099CBD9 /* InfoPlist.strings */; };
 		806ECB22183655B90099CBD9 /* KindergardenHereIComeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 806ECB21183655B90099CBD9 /* KindergardenHereIComeTests.m */; };
+		80CDF4B81836AAD700EDF82C /* RSG_Star-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CDF4B61836AAD700EDF82C /* RSG_Star-01.png */; };
+		80CDF4B91836AAD700EDF82C /* RSG_Star-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CDF4B71836AAD700EDF82C /* RSG_Star-04.png */; };
 		A6B820E0183674D2006078AF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B820DF183674D2006078AF /* Storyboard.storyboard */; };
 		A6B820E418368B23006078AF /* KidInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B820E318368B23006078AF /* KidInfoViewController.m */; };
 		A6B829C318368E25006078AF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A6B820E618368E13006078AF /* .gitignore */; };
@@ -521,6 +523,8 @@
 		806ECB1D183655B90099CBD9 /* KindergardenHereIComeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KindergardenHereIComeTests-Info.plist"; sourceTree = "<group>"; };
 		806ECB1F183655B90099CBD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		806ECB21183655B90099CBD9 /* KindergardenHereIComeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KindergardenHereIComeTests.m; sourceTree = "<group>"; };
+		80CDF4B61836AAD700EDF82C /* RSG_Star-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RSG_Star-01.png"; sourceTree = "<group>"; };
+		80CDF4B71836AAD700EDF82C /* RSG_Star-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RSG_Star-04.png"; sourceTree = "<group>"; };
 		A6B820DF183674D2006078AF /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = KindergardenHereICome/Storyboard.storyboard; sourceTree = "<group>"; };
 		A6B820E218368B23006078AF /* KidInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KidInfoViewController.h; path = ViewControllers/KidInfoViewController.h; sourceTree = "<group>"; };
 		A6B820E318368B23006078AF /* KidInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KidInfoViewController.m; path = ViewControllers/KidInfoViewController.m; sourceTree = "<group>"; };
@@ -1627,6 +1631,8 @@
 		A813CAF81836A8FC00AC8E19 /* Design Images */ = {
 			isa = PBXGroup;
 			children = (
+				80CDF4B61836AAD700EDF82C /* RSG_Star-01.png */,
+				80CDF4B71836AAD700EDF82C /* RSG_Star-04.png */,
 				A813CAF91836A8FC00AC8E19 /* RSG_appicon120x.png */,
 				A813CAFA1836A8FC00AC8E19 /* RSG_GreenBkrd.png */,
 				A813CAFB1836A8FC00AC8E19 /* RSG_GreyBkrd.png */,
@@ -1924,6 +1930,7 @@
 				A6B8305418368E25006078AF /* pushpin.png in Resources */,
 				A6B82FA818368E25006078AF /* file-powerpoint.png in Resources */,
 				A6B82F4C18368E25006078AF /* bubbles3.png in Resources */,
+				80CDF4B81836AAD700EDF82C /* RSG_Star-01.png in Resources */,
 				A6B82FCF18368E25006078AF /* github5.png in Resources */,
 				A6B82F5B18368E25006078AF /* checkbox-checked.png in Resources */,
 				A6B82FE418368E25006078AF /* home2.png in Resources */,
@@ -2029,6 +2036,7 @@
 				A6B8307818368E25006078AF /* spam.png in Resources */,
 				A6B830CF18368E25006078AF /* youtube.png in Resources */,
 				A6B8306718368E25006078AF /* scissors.png in Resources */,
+				80CDF4B91836AAD700EDF82C /* RSG_Star-04.png in Resources */,
 				A6B82F5718368E25006078AF /* cancel-circle.png in Resources */,
 				A6B8303B18368E25006078AF /* paypal3.png in Resources */,
 				A6B830CB18368E25006078AF /* xing.png in Resources */,
