@@ -12,6 +12,16 @@
 
 @interface BookInfoViewController ()
 
+@property (strong, nonatomic) IBOutlet UILabel *bookTitle;
+@property (strong, nonatomic) IBOutlet UILabel *bookAuthor;
+@property (strong, nonatomic) IBOutlet UITextView *bookDescription;
+@property (strong, nonatomic) IBOutlet UIImageView *bookCoverImageView;
+
+@property (weak, nonatomic) IBOutlet UIImageView *checkboxImageView;
+@property (weak, nonatomic) IBOutlet UIButton *readButton;
+@property (weak, nonatomic) IBOutlet UIButton *shareOnFacebook;
+@property (weak, nonatomic) IBOutlet UIButton *libraryButton;
+
 @end
 
 @implementation BookInfoViewController
@@ -28,16 +38,39 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
     
-    self.book = [[ApplicationState getInstance] currentBook];
+	// Do any additional setup after loading the view.
+    [self.readButton addTarget:self action:@selector(readButtonTapped) forControlEvents:UIControlEventTouchUpInside];
+    [self.shareOnFacebook addTarget:self action:@selector(shareOnFacebookTapped) forControlEvents:UIControlEventTouchUpInside];
+    [self.libraryButton addTarget:self action:@selector(libraryButtonTapped) forControlEvents:UIControlEventTouchUpInside];
+    
+}
+
+-(void) viewWillAppear:(BOOL)animated
+{
     [[self bookDescription] setText:[self.book bookDescription]];
     [[self bookTitle] setText:[self.book title]];
     [[self bookAuthor] setText:[self.book author]];
     [[self bookCoverImageView] setImage:[self.book picture]];
     [self setTitle:@"Book"];
-
+    
+    self.checkboxImageView.hidden = !self.book.childHasRead;
+    
 }
+
+-(void)readButtonTapped{
+    self.book.childHasRead = !self.book.childHasRead;
+    self.checkboxImageView.hidden = !self.book.childHasRead;
+}
+
+-(void)shareOnFacebookTapped{
+    [self.book shareOnFacebookFromViewController:self];
+}
+
+-(void)libraryButtonTapped{
+    
+}
+
 
 - (void)didReceiveMemoryWarning
 {
