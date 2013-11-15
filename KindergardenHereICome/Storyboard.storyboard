@@ -55,7 +55,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Kid" id="LvB-rJ-Sny"/>
+                    <tabBarItem key="tabBarItem" title="Kid" image="user2.png" id="LvB-rJ-Sny"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Sy-lY-xjA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -422,6 +422,9 @@
             <point key="canvasLocation" x="-3118" y="-694"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="user2.png" width="16" height="16"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
