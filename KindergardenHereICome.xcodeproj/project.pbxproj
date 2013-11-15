@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		806ECAFD183655B90099CBD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806ECAFC183655B90099CBD9 /* Foundation.framework */; };
+		806ECAFF183655B90099CBD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806ECAFE183655B90099CBD9 /* CoreGraphics.framework */; };
+		806ECB01183655B90099CBD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806ECB00183655B90099CBD9 /* UIKit.framework */; };
+		806ECB07183655B90099CBD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 806ECB05183655B90099CBD9 /* InfoPlist.strings */; };
+		806ECB09183655B90099CBD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 806ECB08183655B90099CBD9 /* main.m */; };
+		806ECB0D183655B90099CBD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 806ECB0C183655B90099CBD9 /* AppDelegate.m */; };
+		806ECB0F183655B90099CBD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806ECB0E183655B90099CBD9 /* Images.xcassets */; };
+		806ECB16183655B90099CBD9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806ECB15183655B90099CBD9 /* XCTest.framework */; };
+		806ECB17183655B90099CBD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806ECAFC183655B90099CBD9 /* Foundation.framework */; };
+		806ECB18183655B90099CBD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806ECB00183655B90099CBD9 /* UIKit.framework */; };
+		806ECB20183655B90099CBD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 806ECB1E183655B90099CBD9 /* InfoPlist.strings */; };
+		806ECB22183655B90099CBD9 /* KindergardenHereIComeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 806ECB21183655B90099CBD9 /* KindergardenHereIComeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		806ECB19183655B90099CBD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 806ECAF1183655B90099CBD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 806ECAF8183655B90099CBD9;
+			remoteInfo = KindergardenHereICome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		806ECAF9183655B90099CBD9 /* KindergardenHereICome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindergardenHereICome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		806ECAFC183655B90099CBD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		806ECAFE183655B90099CBD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		806ECB00183655B90099CBD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		806ECB04183655B90099CBD9 /* KindergardenHereICome-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KindergardenHereICome-Info.plist"; sourceTree = "<group>"; };
+		806ECB06183655B90099CBD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		806ECB08183655B90099CBD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		806ECB0A183655B90099CBD9 /* KindergardenHereICome-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KindergardenHereICome-Prefix.pch"; sourceTree = "<group>"; };
+		806ECB0B183655B90099CBD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		806ECB0C183655B90099CBD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		806ECB0E183655B90099CBD9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		806ECB14183655B90099CBD9 /* KindergardenHereIComeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KindergardenHereIComeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		806ECB15183655B90099CBD9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		806ECB1D183655B90099CBD9 /* KindergardenHereIComeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KindergardenHereIComeTests-Info.plist"; sourceTree = "<group>"; };
+		806ECB1F183655B90099CBD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		806ECB21183655B90099CBD9 /* KindergardenHereIComeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KindergardenHereIComeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		806ECAF6183655B90099CBD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806ECAFF183655B90099CBD9 /* CoreGraphics.framework in Frameworks */,
+				806ECB01183655B90099CBD9 /* UIKit.framework in Frameworks */,
+				806ECAFD183655B90099CBD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806ECB11183655B90099CBD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806ECB16183655B90099CBD9 /* XCTest.framework in Frameworks */,
+				806ECB18183655B90099CBD9 /* UIKit.framework in Frameworks */,
+				806ECB17183655B90099CBD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		806ECAF0183655B90099CBD9 = {
+			isa = PBXGroup;
+			children = (
+				806ECB02183655B90099CBD9 /* KindergardenHereICome */,
+				806ECB1B183655B90099CBD9 /* KindergardenHereIComeTests */,
+				806ECAFB183655B90099CBD9 /* Frameworks */,
+				806ECAFA183655B90099CBD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		806ECAFA183655B90099CBD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				806ECAF9183655B90099CBD9 /* KindergardenHereICome.app */,
+				806ECB14183655B90099CBD9 /* KindergardenHereIComeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		806ECAFB183655B90099CBD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				806ECAFC183655B90099CBD9 /* Foundation.framework */,
+				806ECAFE183655B90099CBD9 /* CoreGraphics.framework */,
+				806ECB00183655B90099CBD9 /* UIKit.framework */,
+				806ECB15183655B90099CBD9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		806ECB02183655B90099CBD9 /* KindergardenHereICome */ = {
+			isa = PBXGroup;
+			children = (
+				806ECB0B183655B90099CBD9 /* AppDelegate.h */,
+				806ECB0C183655B90099CBD9 /* AppDelegate.m */,
+				806ECB0E183655B90099CBD9 /* Images.xcassets */,
+				806ECB03183655B90099CBD9 /* Supporting Files */,
+			);
+			path = KindergardenHereICome;
+			sourceTree = "<group>";
+		};
+		806ECB03183655B90099CBD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				806ECB04183655B90099CBD9 /* KindergardenHereICome-Info.plist */,
+				806ECB05183655B90099CBD9 /* InfoPlist.strings */,
+				806ECB08183655B90099CBD9 /* main.m */,
+				806ECB0A183655B90099CBD9 /* KindergardenHereICome-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		806ECB1B183655B90099CBD9 /* KindergardenHereIComeTests */ = {
+			isa = PBXGroup;
+			children = (
+				806ECB21183655B90099CBD9 /* KindergardenHereIComeTests.m */,
+				806ECB1C183655B90099CBD9 /* Supporting Files */,
+			);
+			path = KindergardenHereIComeTests;
+			sourceTree = "<group>";
+		};
+		806ECB1C183655B90099CBD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				806ECB1D183655B90099CBD9 /* KindergardenHereIComeTests-Info.plist */,
+				806ECB1E183655B90099CBD9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		806ECAF8183655B90099CBD9 /* KindergardenHereICome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806ECB25183655B90099CBD9 /* Build configuration list for PBXNativeTarget "KindergardenHereICome" */;
+			buildPhases = (
+				806ECAF5183655B90099CBD9 /* Sources */,
+				806ECAF6183655B90099CBD9 /* Frameworks */,
+				806ECAF7183655B90099CBD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KindergardenHereICome;
+			productName = KindergardenHereICome;
+			productReference = 806ECAF9183655B90099CBD9 /* KindergardenHereICome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		806ECB13183655B90099CBD9 /* KindergardenHereIComeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806ECB28183655B90099CBD9 /* Build configuration list for PBXNativeTarget "KindergardenHereIComeTests" */;
+			buildPhases = (
+				806ECB10183655B90099CBD9 /* Sources */,
+				806ECB11183655B90099CBD9 /* Frameworks */,
+				806ECB12183655B90099CBD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				806ECB1A183655B90099CBD9 /* PBXTargetDependency */,
+			);
+			name = KindergardenHereIComeTests;
+			productName = KindergardenHereIComeTests;
+			productReference = 806ECB14183655B90099CBD9 /* KindergardenHereIComeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		806ECAF1183655B90099CBD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = PAEYC;
+				TargetAttributes = {
+					806ECB13183655B90099CBD9 = {
+						TestTargetID = 806ECAF8183655B90099CBD9;
+					};
+				};
+			};
+			buildConfigurationList = 806ECAF4183655B90099CBD9 /* Build configuration list for PBXProject "KindergardenHereICome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 806ECAF0183655B90099CBD9;
+			productRefGroup = 806ECAFA183655B90099CBD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				806ECAF8183655B90099CBD9 /* KindergardenHereICome */,
+				806ECB13183655B90099CBD9 /* KindergardenHereIComeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		806ECAF7183655B90099CBD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806ECB07183655B90099CBD9 /* InfoPlist.strings in Resources */,
+				806ECB0F183655B90099CBD9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806ECB12183655B90099CBD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806ECB20183655B90099CBD9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		806ECAF5183655B90099CBD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806ECB0D183655B90099CBD9 /* AppDelegate.m in Sources */,
+				806ECB09183655B90099CBD9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806ECB10183655B90099CBD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806ECB22183655B90099CBD9 /* KindergardenHereIComeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		806ECB1A183655B90099CBD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 806ECAF8183655B90099CBD9 /* KindergardenHereICome */;
+			targetProxy = 806ECB19183655B90099CBD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		806ECB05183655B90099CBD9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				806ECB06183655B90099CBD9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		806ECB1E183655B90099CBD9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				806ECB1F183655B90099CBD9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		806ECB23183655B90099CBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		806ECB24183655B90099CBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		806ECB26183655B90099CBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KindergardenHereICome/KindergardenHereICome-Prefix.pch";
+				INFOPLIST_FILE = "KindergardenHereICome/KindergardenHereICome-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		806ECB27183655B90099CBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KindergardenHereICome/KindergardenHereICome-Prefix.pch";
+				INFOPLIST_FILE = "KindergardenHereICome/KindergardenHereICome-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		806ECB29183655B90099CBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KindergardenHereICome.app/KindergardenHereICome";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KindergardenHereICome/KindergardenHereICome-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KindergardenHereIComeTests/KindergardenHereIComeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		806ECB2A183655B90099CBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KindergardenHereICome.app/KindergardenHereICome";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KindergardenHereICome/KindergardenHereICome-Prefix.pch";
+				INFOPLIST_FILE = "KindergardenHereIComeTests/KindergardenHereIComeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		806ECAF4183655B90099CBD9 /* Build configuration list for PBXProject "KindergardenHereICome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806ECB23183655B90099CBD9 /* Debug */,
+				806ECB24183655B90099CBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806ECB25183655B90099CBD9 /* Build configuration list for PBXNativeTarget "KindergardenHereICome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806ECB26183655B90099CBD9 /* Debug */,
+				806ECB27183655B90099CBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		806ECB28183655B90099CBD9 /* Build configuration list for PBXNativeTarget "KindergardenHereIComeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806ECB29183655B90099CBD9 /* Debug */,
+				806ECB2A183655B90099CBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 806ECAF1183655B90099CBD9 /* Project object */;
+}
