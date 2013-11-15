@@ -482,6 +482,7 @@
 		A6B8329718368E26006078AF /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = A6B829C118368E25006078AF /* License.txt */; };
 		A6B8329818368E26006078AF /* README in Resources */ = {isa = PBXBuildFile; fileRef = A6B829C218368E25006078AF /* README */; };
 		A6B8329B1836919F006078AF /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B8329A1836919F006078AF /* photo.png */; };
+		A6B8329E1836B2F7006078AF /* ActivityTagListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B8329D1836B2F7006078AF /* ActivityTagListViewController.m */; };
 		A813CAEE18369BE500AC8E19 /* ActivityInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A813CAE718369BE500AC8E19 /* ActivityInfoViewController.m */; };
 		A813CAEF18369BE500AC8E19 /* ActivityListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A813CAE918369BE500AC8E19 /* ActivityListViewController.m */; };
 		A813CAF018369BE500AC8E19 /* BookInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A813CAEB18369BE500AC8E19 /* BookInfoViewController.m */; };
@@ -992,6 +993,8 @@
 		A6B829C118368E25006078AF /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
 		A6B829C218368E25006078AF /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		A6B8329A1836919F006078AF /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photo.png; path = KindergardenHereICome/photo.png; sourceTree = "<group>"; };
+		A6B8329C1836B2F7006078AF /* ActivityTagListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityTagListViewController.h; sourceTree = "<group>"; };
+		A6B8329D1836B2F7006078AF /* ActivityTagListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityTagListViewController.m; sourceTree = "<group>"; };
 		A813CAE618369BE500AC8E19 /* ActivityInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityInfoViewController.h; sourceTree = "<group>"; };
 		A813CAE718369BE500AC8E19 /* ActivityInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityInfoViewController.m; sourceTree = "<group>"; };
 		A813CAE818369BE500AC8E19 /* ActivityListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityListViewController.h; sourceTree = "<group>"; };
@@ -1135,6 +1138,8 @@
 				A813CAF31836A46C00AC8E19 /* BookCell.m */,
 				A813CAF51836A47700AC8E19 /* ActivityCell.h */,
 				A813CAF61836A47700AC8E19 /* ActivityCell.m */,
+				A6B8329C1836B2F7006078AF /* ActivityTagListViewController.h */,
+				A6B8329D1836B2F7006078AF /* ActivityTagListViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -2234,6 +2239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B8329E1836B2F7006078AF /* ActivityTagListViewController.m in Sources */,
 				A813CAEF18369BE500AC8E19 /* ActivityListViewController.m in Sources */,
 				A813CAF018369BE500AC8E19 /* BookInfoViewController.m in Sources */,
 				A891B627183670A00063F861 /* ApplicationState.m in Sources */,
