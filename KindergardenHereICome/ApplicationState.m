@@ -26,7 +26,7 @@
 
     for (int i = 0; i<10; i++) {
         Book *book = [[Book alloc] init];
-        book.title = @"My Book Title";
+        book = [ApplicationState getNextBook];
         [self.currentKid.books addObject:book];
 
         Activity *activity = [[Activity alloc] init];
@@ -36,7 +36,18 @@
     
 }
 
-
++(Book *)getNextBook
+{
+    //static int bookIndex = 0;
+    Book *book = [[Book alloc] init];
+    [book setAuthor:@"Eric Carle"];
+    [book setTitle:@"The Very Hungry Caterpillar"];
+    [book setBookDescription:@"A caterpillar eats a lot"];
+    [book setPicture:[UIImage imageNamed:@"photo.png"]];
+    book.childHasRead = true;
+    
+    return book;
+}
 
 
 @end

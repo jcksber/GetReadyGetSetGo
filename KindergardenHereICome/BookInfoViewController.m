@@ -7,6 +7,8 @@
 //
 
 #import "BookInfoViewController.h"
+#import "ApplicationState.h"
+#import "Book.h"
 
 @interface BookInfoViewController ()
 
@@ -27,6 +29,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    Book *book = [[Book alloc] init];
+    book = [[ApplicationState getInstance] currentBook];
+    //[setBookDescription setText:[book description]];
+
 }
 
 - (void)didReceiveMemoryWarning
