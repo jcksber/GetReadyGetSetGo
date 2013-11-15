@@ -134,7 +134,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RSG_GreenBkrd.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tkq-Mp-fWv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red-background.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tkq-Mp-fWv">
                                 <rect key="frame" x="0.0" y="63" width="320" height="461"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -585,14 +585,15 @@
         </scene>
     </scenes>
     <resources>
-        <image name="RSG_GreenBkrd.png" width="2667" height="4733"/>
         <image name="RSG_Star-01.png" width="133" height="133"/>
         <image name="facebook.png" width="32" height="32"/>
         <image name="home2.png" width="32" height="32"/>
+        <image name="red-background.png" width="640" height="1136"/>
         <image name="search.png" width="32" height="32"/>
         <image name="twitter.png" width="32" height="32"/>
         <image name="user3.png" width="32" height="32"/>
     </resources>
+    <color key="tintColor" red="0.49607080219999999" green="0.13228952390000001" blue="0.11860211449999999" alpha="1" colorSpace="calibratedRGB"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

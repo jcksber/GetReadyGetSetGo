@@ -21,6 +21,8 @@
 		806ECB22183655B90099CBD9 /* KindergardenHereIComeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 806ECB21183655B90099CBD9 /* KindergardenHereIComeTests.m */; };
 		80CDF4B81836AAD700EDF82C /* RSG_Star-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CDF4B61836AAD700EDF82C /* RSG_Star-01.png */; };
 		80CDF4B91836AAD700EDF82C /* RSG_Star-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CDF4B71836AAD700EDF82C /* RSG_Star-04.png */; };
+		80CDF4BC1836B2FA00EDF82C /* jean-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CDF4BA1836B2FA00EDF82C /* jean-background.png */; };
+		80CDF4BD1836B2FA00EDF82C /* red-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CDF4BB1836B2FA00EDF82C /* red-background.png */; };
 		A6B820E0183674D2006078AF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B820DF183674D2006078AF /* Storyboard.storyboard */; };
 		A6B820E418368B23006078AF /* KidInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B820E318368B23006078AF /* KidInfoViewController.m */; };
 		A6B829C318368E25006078AF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A6B820E618368E13006078AF /* .gitignore */; };
@@ -525,6 +527,8 @@
 		806ECB21183655B90099CBD9 /* KindergardenHereIComeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KindergardenHereIComeTests.m; sourceTree = "<group>"; };
 		80CDF4B61836AAD700EDF82C /* RSG_Star-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RSG_Star-01.png"; sourceTree = "<group>"; };
 		80CDF4B71836AAD700EDF82C /* RSG_Star-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RSG_Star-04.png"; sourceTree = "<group>"; };
+		80CDF4BA1836B2FA00EDF82C /* jean-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jean-background.png"; sourceTree = "<group>"; };
+		80CDF4BB1836B2FA00EDF82C /* red-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-background.png"; sourceTree = "<group>"; };
 		A6B820DF183674D2006078AF /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = KindergardenHereICome/Storyboard.storyboard; sourceTree = "<group>"; };
 		A6B820E218368B23006078AF /* KidInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KidInfoViewController.h; path = ViewControllers/KidInfoViewController.h; sourceTree = "<group>"; };
 		A6B820E318368B23006078AF /* KidInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KidInfoViewController.m; path = ViewControllers/KidInfoViewController.m; sourceTree = "<group>"; };
@@ -1631,6 +1635,8 @@
 		A813CAF81836A8FC00AC8E19 /* Design Images */ = {
 			isa = PBXGroup;
 			children = (
+				80CDF4BA1836B2FA00EDF82C /* jean-background.png */,
+				80CDF4BB1836B2FA00EDF82C /* red-background.png */,
 				80CDF4B61836AAD700EDF82C /* RSG_Star-01.png */,
 				80CDF4B71836AAD700EDF82C /* RSG_Star-04.png */,
 				A813CAF91836A8FC00AC8E19 /* RSG_appicon120x.png */,
@@ -1991,6 +1997,7 @@
 				A6B8309318368E25006078AF /* table2.png in Resources */,
 				A6B8306918368E25006078AF /* search.png in Resources */,
 				A6B82F6618368E25006078AF /* cloud-upload.png in Resources */,
+				80CDF4BC1836B2FA00EDF82C /* jean-background.png in Resources */,
 				A6B82FF118368E25006078AF /* insert-template.png in Resources */,
 				A6B8300C18368E25006078AF /* loop2.png in Resources */,
 				A6B82F9518368E25006078AF /* evil.png in Resources */,
@@ -2022,6 +2029,7 @@
 				A6B8307B18368E25006078AF /* spinner2.png in Resources */,
 				A6B8309E18368E25006078AF /* tongue2.png in Resources */,
 				A6B830BC18368E25006078AF /* volume-low.png in Resources */,
+				80CDF4BD1836B2FA00EDF82C /* red-background.png in Resources */,
 				A6B82FBB18368E25006078AF /* flickr3.png in Resources */,
 				A6B82F6818368E25006078AF /* clubs.png in Resources */,
 				A6B830AB18368E25006078AF /* undo2.png in Resources */,
