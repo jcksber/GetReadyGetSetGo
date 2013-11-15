@@ -533,7 +533,7 @@
         <!--Book Info View Controller - Book (Temporary)-->
         <scene sceneID="IdV-NH-cHV">
             <objects>
-                <viewController storyboardIdentifier="Book" id="JOY-4G-iQr" customClass="BookInfoViewController" sceneMemberID="viewController">
+                <viewController restorationIdentifier="BookInfo" storyboardIdentifier="Book" id="JOY-4G-iQr" customClass="BookInfoViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yrk-gy-1ck"/>
                         <viewControllerLayoutGuide type="bottom" id="3L1-0e-pnb"/>

@@ -79,7 +79,8 @@
     Book *book =[[ApplicationState getInstance].currentKid.books objectAtIndex:indexPath.row   ];
     [ApplicationState getInstance].currentBook = book;
     
-    BookInfoViewController *vc = [[BookInfoViewController alloc] init];
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Storyboard" bundle:nil];
+    BookInfoViewController * vc = (BookInfoViewController *)[sb instantiateViewControllerWithIdentifier:@"Book"];
     vc.book = book;
     [self.navigationController pushViewController:vc animated:YES];
     
