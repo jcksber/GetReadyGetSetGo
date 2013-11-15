@@ -35,8 +35,7 @@
         Activity *activity = [[Activity alloc] init];
         activity.title = @"My Book Title";
         [self.currentKid.activities addObject:activity];
-        
-        
+    
     }
     
 }

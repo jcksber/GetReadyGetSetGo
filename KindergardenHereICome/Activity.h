@@ -18,5 +18,7 @@
 @property(nonatomic, strong) NSMutableArray *tags;
 @property(nonatomic) BOOL childHasCompleted;
 
+-(void)shareOnFacebookFromViewController:(UIViewController *)controller;
+-(void)shareOnTwitterFromViewController:(UIViewController *)controller;
 
 @end
