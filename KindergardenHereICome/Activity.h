@@ -15,7 +15,7 @@
 @property(nonatomic, strong) NSString *summary;
 @property(nonatomic, strong) UIImage *picture;
 @property(nonatomic, strong) UIImage *userPicture;
-@property(nonatomic, strong) NSMutableArray *tags;
+@property(nonatomic, strong) NSArray *tags;
 @property(nonatomic) BOOL childHasCompleted;
 
 
