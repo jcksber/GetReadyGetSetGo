@@ -134,10 +134,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H7k-0c-EyE">
-                                <rect key="frame" x="0.0" y="63" width="320" height="229"/>
+                                <rect key="frame" x="13" y="77" width="294" height="207"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star3.png" translatesAutoresizingMaskIntoConstraints="NO" id="LCq-tS-IRd">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LCq-tS-IRd">
                                         <rect key="frame" x="9" y="10" width="32" height="32"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <accessibility key="accessibilityConfiguration">
@@ -441,7 +441,6 @@
     <resources>
         <image name="home2.png" width="32" height="32"/>
         <image name="search.png" width="32" height="32"/>
-        <image name="star3.png" width="32" height="32"/>
         <image name="user3.png" width="32" height="32"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
