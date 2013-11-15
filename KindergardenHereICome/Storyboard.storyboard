@@ -124,7 +124,6 @@
                     <connections>
                         <segue destination="MFz-bK-r9n" kind="relationship" relationship="viewControllers" id="jM8-RE-kRO"/>
                         <segue destination="Zhb-eF-CKq" kind="relationship" relationship="viewControllers" id="sD3-sf-1Pi"/>
-                        <segue destination="JOY-4G-iQr" kind="relationship" relationship="viewControllers" id="CT5-1E-m5x"/>
                         <segue destination="iAE-jy-sgn" kind="relationship" relationship="viewControllers" id="Kjq-Us-tYW"/>
                     </connections>
                 </tabBarController>
@@ -132,10 +131,10 @@
             </objects>
             <point key="canvasLocation" x="-2595" y="-694"/>
         </scene>
-        <!--View Controller - Get Ready, Set, Go!-->
+        <!--Home View Controller-->
         <scene sceneID="PH8-of-TbG">
             <objects>
-                <viewController storyboardIdentifier="Home" id="MFz-bK-r9n" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Home" id="MFz-bK-r9n" userLabel="Home View Controller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ug1-1j-7Ro"/>
                         <viewControllerLayoutGuide type="bottom" id="kKq-Sc-sDS"/>
@@ -184,6 +183,13 @@
                                         <rect key="frame" x="234" y="177" width="24" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E3K-HN-7y9">
+                                        <rect key="frame" x="0.0" y="0.0" width="294" height="169"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.93017578125" green="0.93017578125" blue="0.93017578125" alpha="1" colorSpace="calibratedRGB"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -631,7 +637,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="Sor-Qq-Tch"/>
-    </inferredMetricsTieBreakers>
 </document>
