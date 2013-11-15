@@ -10,4 +10,21 @@
 
 @implementation Book
 
+-(id)init
+{
+    self = [super init];
+    if (self) {
+        _title = @"";
+        _author = @"";
+        _bookDescription = @"";
+        _picture = nil;
+        _userPicture = nil;
+        _tags = [[NSMutableArray alloc] init];
+        _childHasRead = NO;
+        
+    }
+    
+    return self;
+}
+
 @end

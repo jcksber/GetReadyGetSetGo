@@ -10,4 +10,12 @@
 
 @interface Book : NSObject
 
+@property(nonatomic, strong) NSString *title;
+@property(nonatomic, strong) NSString *author;
+@property(nonatomic, strong) NSString *bookDescription;
+@property(nonatomic, strong) UIImage *picture;
+@property(nonatomic, strong) UIImage *userPicture;
+@property(nonatomic, strong) NSMutableArray *tags;
+@property(nonatomic) BOOL *childHasRead;
+
 @end

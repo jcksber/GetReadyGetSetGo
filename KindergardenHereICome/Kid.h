@@ -10,4 +10,10 @@
 
 @interface Kid : NSObject
 
+@property(nonatomic, strong) NSString *name;
+@property(nonatomic, strong) NSString *age;
+@property(nonatomic, strong) UIImage *picture;
+@property(nonatomic, strong) NSMutableArray *activities;
+@property(nonatomic, strong) NSMutableArray *books;
+
 @end
