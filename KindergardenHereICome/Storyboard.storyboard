@@ -66,7 +66,7 @@
             <objects>
                 <tabBarController definesPresentationContext="YES" id="ZfH-Rl-adG" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="lMz-ZO-pg9"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="qkG-u8-vGh">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
