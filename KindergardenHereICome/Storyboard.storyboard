@@ -16,6 +16,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nEl-6v-ak3">
+                                <rect key="frame" x="0.0" y="62" width="320" height="460"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMA-ep-YSa">
                                 <rect key="frame" x="177" y="87" width="123" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -77,6 +81,35 @@
             </objects>
             <point key="canvasLocation" x="-1806" y="-685"/>
         </scene>
+        <!--Activity List View Controller - Activity Search-->
+        <scene sceneID="U4C-Li-RSL">
+            <objects>
+                <tableViewController id="iAE-jy-sgn" customClass="ActivityListViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="fkL-9E-2aI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="xBQ-9X-ZKl">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xBQ-9X-ZKl" id="QiT-W6-xlx">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="iAE-jy-sgn" id="LwW-Ks-INz"/>
+                            <outlet property="delegate" destination="iAE-jy-sgn" id="bzo-gm-gOR"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Activity Search" image="search.png" id="mch-yx-RZ6"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eVt-9d-dGe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1803" y="139"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="rJM-Yg-xcU">
             <objects>
@@ -91,32 +124,13 @@
                     <connections>
                         <segue destination="MFz-bK-r9n" kind="relationship" relationship="viewControllers" id="jM8-RE-kRO"/>
                         <segue destination="Zhb-eF-CKq" kind="relationship" relationship="viewControllers" id="sD3-sf-1Pi"/>
-                        <segue destination="LAJ-jI-KHp" kind="relationship" relationship="viewControllers" id="kck-6A-nPW"/>
                         <segue destination="JOY-4G-iQr" kind="relationship" relationship="viewControllers" id="CT5-1E-m5x"/>
+                        <segue destination="iAE-jy-sgn" kind="relationship" relationship="viewControllers" id="Kjq-Us-tYW"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Euk-Y1-10M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2595" y="-694"/>
-        </scene>
-        <!--View Controller - Activity Search-->
-        <scene sceneID="FLp-RD-gKR">
-            <objects>
-                <viewController id="LAJ-jI-KHp" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="lsP-3u-EC4"/>
-                        <viewControllerLayoutGuide type="bottom" id="Awl-1G-j8Q"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="h34-QC-0dd">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Activity Search" image="search.png" id="FDO-zT-BOD"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Stc-IQ-ES5" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1806" y="120"/>
         </scene>
         <!--View Controller - Get Ready, Set, Go!-->
         <scene sceneID="PH8-of-TbG">
@@ -130,7 +144,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RSG_GreenBkrd.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tkq-Mp-fWv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red-background.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tkq-Mp-fWv">
                                 <rect key="frame" x="0.0" y="63" width="320" height="461"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -138,12 +152,37 @@
                                 <rect key="frame" x="13" y="77" width="294" height="207"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LCq-tS-IRd">
+                                    <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RSG_Star-04.png" translatesAutoresizingMaskIntoConstraints="NO" id="LCq-tS-IRd">
                                         <rect key="frame" x="9" y="10" width="32" height="32"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" none="YES" staticText="YES"/>
                                         </accessibility>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Activty Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tEj-kA-ilb">
+                                        <rect key="frame" x="49" y="20" width="215" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Brief Description" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p3z-Wz-8va">
+                                        <rect key="frame" x="20" y="107" width="254" height="62"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="facebook-color.png" translatesAutoresizingMaskIntoConstraints="NO" id="6oE-V0-3RN">
+                                        <rect key="frame" x="261" y="177" width="24" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" none="YES" image="YES" staticText="YES"/>
+                                        </accessibility>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="twitter-color.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ntk-KJ-cag">
+                                        <rect key="frame" x="234" y="177" width="24" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.93017578125" green="0.93017578125" blue="0.93017578125" alpha="1" colorSpace="calibratedRGB"/>
@@ -155,12 +194,20 @@
                                 <rect key="frame" x="13" y="299" width="294" height="207"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BO4-nR-ezr">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RSG_Star-04.png" translatesAutoresizingMaskIntoConstraints="NO" id="BO4-nR-ezr">
                                         <rect key="frame" x="9" y="10" width="32" height="32"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" none="YES" staticText="YES"/>
                                         </accessibility>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="facebook-color.png" translatesAutoresizingMaskIntoConstraints="NO" id="DBy-tK-I8q">
+                                        <rect key="frame" x="261" y="177" width="24" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="twitter-color.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Nu-sE-bJP">
+                                        <rect key="frame" x="229" y="177" width="24" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.9301757812" green="0.9301757812" blue="0.9301757812" alpha="1" colorSpace="calibratedRGB"/>
@@ -548,11 +595,15 @@
         </scene>
     </scenes>
     <resources>
-        <image name="RSG_GreenBkrd.png" width="2667" height="4733"/>
+        <image name="RSG_Star-04.png" width="133" height="133"/>
+        <image name="facebook-color.png" width="133" height="133"/>
         <image name="home2.png" width="32" height="32"/>
+        <image name="red-background.png" width="640" height="1136"/>
         <image name="search.png" width="32" height="32"/>
+        <image name="twitter-color.png" width="133" height="133"/>
         <image name="user3.png" width="32" height="32"/>
     </resources>
+    <color key="tintColor" red="0.49607080219999999" green="0.13228952390000001" blue="0.11860211449999999" alpha="1" colorSpace="calibratedRGB"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

@@ -19,6 +19,12 @@
 		806ECB18183655B90099CBD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806ECB00183655B90099CBD9 /* UIKit.framework */; };
 		806ECB20183655B90099CBD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 806ECB1E183655B90099CBD9 /* InfoPlist.strings */; };
 		806ECB22183655B90099CBD9 /* KindergardenHereIComeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 806ECB21183655B90099CBD9 /* KindergardenHereIComeTests.m */; };
+		80CDF4B81836AAD700EDF82C /* RSG_Star-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CDF4B61836AAD700EDF82C /* RSG_Star-01.png */; };
+		80CDF4B91836AAD700EDF82C /* RSG_Star-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CDF4B71836AAD700EDF82C /* RSG_Star-04.png */; };
+		80CDF4BC1836B2FA00EDF82C /* jean-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CDF4BA1836B2FA00EDF82C /* jean-background.png */; };
+		80CDF4BD1836B2FA00EDF82C /* red-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CDF4BB1836B2FA00EDF82C /* red-background.png */; };
+		80CDF4BF1836B53900EDF82C /* twitter-color.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CDF4BE1836B53900EDF82C /* twitter-color.png */; };
+		80CDF4C11836B54300EDF82C /* facebook-color.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CDF4C01836B54300EDF82C /* facebook-color.png */; };
 		A6B820E0183674D2006078AF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B820DF183674D2006078AF /* Storyboard.storyboard */; };
 		A6B820E418368B23006078AF /* KidInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B820E318368B23006078AF /* KidInfoViewController.m */; };
 		A6B829C318368E25006078AF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A6B820E618368E13006078AF /* .gitignore */; };
@@ -476,6 +482,8 @@
 		A6B8329718368E26006078AF /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = A6B829C118368E25006078AF /* License.txt */; };
 		A6B8329818368E26006078AF /* README in Resources */ = {isa = PBXBuildFile; fileRef = A6B829C218368E25006078AF /* README */; };
 		A6B8329B1836919F006078AF /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B8329A1836919F006078AF /* photo.png */; };
+		A6B8329E1836B2F7006078AF /* ActivityTagListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B8329D1836B2F7006078AF /* ActivityTagListViewController.m */; };
+		A6B832A11836B62D006078AF /* ActivityListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B832A01836B62D006078AF /* ActivityListManager.m */; };
 		A813CAEE18369BE500AC8E19 /* ActivityInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A813CAE718369BE500AC8E19 /* ActivityInfoViewController.m */; };
 		A813CAEF18369BE500AC8E19 /* ActivityListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A813CAE918369BE500AC8E19 /* ActivityListViewController.m */; };
 		A813CAF018369BE500AC8E19 /* BookInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A813CAEB18369BE500AC8E19 /* BookInfoViewController.m */; };
@@ -533,6 +541,12 @@
 		806ECB1D183655B90099CBD9 /* KindergardenHereIComeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KindergardenHereIComeTests-Info.plist"; sourceTree = "<group>"; };
 		806ECB1F183655B90099CBD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		806ECB21183655B90099CBD9 /* KindergardenHereIComeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KindergardenHereIComeTests.m; sourceTree = "<group>"; };
+		80CDF4B61836AAD700EDF82C /* RSG_Star-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RSG_Star-01.png"; sourceTree = "<group>"; };
+		80CDF4B71836AAD700EDF82C /* RSG_Star-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RSG_Star-04.png"; sourceTree = "<group>"; };
+		80CDF4BA1836B2FA00EDF82C /* jean-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jean-background.png"; sourceTree = "<group>"; };
+		80CDF4BB1836B2FA00EDF82C /* red-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-background.png"; sourceTree = "<group>"; };
+		80CDF4BE1836B53900EDF82C /* twitter-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-color.png"; sourceTree = "<group>"; };
+		80CDF4C01836B54300EDF82C /* facebook-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-color.png"; sourceTree = "<group>"; };
 		A6B820DF183674D2006078AF /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = KindergardenHereICome/Storyboard.storyboard; sourceTree = "<group>"; };
 		A6B820E218368B23006078AF /* KidInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KidInfoViewController.h; path = ViewControllers/KidInfoViewController.h; sourceTree = "<group>"; };
 		A6B820E318368B23006078AF /* KidInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KidInfoViewController.m; path = ViewControllers/KidInfoViewController.m; sourceTree = "<group>"; };
@@ -992,6 +1006,10 @@
 		A6B829C118368E25006078AF /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
 		A6B829C218368E25006078AF /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		A6B8329A1836919F006078AF /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photo.png; path = KindergardenHereICome/photo.png; sourceTree = "<group>"; };
+		A6B8329C1836B2F7006078AF /* ActivityTagListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityTagListViewController.h; sourceTree = "<group>"; };
+		A6B8329D1836B2F7006078AF /* ActivityTagListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityTagListViewController.m; sourceTree = "<group>"; };
+		A6B8329F1836B62D006078AF /* ActivityListManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityListManager.h; sourceTree = "<group>"; };
+		A6B832A01836B62D006078AF /* ActivityListManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityListManager.m; sourceTree = "<group>"; };
 		A813CAE618369BE500AC8E19 /* ActivityInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityInfoViewController.h; sourceTree = "<group>"; };
 		A813CAE718369BE500AC8E19 /* ActivityInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityInfoViewController.m; sourceTree = "<group>"; };
 		A813CAE818369BE500AC8E19 /* ActivityListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityListViewController.h; sourceTree = "<group>"; };
@@ -1147,6 +1165,8 @@
 				A813CAF31836A46C00AC8E19 /* BookCell.m */,
 				A813CAF51836A47700AC8E19 /* ActivityCell.h */,
 				A813CAF61836A47700AC8E19 /* ActivityCell.m */,
+				A6B8329C1836B2F7006078AF /* ActivityTagListViewController.h */,
+				A6B8329D1836B2F7006078AF /* ActivityTagListViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -1154,6 +1174,8 @@
 		A6B820E518368E13006078AF /* Keyamoon-IcoMoon--limited--7a3e6bc */ = {
 			isa = PBXGroup;
 			children = (
+				80CDF4C01836B54300EDF82C /* facebook-color.png */,
+				80CDF4BE1836B53900EDF82C /* twitter-color.png */,
 				A6B820E618368E13006078AF /* .gitignore */,
 				A6B820E718368E13006078AF /* Icons */,
 				A6B829C018368E25006078AF /* Import Me.svg */,
@@ -1653,6 +1675,10 @@
 		A813CAF81836A8FC00AC8E19 /* Design Images */ = {
 			isa = PBXGroup;
 			children = (
+				80CDF4BA1836B2FA00EDF82C /* jean-background.png */,
+				80CDF4BB1836B2FA00EDF82C /* red-background.png */,
+				80CDF4B61836AAD700EDF82C /* RSG_Star-01.png */,
+				80CDF4B71836AAD700EDF82C /* RSG_Star-04.png */,
 				A813CAF91836A8FC00AC8E19 /* RSG_appicon120x.png */,
 				A813CAFA1836A8FC00AC8E19 /* RSG_GreenBkrd.png */,
 				A813CAFB1836A8FC00AC8E19 /* RSG_GreyBkrd.png */,
@@ -1693,6 +1719,8 @@
 				A891B6231836707F0063F861 /* Kid.m */,
 				A891B625183670A00063F861 /* ApplicationState.h */,
 				A891B626183670A00063F861 /* ApplicationState.m */,
+				A6B8329F1836B62D006078AF /* ActivityListManager.h */,
+				A6B832A01836B62D006078AF /* ActivityListManager.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -1883,6 +1911,7 @@
 				A6B82FE118368E25006078AF /* heart2.png in Resources */,
 				A6B830AC18368E25006078AF /* unlocked.png in Resources */,
 				A6B82F5D18368E25006078AF /* checkbox-unchecked.png in Resources */,
+				80CDF4BF1836B53900EDF82C /* twitter-color.png in Resources */,
 				A6B82F2818368E25006078AF /* arrow-right3.png in Resources */,
 				A6B82F3F18368E25006078AF /* book.png in Resources */,
 				A6B8308918368E25006078AF /* stop2.png in Resources */,
@@ -1974,6 +2003,7 @@
 				A6B82FA818368E25006078AF /* file-powerpoint.png in Resources */,
 				A813CB061836B3CA00AC8E19 /* greenCheck.png in Resources */,
 				A6B82F4C18368E25006078AF /* bubbles3.png in Resources */,
+				80CDF4B81836AAD700EDF82C /* RSG_Star-01.png in Resources */,
 				A6B82FCF18368E25006078AF /* github5.png in Resources */,
 				A6B82F5B18368E25006078AF /* checkbox-checked.png in Resources */,
 				A6B82FE418368E25006078AF /* home2.png in Resources */,
@@ -2034,6 +2064,7 @@
 				A6B8309318368E25006078AF /* table2.png in Resources */,
 				A6B8306918368E25006078AF /* search.png in Resources */,
 				A6B82F6618368E25006078AF /* cloud-upload.png in Resources */,
+				80CDF4BC1836B2FA00EDF82C /* jean-background.png in Resources */,
 				A6B82FF118368E25006078AF /* insert-template.png in Resources */,
 				A6B8300C18368E25006078AF /* loop2.png in Resources */,
 				A6B82F9518368E25006078AF /* evil.png in Resources */,
@@ -2065,6 +2096,7 @@
 				A6B8307B18368E25006078AF /* spinner2.png in Resources */,
 				A6B8309E18368E25006078AF /* tongue2.png in Resources */,
 				A6B830BC18368E25006078AF /* volume-low.png in Resources */,
+				80CDF4BD1836B2FA00EDF82C /* red-background.png in Resources */,
 				A6B82FBB18368E25006078AF /* flickr3.png in Resources */,
 				A6B82F6818368E25006078AF /* clubs.png in Resources */,
 				A6B830AB18368E25006078AF /* undo2.png in Resources */,
@@ -2079,6 +2111,7 @@
 				A6B8307818368E25006078AF /* spam.png in Resources */,
 				A6B830CF18368E25006078AF /* youtube.png in Resources */,
 				A6B8306718368E25006078AF /* scissors.png in Resources */,
+				80CDF4B91836AAD700EDF82C /* RSG_Star-04.png in Resources */,
 				A6B82F5718368E25006078AF /* cancel-circle.png in Resources */,
 				A6B8303B18368E25006078AF /* paypal3.png in Resources */,
 				A6B830CB18368E25006078AF /* xing.png in Resources */,
@@ -2221,6 +2254,7 @@
 				A6B820E0183674D2006078AF /* Storyboard.storyboard in Resources */,
 				A6B8306F18368E25006078AF /* shuffle.png in Resources */,
 				A6B8302718368E25006078AF /* omega.png in Resources */,
+				80CDF4C11836B54300EDF82C /* facebook-color.png in Resources */,
 				A6B8303618368E25006078AF /* pause.png in Resources */,
 				A6B830C318368E25006078AF /* windows8.png in Resources */,
 				A6B8303A18368E25006078AF /* paypal2.png in Resources */,
@@ -2266,6 +2300,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B8329E1836B2F7006078AF /* ActivityTagListViewController.m in Sources */,
+				A6B832A11836B62D006078AF /* ActivityListManager.m in Sources */,
 				A813CAEF18369BE500AC8E19 /* ActivityListViewController.m in Sources */,
 				A813CAF018369BE500AC8E19 /* BookInfoViewController.m in Sources */,
 				A891B627183670A00063F861 /* ApplicationState.m in Sources */,
