@@ -8,7 +8,7 @@
 
 #import "ActivityTagListViewController.h"
 #import "ApplicationState.h"
-#import "ActivityCell.h"
+#import "ActivityTagCell.h"
 
 @interface ActivityTagListViewController ()
 
@@ -23,7 +23,7 @@
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
-        self.activityTagList = [[NSMutableArray alloc] init];
+        [self.tableView registerClass:[ActivityTagCell class] forCellReuseIdentifier:@"ActivityTagCell"];
     }
     return self;
 }
@@ -67,12 +67,11 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"ActivityCell";
-    ActivityCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    static NSString *CellIdentifier = @"ActivityTagCell";
+    ActivityTagCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
-    Activity *activity = [[[[ApplicationState getInstance] activityListManager] activities] objectAtIndex:indexPath.row];
-    cell.titleLabel.text = activity.title;
+    cell.titleLabel.text = [[[[ApplicationState getInstance] activityListManager] allTags] objectAtIndex:indexPath.row];
     // TODO:
     //cell.activityImageView setImage:[]
     

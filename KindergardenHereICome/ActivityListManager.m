@@ -41,6 +41,7 @@
             }
         }
     }
+    // TODO: Sort alphabetically
     return tags;
 }
 

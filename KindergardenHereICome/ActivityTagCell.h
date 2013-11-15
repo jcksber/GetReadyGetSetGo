@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ActivityTagCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 
 @end
