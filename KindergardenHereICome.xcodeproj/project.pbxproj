@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8002C18A1837AD240033D0BA /* Icons in Resources */ = {isa = PBXBuildFile; fileRef = 8002C1891837AD240033D0BA /* Icons */; };
+		8002C18C1837B33B0033D0BA /* cloud-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8002C18B1837B33B0033D0BA /* cloud-green.png */; };
+		8002C18E1837B52E0033D0BA /* medkit.png in Resources */ = {isa = PBXBuildFile; fileRef = 8002C18D1837B52E0033D0BA /* medkit.png */; };
 		806ECAFD183655B90099CBD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806ECAFC183655B90099CBD9 /* Foundation.framework */; };
 		806ECAFF183655B90099CBD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806ECAFE183655B90099CBD9 /* CoreGraphics.framework */; };
 		806ECB01183655B90099CBD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806ECB00183655B90099CBD9 /* UIKit.framework */; };
@@ -82,6 +84,8 @@
 
 /* Begin PBXFileReference section */
 		8002C1891837AD240033D0BA /* Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Icons; sourceTree = "<group>"; };
+		8002C18B1837B33B0033D0BA /* cloud-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cloud-green.png"; path = "Icons/FontAwesomeGreen/cloud-green.png"; sourceTree = "<group>"; };
+		8002C18D1837B52E0033D0BA /* medkit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = medkit.png; path = Icons/FontAwesomeGreen/medkit.png; sourceTree = "<group>"; };
 		806ECAF9183655B90099CBD9 /* KindergardenHereICome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindergardenHereICome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		806ECAFC183655B90099CBD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		806ECAFE183655B90099CBD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -225,6 +229,8 @@
 		806ECB02183655B90099CBD9 /* KindergardenHereICome */ = {
 			isa = PBXGroup;
 			children = (
+				8002C18D1837B52E0033D0BA /* medkit.png */,
+				8002C18B1837B33B0033D0BA /* cloud-green.png */,
 				8002C1891837AD240033D0BA /* Icons */,
 				A6B820E118368AE6006078AF /* ViewControllers */,
 				A891B61B183670480063F861 /* Model */,
@@ -447,6 +453,7 @@
 				A813CB011836A8FC00AC8E19 /* RSG_GreyBkrd.png in Resources */,
 				A813CB171836B53B00AC8E19 /* lmno.jpg in Resources */,
 				A813CB141836B53B00AC8E19 /* follow.jpg in Resources */,
+				8002C18E1837B52E0033D0BA /* medkit.png in Resources */,
 				A813CB1D1836B53B00AC8E19 /* whoseshoes.jpg in Resources */,
 				A813CB021836A8FC00AC8E19 /* RSG_Loadscreen.png in Resources */,
 				8002C18A1837AD240033D0BA /* Icons in Resources */,
@@ -469,6 +476,7 @@
 				806ECB0F183655B90099CBD9 /* Images.xcassets in Resources */,
 				A813CB131836B53B00AC8E19 /* doug.jpg in Resources */,
 				A813CB1A1836B53B00AC8E19 /* sleepy.jpg in Resources */,
+				8002C18C1837B33B0033D0BA /* cloud-green.png in Resources */,
 				A88D60E118378F3100759B9F /* home2.png in Resources */,
 				A813CAFF1836A8FC00AC8E19 /* RSG_appicon120x.png in Resources */,
 				A813CB151836B53B00AC8E19 /* howmany.jpg in Resources */,

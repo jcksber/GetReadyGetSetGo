@@ -39,10 +39,12 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     if ( _tag != nil ) {
         _activities = [[[ApplicationState getInstance] activityListManager] activitiesWithTag:_tag];
+        NSLog(@"Tagged list - %@ - %@", _tag, _activities.debugDescription);
     } else {
         _activities = [[[ApplicationState getInstance] activityListManager] activities];
+        NSLog(@"Full list");
     }
-    
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning
@@ -74,7 +76,7 @@
     Activity *activity = [_activities objectAtIndex:indexPath.row];
     cell.titleLabel.text = activity.title;
     // TODO:
-    //cell.activityImageView setImage:[]
+    [cell.activityImageView setImage:activity.icon];
     
     return cell;
 }

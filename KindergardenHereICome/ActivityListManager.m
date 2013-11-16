@@ -63,14 +63,14 @@
     Activity *activity = [[Activity alloc] init];
     activity.title = @"Weather or Not?";
     activity.tags = @[@"Science", @"Self-concept", @"Clothes"];
-    activity.icon = [UIImage imageNamed:@("cloud.png")];
+    activity.icon = [UIImage imageNamed:@("cloud-green.png")];
     activity.summary = @"What's the weather going to be today? Ask your child what you should wear.";
     activity.learningInfo = @"This activity enables your child to learn about the different seasons and appropriate clothes for the seasons.";
     [self.activities addObject:activity];
     
     activity = [[Activity alloc] init];
     activity.title = @"Colors";
-    activity.tags = @[@"Colors"];
+    activity.tags = @[@"Colors", @"Shapes"];
     activity.icon = [UIImage imageNamed:@("tint.png")];
     activity.summary = @"Ask your child to name the color of different things you see around the house. For instance, \"Can you tell me what color an apple is?\" or \"Can you go find something that is blue?\"";
     activity.learningInfo = @"This activity enables your child to recognize colors in the natural environment.";
@@ -79,7 +79,7 @@
     activity = [[Activity alloc] init];
     activity.title = @"Shapes";
     activity.tags = @[@"Shapes"];
-    activity.icon = [UIImage imageNamed:@("heart.png")];
+    activity.icon = [UIImage imageNamed:@("heart-green.png")];
     activity.summary = @"Ask your child to draw basic shapes: circle, triangle, square. Once they can draw the basic shapes, ask them to point things out that are basic shapes while you're at the store or driving to or home from school.";
     activity.learningInfo = @"These activities enable your child to use fine motor skills to practice drawing and to recognize shapes in the natural environment.";
     [self.activities addObject:activity];
@@ -91,6 +91,30 @@
     activity.summary = @"Ask your child to count to 10 in order, if they can do that ask them to point to ten different objects and count as they go along. Once they finish, keep going and ask them to count to 20 and so on";
     activity.learningInfo = @"This activity illustrates basic number systems and relationships";
     [self.activities addObject:activity];
+    
+    activity = [[Activity alloc] init];
+    activity.title = @"Let's meet";
+    activity.tags = @[@"Self-concepts", @"Health", @"Safety"];
+    activity.icon = [UIImage imageNamed: @("medkit.png")];
+    activity.summary = @"Set a place to meet near the house in case of an emergency";
+    activity.learningInfo = @"What to do in an emergency, keeping your family safe";
+    [self.activities addObject:activity];
+    
+    activity = [[Activity alloc] init];
+    activity.title = @"Letters";
+    activity.tags = @[@"Language", @"Literacy"];
+    activity.icon = [UIImage imageNamed:@("bold.png")];
+    activity.summary = @"Ask your child to say the alphabet. Singing works too, but ask them to say the letters.";
+    activity.learningInfo = @"Helps build the child's vocabulary; saying letters instead of singing them helps the child recognize individual                          letters instead of memorizing a song.";
+    [self.activities addObject:activity];
+    
+    activity = [[Activity alloc] init];
+    activity.title = @"Writing";
+    activity.tags = @[@"Language", @"Literacy"];
+    activity.icon = [UIImage imageNamed: @("pencil-green.png")];
+    activity.summary = @"";
+    
+    
     
 }
 
