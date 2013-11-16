@@ -63,7 +63,7 @@
     Activity *activity = [[Activity alloc] init];
     activity.title = @"Weather or Not?";
     activity.tags = @[@"Science", @"Self-concept", @"Clothes"];
-    activity.icon = [UIImage imageNamed:@("cloud.png")];
+    activity.icon = [UIImage imageNamed:@("cloud-green.png")];
     activity.summary = @"What's the weather going to be today? Ask your child what you should wear.";
     activity.learningInfo = @"This activity enables your child to learn about the different seasons and appropriate clothes for the seasons.";
     [self.activities addObject:activity];
@@ -91,6 +91,11 @@
     activity.summary = @"Ask your child to count to 10 in order, if they can do that ask them to point to ten different objects and count as they go along. Once they finish, keep going and ask them to count to 20 and so on";
     activity.learningInfo = @"This activity illustrates basic number systems and relationships";
     [self.activities addObject:activity];
+    
+    activity = [[Activity alloc] init];
+    activity.title = @"Let's meet";
+    activity.tags = @[@"Self-concepts", @"Health", @"Safety"];
+    activity.summary = @"Set a place to meet near the house in case of an emergency";
     
 }
 
