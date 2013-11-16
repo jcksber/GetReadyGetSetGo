@@ -15,6 +15,6 @@
 
 @property (weak, nonatomic) IBOutlet UITextView *summary;
 @property (weak, nonatomic) IBOutlet UILabel *actTitle;
-
+@property (weak, nonatomic) IBOutlet UIImageView *icon;
 
 @end
