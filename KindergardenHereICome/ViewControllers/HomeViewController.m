@@ -11,6 +11,8 @@
 #import "Book.h"
 #import "Activity.h"
 #import "ActivityListManager.h"
+#import "BookInfoViewController.h"
+#import "ActivityInfoViewController.h"
 
 @interface HomeViewController ()
 
@@ -83,11 +85,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
     [self loadRandomActivityAndBook];
-    //NEED A WAY TO GET A RANDOM BOOK AND ACTIVITY
-    
-	// Do any additional setup after loading the view.
 }
 
 -(void)shareActivityOnFacebookTapped{
@@ -110,6 +108,15 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"book"]) {
+        ((BookInfoViewController*)segue.destinationViewController).book = self.book;
+    }else     if ([segue.identifier isEqualToString:@"activity"]) {
+        ((ActivityInfoViewController*)segue.destinationViewController).activity = self.activity;
+    }
 }
 
 @end

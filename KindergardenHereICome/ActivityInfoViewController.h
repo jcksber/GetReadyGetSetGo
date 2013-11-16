@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Activity.h"
 
 @interface ActivityInfoViewController : UIViewController
+
+@property(nonatomic,strong) Activity *activity;
+
+@property (weak, nonatomic) IBOutlet UITextView *summary;
+@property (weak, nonatomic) IBOutlet UILabel *actTitle;
+
 
 @end
