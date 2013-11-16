@@ -76,7 +76,7 @@
     Activity *activity = [_activities objectAtIndex:indexPath.row];
     cell.titleLabel.text = activity.title;
     // TODO:
-    //cell.activityImageView setImage:[]
+    [cell.activityImageView setImage:activity.icon];
     
     return cell;
 }
