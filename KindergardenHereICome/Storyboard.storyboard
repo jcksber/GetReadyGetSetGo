@@ -660,7 +660,7 @@
         <image name="red-background.png" width="640" height="1136"/>
         <image name="score.png" width="472" height="265"/>
         <image name="search.png" width="32" height="32"/>
-        <image name="star.png" width="32" height="32"/>
+        <image name="star.png" width="30" height="32"/>
         <image name="twitter-color.png" width="133" height="133"/>
         <image name="user3.png" width="32" height="32"/>
     </resources>
