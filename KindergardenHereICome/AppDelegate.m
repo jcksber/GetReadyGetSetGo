@@ -30,6 +30,22 @@
 {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    NSLog(@"Setting alert");
+    UILocalNotification *localNotif = [[UILocalNotification alloc] init];
+    if (localNotif == nil)
+        return;
+    localNotif.fireDate = [[NSDate date] dateByAddingTimeInterval:5];
+    localNotif.alertBody = @"Ask your child to count to 10 in order, if they can do that ask them to point to ten different objects and count as they go along. Once they finish, keep going and ask them to count to 20 and so on";
+    localNotif.alertAction = @"Find out more!";
+    
+    localNotif.soundName = UILocalNotificationDefaultSoundName;
+    localNotif.applicationIconBadgeNumber = 1;
+    
+    //    localNotif.userInfo = infoDict;
+    //TODO: XXX Re-enable for demo
+//    [[UIApplication sharedApplication] scheduleLocalNotification:localNotif];
+
+    
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
