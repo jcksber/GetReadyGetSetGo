@@ -96,7 +96,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ActivityTagCell" textLabel="Lph-po-Yyi" rowHeight="74" style="IBUITableViewCellStyleDefault" id="xBQ-9X-ZKl" customClass="ActivityTagCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="74"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="74"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xBQ-9X-ZKl" id="QiT-W6-xlx">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="73"/>
@@ -458,7 +458,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="BookCell" rowHeight="100" id="WYC-vw-koU" customClass="BookCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="100"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WYC-vw-koU" id="AEG-AO-Cle">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
@@ -515,7 +515,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="BookCell" rowHeight="100" id="6cv-UE-J4a" customClass="BookCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="100"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6cv-UE-J4a" id="lgW-TM-nJD">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
@@ -570,8 +570,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Sxv-1X-UEZ">
-                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ActivityCell" id="Sxv-1X-UEZ" customClass="ActivityCell">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Sxv-1X-UEZ" id="B9n-nb-mhv">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -677,6 +677,7 @@
         <!--Navigation Controller - Ready, Set, Go!-->
         <scene sceneID="LuR-MK-KCC">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bRv-lX-2yG" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController title="Ready, Set, Go!" automaticallyAdjustsScrollViewInsets="NO" id="hgg-7S-MlC" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Lhx-vT-2Ke">
@@ -688,23 +689,19 @@
                         <segue destination="ZfH-Rl-adG" kind="relationship" relationship="rootViewController" id="SYC-Gt-Qk2"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bRv-lX-2yG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3118" y="-694"/>
         </scene>
     </scenes>
     <resources>
         <image name="RSG_worm-01.png" width="500" height="500"/>
-        <image name="RSG_worm-01.png" width="500" height="500"/>
-        <image name="facebook-color.png" width="133" height="133"/>
         <image name="facebook-color.png" width="133" height="133"/>
         <image name="greenCheck.png" width="100" height="90"/>
         <image name="home2.png" width="32" height="32"/>
         <image name="red-background.png" width="640" height="1136"/>
         <image name="score.png" width="472" height="265"/>
         <image name="search.png" width="32" height="32"/>
-        <image name="star.png" width="30" height="32"/>
-        <image name="twitter-color.png" width="133" height="133"/>
+        <image name="star.png" width="32" height="32"/>
         <image name="twitter-color.png" width="133" height="133"/>
         <image name="user3.png" width="32" height="32"/>
     </resources>

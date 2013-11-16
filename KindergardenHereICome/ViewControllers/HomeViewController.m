@@ -29,6 +29,13 @@
     return self;
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    self.parentViewController.navigationItem.title = @"Home";
+}
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

@@ -85,7 +85,6 @@
     cell.titleLabel.text = book.title;
     cell.authorLabel.text = book.author;
     cell.bookImageView.image = book.picture;
-    // Configure the cell...
     
     return cell;
 }

@@ -25,7 +25,6 @@
 		80CDF4BD1836B2FA00EDF82C /* red-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CDF4BB1836B2FA00EDF82C /* red-background.png */; };
 		80CDF4C31836B9A100EDF82C /* RSG_worm-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CDF4C21836B9A100EDF82C /* RSG_worm-01.png */; };
 		80CDF4C61836C32400EDF82C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CDF4C51836C32400EDF82C /* HomeViewController.m */; };
-		80CDF4C81836D12A00EDF82C /* Icons in Resources */ = {isa = PBXBuildFile; fileRef = 80CDF4C71836D12A00EDF82C /* Icons */; };
 		A6B820E0183674D2006078AF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B820DF183674D2006078AF /* Storyboard.storyboard */; };
 		A6B820E418368B23006078AF /* KidInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B820E318368B23006078AF /* KidInfoViewController.m */; };
 		A6B8329B1836919F006078AF /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B8329A1836919F006078AF /* photo.png */; };
@@ -57,6 +56,12 @@
 		A813CB1C1836B53B00AC8E19 /* updown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A813CB111836B53B00AC8E19 /* updown.jpg */; };
 		A813CB1D1836B53B00AC8E19 /* whoseshoes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A813CB121836B53B00AC8E19 /* whoseshoes.jpg */; };
 		A88D60DB183787F300759B9F /* score.png in Resources */ = {isa = PBXBuildFile; fileRef = A88D60DA183787F200759B9F /* score.png */; };
+		A88D60DF18378F3100759B9F /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = A88D60DC18378F3100759B9F /* search.png */; };
+		A88D60E018378F3100759B9F /* user3.png in Resources */ = {isa = PBXBuildFile; fileRef = A88D60DD18378F3100759B9F /* user3.png */; };
+		A88D60E118378F3100759B9F /* home2.png in Resources */ = {isa = PBXBuildFile; fileRef = A88D60DE18378F3100759B9F /* home2.png */; };
+		A88D60E418378F9700759B9F /* facebook-color.png in Resources */ = {isa = PBXBuildFile; fileRef = A88D60E218378F9700759B9F /* facebook-color.png */; };
+		A88D60E518378F9700759B9F /* twitter-color.png in Resources */ = {isa = PBXBuildFile; fileRef = A88D60E318378F9700759B9F /* twitter-color.png */; };
+		A88D60E718378FA700759B9F /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = A88D60E618378FA700759B9F /* star.png */; };
 		A891B61E1836705C0063F861 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = A891B61D1836705C0063F861 /* Book.m */; };
 		A891B6211836706A0063F861 /* Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = A891B6201836706A0063F861 /* Activity.m */; };
 		A891B6241836707F0063F861 /* Kid.m in Sources */ = {isa = PBXBuildFile; fileRef = A891B6231836707F0063F861 /* Kid.m */; };
@@ -97,7 +102,6 @@
 		80CDF4C21836B9A100EDF82C /* RSG_worm-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RSG_worm-01.png"; sourceTree = "<group>"; };
 		80CDF4C41836C32400EDF82C /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = KindergardenHereICome/ViewControllers/HomeViewController.h; sourceTree = "<group>"; };
 		80CDF4C51836C32400EDF82C /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = KindergardenHereICome/ViewControllers/HomeViewController.m; sourceTree = "<group>"; };
-		80CDF4C71836D12A00EDF82C /* Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Icons; path = KindergardenHereICome/Icons; sourceTree = "<group>"; };
 		A6B820DF183674D2006078AF /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = KindergardenHereICome/Storyboard.storyboard; sourceTree = "<group>"; };
 		A6B820E218368B23006078AF /* KidInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KidInfoViewController.h; path = ViewControllers/KidInfoViewController.h; sourceTree = "<group>"; };
 		A6B820E318368B23006078AF /* KidInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KidInfoViewController.m; path = ViewControllers/KidInfoViewController.m; sourceTree = "<group>"; };
@@ -139,6 +143,12 @@
 		A813CB111836B53B00AC8E19 /* updown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = updown.jpg; sourceTree = "<group>"; };
 		A813CB121836B53B00AC8E19 /* whoseshoes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whoseshoes.jpg; sourceTree = "<group>"; };
 		A88D60DA183787F200759B9F /* score.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = score.png; sourceTree = "<group>"; };
+		A88D60DC18378F3100759B9F /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		A88D60DD18378F3100759B9F /* user3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user3.png; sourceTree = "<group>"; };
+		A88D60DE18378F3100759B9F /* home2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home2.png; sourceTree = "<group>"; };
+		A88D60E218378F9700759B9F /* facebook-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "facebook-color.png"; path = "KindergardenHereICome/Icons/facebook-color.png"; sourceTree = "<group>"; };
+		A88D60E318378F9700759B9F /* twitter-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twitter-color.png"; path = "KindergardenHereICome/Icons/twitter-color.png"; sourceTree = "<group>"; };
+		A88D60E618378FA700759B9F /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = KindergardenHereICome/Icons/IcoMoon/PNG/32px/star.png; sourceTree = "<group>"; };
 		A891B61C1836705C0063F861 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
 		A891B61D1836705C0063F861 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 		A891B61F1836706A0063F861 /* Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Activity.h; sourceTree = "<group>"; };
@@ -278,7 +288,12 @@
 			isa = PBXGroup;
 			children = (
 				A88D60DA183787F200759B9F /* score.png */,
-				80CDF4C71836D12A00EDF82C /* Icons */,
+				A88D60DC18378F3100759B9F /* search.png */,
+				A88D60E218378F9700759B9F /* facebook-color.png */,
+				A88D60E618378FA700759B9F /* star.png */,
+				A88D60E318378F9700759B9F /* twitter-color.png */,
+				A88D60DD18378F3100759B9F /* user3.png */,
+				A88D60DE18378F3100759B9F /* home2.png */,
 				A813CB071836B51D00AC8E19 /* Books */,
 				A813CB051836B3CA00AC8E19 /* greenCheck.png */,
 				A813CAF81836A8FC00AC8E19 /* Design Images */,
@@ -388,6 +403,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = PAEYC;
 				TargetAttributes = {
+					806ECAF8183655B90099CBD9 = {
+						DevelopmentTeam = VM3G523M4G;
+					};
 					806ECB13183655B90099CBD9 = {
 						TestTargetID = 806ECAF8183655B90099CBD9;
 					};
@@ -416,6 +434,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A88D60E518378F9700759B9F /* twitter-color.png in Resources */,
 				A813CB181836B53B00AC8E19 /* one.jpg in Resources */,
 				A813CB011836A8FC00AC8E19 /* RSG_GreyBkrd.png in Resources */,
 				A813CB171836B53B00AC8E19 /* lmno.jpg in Resources */,
@@ -424,9 +443,11 @@
 				A813CB021836A8FC00AC8E19 /* RSG_Loadscreen.png in Resources */,
 				A813CB1C1836B53B00AC8E19 /* updown.jpg in Resources */,
 				A813CB031836A8FC00AC8E19 /* RSG_OrangeBkrd.png in Resources */,
+				A88D60E718378FA700759B9F /* star.png in Resources */,
 				A813CB061836B3CA00AC8E19 /* greenCheck.png in Resources */,
 				80CDF4B81836AAD700EDF82C /* RSG_Star-01.png in Resources */,
 				A6B8329B1836919F006078AF /* photo.png in Resources */,
+				A88D60E418378F9700759B9F /* facebook-color.png in Resources */,
 				80CDF4BC1836B2FA00EDF82C /* jean-background.png in Resources */,
 				A88D60DB183787F300759B9F /* score.png in Resources */,
 				A813CB001836A8FC00AC8E19 /* RSG_GreenBkrd.png in Resources */,
@@ -434,13 +455,15 @@
 				80CDF4B91836AAD700EDF82C /* RSG_Star-04.png in Resources */,
 				806ECB07183655B90099CBD9 /* InfoPlist.strings in Resources */,
 				A813CB041836A8FC00AC8E19 /* RSG_Yellowscreen-05.png in Resources */,
+				A88D60E018378F3100759B9F /* user3.png in Resources */,
 				A813CB191836B53B00AC8E19 /* rosie.jpg in Resources */,
 				806ECB0F183655B90099CBD9 /* Images.xcassets in Resources */,
 				A813CB131836B53B00AC8E19 /* doug.jpg in Resources */,
 				A813CB1A1836B53B00AC8E19 /* sleepy.jpg in Resources */,
-				80CDF4C81836D12A00EDF82C /* Icons in Resources */,
+				A88D60E118378F3100759B9F /* home2.png in Resources */,
 				A813CAFF1836A8FC00AC8E19 /* RSG_appicon120x.png in Resources */,
 				A813CB151836B53B00AC8E19 /* howmany.jpg in Resources */,
+				A88D60DF18378F3100759B9F /* search.png in Resources */,
 				A813CB1B1836B53B00AC8E19 /* train.jpg in Resources */,
 				A6B820E0183674D2006078AF /* Storyboard.storyboard in Resources */,
 				A813CB161836B53B00AC8E19 /* iaint.jpg in Resources */,
@@ -598,10 +621,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KindergardenHereICome/KindergardenHereICome-Prefix.pch";
 				INFOPLIST_FILE = "KindergardenHereICome/KindergardenHereICome-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -611,10 +637,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KindergardenHereICome/KindergardenHereICome-Prefix.pch";
 				INFOPLIST_FILE = "KindergardenHereICome/KindergardenHereICome-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
