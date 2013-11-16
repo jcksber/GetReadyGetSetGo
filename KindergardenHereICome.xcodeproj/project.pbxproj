@@ -31,6 +31,7 @@
 		A6B8329E1836B2F7006078AF /* ActivityTagListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B8329D1836B2F7006078AF /* ActivityTagListViewController.m */; };
 		A6B832A11836B62D006078AF /* ActivityListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B832A01836B62D006078AF /* ActivityListManager.m */; };
 		A6B832A41836D209006078AF /* ActivityTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B832A31836D209006078AF /* ActivityTagCell.m */; };
+		A6B832A71837A7B3006078AF /* ActivityLearningInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B832A61837A7B3006078AF /* ActivityLearningInfoViewController.m */; };
 		A813CAEE18369BE500AC8E19 /* ActivityInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A813CAE718369BE500AC8E19 /* ActivityInfoViewController.m */; };
 		A813CAEF18369BE500AC8E19 /* ActivityListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A813CAE918369BE500AC8E19 /* ActivityListViewController.m */; };
 		A813CAF018369BE500AC8E19 /* BookInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A813CAEB18369BE500AC8E19 /* BookInfoViewController.m */; };
@@ -112,6 +113,8 @@
 		A6B832A01836B62D006078AF /* ActivityListManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityListManager.m; sourceTree = "<group>"; };
 		A6B832A21836D209006078AF /* ActivityTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityTagCell.h; sourceTree = "<group>"; };
 		A6B832A31836D209006078AF /* ActivityTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityTagCell.m; sourceTree = "<group>"; };
+		A6B832A51837A7B3006078AF /* ActivityLearningInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActivityLearningInfoViewController.h; path = ViewControllers/ActivityLearningInfoViewController.h; sourceTree = "<group>"; };
+		A6B832A61837A7B3006078AF /* ActivityLearningInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActivityLearningInfoViewController.m; path = ViewControllers/ActivityLearningInfoViewController.m; sourceTree = "<group>"; };
 		A813CAE618369BE500AC8E19 /* ActivityInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityInfoViewController.h; sourceTree = "<group>"; };
 		A813CAE718369BE500AC8E19 /* ActivityInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityInfoViewController.m; sourceTree = "<group>"; };
 		A813CAE818369BE500AC8E19 /* ActivityListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityListViewController.h; sourceTree = "<group>"; };
@@ -280,6 +283,8 @@
 				A6B8329D1836B2F7006078AF /* ActivityTagListViewController.m */,
 				A6B832A21836D209006078AF /* ActivityTagCell.h */,
 				A6B832A31836D209006078AF /* ActivityTagCell.m */,
+				A6B832A51837A7B3006078AF /* ActivityLearningInfoViewController.h */,
+				A6B832A61837A7B3006078AF /* ActivityLearningInfoViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -495,6 +500,7 @@
 				A6B832A41836D209006078AF /* ActivityTagCell.m in Sources */,
 				A813CAF41836A46C00AC8E19 /* BookCell.m in Sources */,
 				80CDF4C61836C32400EDF82C /* HomeViewController.m in Sources */,
+				A6B832A71837A7B3006078AF /* ActivityLearningInfoViewController.m in Sources */,
 				A891B61E1836705C0063F861 /* Book.m in Sources */,
 				A6B820E418368B23006078AF /* KidInfoViewController.m in Sources */,
 				A813CAF71836A47700AC8E19 /* ActivityCell.m in Sources */,

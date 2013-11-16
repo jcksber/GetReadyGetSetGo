@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="13A598" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="hgg-7S-MlC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="hgg-7S-MlC">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--Kid Info View Controller - Child-->
@@ -316,10 +316,10 @@
             </objects>
             <point key="canvasLocation" x="-1806" y="-1456"/>
         </scene>
-        <!--View Controller-->
+        <!--Activity Info View Controller-->
         <scene sceneID="zGe-On-DM6">
             <objects>
-                <viewController storyboardIdentifier="Activity" id="XNm-bw-F0o" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Activity" id="XNm-bw-F0o" customClass="ActivityInfoViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0kv-Qg-GDC"/>
                         <viewControllerLayoutGuide type="bottom" id="JNn-ZD-4QW"/>
@@ -335,9 +335,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFT-4A-wcU">
-                                <rect key="frame" x="208" y="244" width="80" height="30"/>
+                                <rect key="frame" x="62" y="475" width="197" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="For Parents">
+                                <state key="normal" title="More Information for Parents">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -345,19 +345,16 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aek-4g-OCw">
-                                <rect key="frame" x="259" y="518" width="41" height="30"/>
+                                <rect key="frame" x="94" y="399" width="133" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Done!">
+                                <state key="normal" title="We did this activity!">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="588-8t-lb1" kind="push" id="BXP-rx-7rv"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bgo-nG-6nP">
-                                <rect key="frame" x="20" y="518" width="137" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eb2-xA-FpC">
+                                <rect key="frame" x="91" y="437" width="138" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Maybe another time">
+                                <state key="normal" title="Share on Facebook!">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
@@ -370,10 +367,10 @@
             </objects>
             <point key="canvasLocation" x="-921" y="-2174"/>
         </scene>
-        <!--View Controller-->
+        <!--Activity Learning Info View Controller-->
         <scene sceneID="XpA-zb-wgc">
             <objects>
-                <viewController id="pW9-WK-b77" sceneMemberID="viewController">
+                <viewController id="pW9-WK-b77" customClass="ActivityLearningInfoViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6Ei-FK-3Y5"/>
                         <viewControllerLayoutGuide type="bottom" id="vr9-4Z-so9"/>
@@ -408,47 +405,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4zF-sR-dIT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-80" y="-2582"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="E0v-Ln-NGx">
-            <objects>
-                <viewController id="588-8t-lb1" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Bxg-81-jv1"/>
-                        <viewControllerLayoutGuide type="bottom" id="fIw-Lu-fru"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Wpj-OA-0B6">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OSD-3H-kqe">
-                                <rect key="frame" x="91" y="342" width="138" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Share on Facebook!">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Great!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PON-vv-auk">
-                                <rect key="frame" x="126" y="136" width="47" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Words of encouragement!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I4R-dR-by6">
-                                <rect key="frame" x="72" y="253" width="198" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="vSN-kH-CBp"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cwJ-TD-qZz" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-22" y="-1849"/>
+            <point key="canvasLocation" x="-344" y="-2174"/>
         </scene>
         <!--Book List View Controller - Books Read-->
         <scene sceneID="bUQ-mf-E3a">
@@ -566,7 +523,7 @@
         <!--Activity List View Controller - Completed Activities-->
         <scene sceneID="1kr-v4-5Qi">
             <objects>
-                <tableViewController storyboardIdentifier="ActivitiesCompleted" id="Sqe-d6-L2t" customClass="ActivityListViewController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="ActivityList" id="Sqe-d6-L2t" customClass="ActivityListViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="1cK-33-31F">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
