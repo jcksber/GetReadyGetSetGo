@@ -41,10 +41,7 @@
             }
         }
     }
-    
-    for (*eachTag in tags){
-        
-    }
+
     // TODO: Sort alphabetically
     return tags;
 }
