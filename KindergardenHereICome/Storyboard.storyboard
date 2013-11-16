@@ -523,7 +523,7 @@
             </objects>
             <point key="canvasLocation" x="-460" y="-371"/>
         </scene>
-        <!--Activity List View Controller - Completed Activities-->
+        <!--Activity List View Controller - Activities-->
         <scene sceneID="1kr-v4-5Qi">
             <objects>
                 <tableViewController storyboardIdentifier="ActivityList" id="Sqe-d6-L2t" customClass="ActivityListViewController" sceneMemberID="viewController">
@@ -546,7 +546,7 @@
                             <outlet property="delegate" destination="Sqe-d6-L2t" id="89o-KM-du2"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Completed Activities" id="Yw3-Bc-teR">
+                    <navigationItem key="navigationItem" title="Activities" id="Yw3-Bc-teR">
                         <barButtonItem key="backBarButtonItem" title="Back" id="vyG-Ia-A42"/>
                     </navigationItem>
                 </tableViewController>
