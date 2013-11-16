@@ -41,6 +41,10 @@
             }
         }
     }
+    
+    for (*eachTag in tags){
+        
+    }
     // TODO: Sort alphabetically
     return tags;
 }
@@ -149,23 +153,6 @@
     [self.activities addObject:activity];
     
 }
-
-    
-    /*
-    
- 	 @[@, ,		Let's Meet	Letters	Writing	Reading	Social Studies	Physical Development	Come Play!
-   		self-concepts, health and safety	Do you know your letters?	Can you write your name?	Letter recognition	Do you recognize the area?	Large motor skills	family engagement, field trips, programs
-   
-	…	Set-up a place to meet near the house in case of an emergency	Ask your child to say the alphabet. Singing is great as well but ask them to say the letters.	Ask your child to write letters that you say to them. If they can correctly write the letter ask them if they can write their name	Can your child recognize the first letter to their first name? Ask them to pronounce the sound that each letter makes.  See list of books in app	While driving home see if your child recognizes certain landmarks. If they can recognize different landmarks see if they can give you a direction to turn.	Ask your child to hop in place or stand on one foot. To advance the activity, asks them to dance to music and freeze when the music stops	Check out the RADical Days calendar for FREE events happening in Allegheny County.
-   "-
-   
-   "	- . 	- 	- 	"- What to do in an emergency.
-   - Keeping our family safe"	- Helps build the child's vocabulary.   - Saying letters instead of singing them helps the child recognize them as individual instead of memorizing a song.  	- Illustrates conenction between hearing letters and recognizing them in written form.	- Illustrates reading and analyzing written text.	- Illustrates the concept of history in the real environment.	- Provides child with gross motor movement and physical activity.	"Interactions between people and the environment
-   - Physical characteristics of places and regions
-   - Pro-relationships with Adults"
-   )
-*/
-     
      
      
 @end
