@@ -79,7 +79,7 @@
     activity = [[Activity alloc] init];
     activity.title = @"Shapes";
     activity.tags = @[@"Shapes"];
-    activity.icon = [UIImage imageNamed:@("heart.png")];
+    activity.icon = [UIImage imageNamed:@("heart-green.png")];
     activity.summary = @"Ask your child to draw basic shapes: circle, triangle, square. Once they can draw the basic shapes, ask them to point things out that are basic shapes while you're at the store or driving to or home from school.";
     activity.learningInfo = @"These activities enable your child to use fine motor skills to practice drawing and to recognize shapes in the natural environment.";
     [self.activities addObject:activity];
@@ -112,6 +112,7 @@
     activity.title = @"Writing";
     activity.tags = @[@"Language", @"Literacy"];
     activity.icon = [UIImage imageNamed: @("pencil-green.png")];
+    activity.summary = @"";
     
     
     
