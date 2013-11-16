@@ -95,7 +95,25 @@
     activity = [[Activity alloc] init];
     activity.title = @"Let's meet";
     activity.tags = @[@"Self-concepts", @"Health", @"Safety"];
+    activity.icon = [UIImage imageNamed: @("medkit.png")];
     activity.summary = @"Set a place to meet near the house in case of an emergency";
+    activity.learningInfo = @"What to do in an emergency, keeping your family safe";
+    [self.activities addObject:activity];
+    
+    activity = [[Activity alloc] init];
+    activity.title = @"Letters";
+    activity.tags = @[@"Language", @"Literacy"];
+    activity.icon = [UIImage imageNamed:@("bold.png")];
+    activity.summary = @"Ask your child to say the alphabet. Singing works too, but ask them to say the letters.";
+    activity.learningInfo = @"Helps build the child's vocabulary; saying letters instead of singing them helps the child recognize individual                          letters instead of memorizing a song.";
+    [self.activities addObject:activity];
+    
+    activity = [[Activity alloc] init];
+    activity.title = @"Writing";
+    activity.tags = @[@"Language", @"Literacy"];
+    activity.icon = [UIImage imageNamed: @("pencil-green.png")];
+    
+    
     
 }
 
