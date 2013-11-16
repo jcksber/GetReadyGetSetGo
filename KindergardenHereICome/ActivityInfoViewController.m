@@ -7,6 +7,7 @@
 //
 
 #import "ActivityInfoViewController.h"
+#import "ActivityLearningInfoViewController.h"
 
 @interface ActivityInfoViewController ()
 
@@ -27,6 +28,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    self.actTitle.text = self.activity.title;
+    self.summary.text = self.activity.summary;
 }
 
 - (void)didReceiveMemoryWarning
@@ -41,6 +44,11 @@
     self.actTitle.text = activity.title;
     self.summary.text = activity.summary;
     
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    ((ActivityLearningInfoViewController*)segue.destinationViewController).activity = _activity;    
 }
 
 @end

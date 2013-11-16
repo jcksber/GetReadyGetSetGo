@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Activity.h"
 
 @interface ActivityLearningInfoViewController : UIViewController
+
+@property(nonatomic,strong) Activity *activity;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UITextView *learningInfo;
+@property (weak, nonatomic) IBOutlet UIImageView *icon;
 
 @end

@@ -10,6 +10,7 @@
 
 @interface ActivityLearningInfoViewController ()
 
+
 @end
 
 @implementation ActivityLearningInfoViewController
@@ -27,12 +28,24 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    self.titleLabel.text = _activity.title;
+    self.learningInfo.text = _activity.learningInfo;
+    self.icon.image = _activity.icon;
+
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)setActivity:(Activity *)activity
+{
+    _activity = activity;
+    self.titleLabel.text = _activity.title;
+    self.learningInfo.text = _activity.learningInfo;
+    self.icon.image = _activity.icon;
 }
 
 @end

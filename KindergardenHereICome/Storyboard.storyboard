@@ -396,28 +396,39 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Activity Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G6i-Mm-xsw">
-                                <rect key="frame" x="119" y="252" width="93" height="21"/>
+                                <rect key="frame" x="60" y="76" width="246" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Activity Learning Summary" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6et-oe-5u4">
-                                <rect key="frame" x="57" y="315" width="206" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Learn more (link?)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2N0-Fb-C1q">
-                                <rect key="frame" x="127" y="468" width="137" height="21"/>
+                                <rect key="frame" x="91" y="468" width="221" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="33I-dl-ZDf">
+                                <rect key="frame" x="6" y="134" width="306" height="309"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ph0-kb-fc6">
+                                <rect key="frame" x="6" y="81" width="46" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="9Jk-B5-4B1"/>
+                    <connections>
+                        <outlet property="icon" destination="ph0-kb-fc6" id="ECH-k0-Dxl"/>
+                        <outlet property="learningInfo" destination="33I-dl-ZDf" id="ybL-a2-xEz"/>
+                        <outlet property="titleLabel" destination="G6i-Mm-xsw" id="YfC-Zn-ZFX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4zF-sR-dIT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -687,6 +698,8 @@
     </scenes>
     <resources>
         <image name="RSG_worm-01.png" width="500" height="500"/>
+        <image name="RSG_worm-01.png" width="500" height="500"/>
+        <image name="facebook-color.png" width="133" height="133"/>
         <image name="facebook-color.png" width="133" height="133"/>
         <image name="greenCheck.png" width="100" height="90"/>
         <image name="home2.png" width="32" height="32"/>
@@ -694,6 +707,7 @@
         <image name="score.png" width="472" height="265"/>
         <image name="search.png" width="32" height="32"/>
         <image name="star.png" width="30" height="32"/>
+        <image name="twitter-color.png" width="133" height="133"/>
         <image name="twitter-color.png" width="133" height="133"/>
         <image name="user3.png" width="32" height="32"/>
     </resources>
