@@ -53,6 +53,7 @@
             [taggedActivities addObject:activity];
         }
     }
+    // TODO: Sort alphabetically
     return taggedActivities;
 }
 
