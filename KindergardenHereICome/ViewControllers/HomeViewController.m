@@ -113,9 +113,9 @@
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([segue.identifier isEqualToString:@"book"]) {
-        ((BookInfoViewController*)segue.destinationViewController).book = self.book;
+        ((BookInfoViewController*)segue.destinationViewController).book = self.todaysBook;
     }else     if ([segue.identifier isEqualToString:@"activity"]) {
-        ((ActivityInfoViewController*)segue.destinationViewController).activity = self.activity;
+        ((ActivityInfoViewController*)segue.destinationViewController).activity = self.todaysActivity;
     }
 }
 
