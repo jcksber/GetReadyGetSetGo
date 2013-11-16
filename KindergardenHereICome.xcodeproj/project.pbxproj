@@ -451,7 +451,7 @@
 				ORGANIZATIONNAME = PAEYC;
 				TargetAttributes = {
 					806ECAF8183655B90099CBD9 = {
-						DevelopmentTeam = VM3G523M4G;
+						DevelopmentTeam = Q854D49RR4;
 					};
 					806ECB13183655B90099CBD9 = {
 						TestTargetID = 806ECAF8183655B90099CBD9;
@@ -690,6 +690,7 @@
 				INFOPLIST_FILE = "KindergardenHereICome/KindergardenHereICome-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -706,6 +707,7 @@
 				INFOPLIST_FILE = "KindergardenHereICome/KindergardenHereICome-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

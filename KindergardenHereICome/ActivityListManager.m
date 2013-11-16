@@ -106,7 +106,7 @@
     activity.tags = @[@"Language", @"Literacy"];
     activity.icon = [UIImage imageNamed:@("bold-green.png")];
     activity.summary = @"Ask your child to say the alphabet. Singing works too, but ask them to say the letters.";
-    activity.learningInfo = @"Helps build the child's vocabulary; saying letters instead of singing them helps the child recognize individual                          letters instead of memorizing a song.";
+    activity.learningInfo = @"This activity helps to build the child's vocabulary; saying letters instead of singing them helps the child recognize individual letters instead of memorizing a song.";
     activity.childHasCompleted = YES;
     [self.activities addObject:activity];
     
@@ -115,7 +115,7 @@
     activity.tags = @[@"Language", @"Literacy"];
     activity.icon = [UIImage imageNamed: @("pencil-green.png")];
     activity.summary = @"Ask your child to write letters that you say to them. If they can correctly write the letter ask them to write their name";
-    activity.learningInfo = @"Illustrates connection between hearing letters and recognizing them in written form.";
+    activity.learningInfo = @"This activity illustrates the connection between hearing letters and recognizing them in written form.";
         activity.childHasCompleted = YES;
     [self.activities addObject:activity];
     
@@ -124,7 +124,7 @@
     activity.tags = @[@"Language", @"Literacy"];
     activity.icon = [UIImage imageNamed: @("book-green.png")];
     activity.summary = @"Can your child recognize the first letter of their first name? Ask them to pronounce the sound that each letter makes.  See list of books in app.";
-    activity.learningInfo = @"Illustrates reading and analyzing written text.";
+    activity.learningInfo = @"This activity illustrates reading and analyzing written text.";
         activity.childHasCompleted = YES;
     [self.activities addObject:activity];
     
@@ -133,7 +133,7 @@
     activity.tags = @[@"Social Studies"];
     activity.icon = [UIImage imageNamed: @("globe-green.png")];
     activity.summary = @"While driving home see if your child recognizes certain landmarks. If they can, ask if they can give you the next direction to turn.";
-    activity.learningInfo = @"Illustrates the concept of history in the real environment.";
+    activity.learningInfo = @"This activity illustrates the concept of history in the real environment.";
     [self.activities addObject:activity];
     
     activity = [[Activity alloc] init];
@@ -141,7 +141,7 @@
     activity.tags = @[@"Motor skills"];
     activity.icon = [UIImage imageNamed: @("music-green.png")];
     activity.summary = @"Ask your child to hop in place or stand on one foot. To advance the activity, asks them to dance to music and freeze when the music stops.";
-    activity.learningInfo = @"Provides child with gross motor movement and physical activity.";
+    activity.learningInfo = @"This activity provides your child with gross motor movement and physical activity.";
     [self.activities addObject:activity];
     
     activity = [[Activity alloc] init];
@@ -149,7 +149,7 @@
     activity.tags = @[@"Family", @"Travel"];
     activity.icon = [UIImage imageNamed:@("plane-green.png")];
     activity.summary = @"Check out the RADical Days calendar for FREE events happening in Allegheny County.";
-    activity.learningInfo = @"Interactions between people and the environment; physical characteristics of places and regions; pro-relationships with Adults";
+    activity.learningInfo = @"This activity encourages interactions with children and adults in your community. It also aids in identifying the physical characteristics of places and regions.";
     [self.activities addObject:activity];
     
 }
