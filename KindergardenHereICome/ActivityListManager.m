@@ -42,6 +42,7 @@
         }
     }
     // TODO: Sort alphabetically
+    [tags sortUsingSelector:@selector(compare:)];
     return tags;
 }
 
@@ -54,6 +55,7 @@
         }
     }
     // TODO: Sort alphabetically
+    [taggedActivities sortUsingSelector:@selector(compare:)];
     return taggedActivities;
 }
 
