@@ -10,4 +10,6 @@
 
 @interface ActivityListViewController : UITableViewController
 
+@property (strong, nonatomic)NSString *tag;
+
 @end
