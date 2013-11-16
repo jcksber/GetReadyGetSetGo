@@ -170,8 +170,13 @@
                                 <rect key="frame" x="13" y="77" width="294" height="207"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
+<<<<<<< HEAD
+                                    <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LCq-tS-IRd">
+                                        <rect key="frame" x="9" y="10" width="32" height="32"/>
+=======
                                     <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star.png" translatesAutoresizingMaskIntoConstraints="NO" id="LCq-tS-IRd">
                                         <rect key="frame" x="250" y="21" width="32" height="32"/>
+>>>>>>> 97f13575a68673034f12082a1e428b1d6f176cd5
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" none="YES" staticText="YES"/>
@@ -728,7 +733,6 @@
         <image name="jean-background.png" width="640" height="1136"/>
         <image name="score.png" width="472" height="265"/>
         <image name="search.png" width="32" height="32"/>
-        <image name="star.png" width="30" height="32"/>
         <image name="twitter-color.png" width="133" height="133"/>
         <image name="user3.png" width="32" height="32"/>
     </resources>
