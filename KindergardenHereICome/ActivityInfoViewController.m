@@ -30,6 +30,7 @@
 	// Do any additional setup after loading the view.
     self.actTitle.text = self.activity.title;
     self.summary.text = self.activity.summary;
+    self.icon.image = self.activity.icon;
 }
 
 - (void)didReceiveMemoryWarning
@@ -43,7 +44,7 @@
     _activity = activity;
     self.actTitle.text = activity.title;
     self.summary.text = activity.summary;
-    
+    self.icon.image = self.activity.icon;
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
