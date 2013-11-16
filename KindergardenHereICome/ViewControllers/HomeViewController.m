@@ -7,8 +7,14 @@
 //
 
 #import "HomeViewController.h"
+#import "ApplicationState.h"
+#import "Book.h"
+#import "Activity.h"
 
 @interface HomeViewController ()
+
+@property (strong, nonatomic) Book *todaysBook;
+@property (strong, nonatomic) Activity *todaysActivity;
 
 @end
 
@@ -26,7 +32,27 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
+    //NEED A WAY TO GET A RANDOM BOOK AND ACTIVITY
+    
 	// Do any additional setup after loading the view.
+}
+
+-(void)shareActivityOnFacebookTapped{
+    [self.activity shareOnFacebookFromViewController:self];
+}
+
+-(void)shareActivityOnTwitterTapped{
+    [self.activity shareOnFacebookFromViewController:self];
+}
+
+-(void)shareBookOnFacebookTapped{
+    [self.book shareOnFacebookFromViewController:self];
+}
+
+-(void)shareBookOnTwitterTapped{
+    [self.book shareOnTwitterFromViewController:self];
 }
 
 - (void)didReceiveMemoryWarning
