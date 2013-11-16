@@ -32,6 +32,7 @@
     self.learningInfo.text = _activity.learningInfo;
     self.icon.image = _activity.icon;
 
+        self.view.tintColor = [UIColor greenColor];
 }
 
 - (void)didReceiveMemoryWarning

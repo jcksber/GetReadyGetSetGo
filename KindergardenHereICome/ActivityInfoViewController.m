@@ -31,6 +31,9 @@
     self.actTitle.text = self.activity.title;
     self.summary.text = self.activity.summary;
     self.icon.image = self.activity.icon;
+    self.checkmark.hidden = !self.activity.childHasCompleted;
+    
+    self.view.tintColor = [UIColor greenColor];
 }
 
 - (void)didReceiveMemoryWarning
@@ -45,6 +48,7 @@
     self.actTitle.text = activity.title;
     self.summary.text = activity.summary;
     self.icon.image = self.activity.icon;
+        self.checkmark.hidden = !self.activity.childHasCompleted;
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
@@ -53,6 +57,9 @@
 }
 
 - (IBAction)completed:(id)sender {
+    self.activity.childHasCompleted =!self.activity.childHasCompleted;
+        self.checkmark.hidden = !self.activity.childHasCompleted;
+    
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Congratulations!" message:@"You've completed 3 Activities this week!" delegate:Nil cancelButtonTitle:@"Okay" otherButtonTitles:nil];
     [alert show];
 }

@@ -34,7 +34,7 @@
     UILocalNotification *localNotif = [[UILocalNotification alloc] init];
     if (localNotif == nil)
         return;
-    localNotif.fireDate = [[NSDate date] dateByAddingTimeInterval:5];
+    localNotif.fireDate = [[NSDate date] dateByAddingTimeInterval:15];
     localNotif.alertBody = @"Ask your child to count to 10 in order, if they can do that ask them to point to ten different objects and count as they go along. Once they finish, keep going and ask them to count to 20 and so on";
     localNotif.alertAction = @"Find out more!";
     
@@ -43,7 +43,7 @@
     
     //    localNotif.userInfo = infoDict;
     //TODO: XXX Re-enable for demo
-//    [[UIApplication sharedApplication] scheduleLocalNotification:localNotif];
+    [[UIApplication sharedApplication] scheduleLocalNotification:localNotif];
 
     
 }
