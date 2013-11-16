@@ -103,7 +103,7 @@
     activity = [[Activity alloc] init];
     activity.title = @"Letters";
     activity.tags = @[@"Language", @"Literacy"];
-    activity.icon = [UIImage imageNamed:@("bold.png")];
+    activity.icon = [UIImage imageNamed:@("bold-green.png")];
     activity.summary = @"Ask your child to say the alphabet. Singing works too, but ask them to say the letters.";
     activity.learningInfo = @"Helps build the child's vocabulary; saying letters instead of singing them helps the child recognize individual                          letters instead of memorizing a song.";
     [self.activities addObject:activity];
@@ -135,7 +135,7 @@
     activity = [[Activity alloc] init];
     activity.title = @"Let's Hop";
     activity.tags = @[@"Motor skills"];
-    activity.icon = [UIImage imageNamed: @("")];
+    activity.icon = [UIImage imageNamed: @("music-green.png")];
     activity.summary = @"Ask your child to hop in place or stand on one foot. To advance the activity, asks them to dance to music and freeze when the music stops.";
     activity.learningInfo = @"Provides child with gross motor movement and physical activity.";
     [self.activities addObject:activity];
@@ -147,8 +147,6 @@
     activity.summary = @"Check out the RADical Days calendar for FREE events happening in Allegheny County.";
     activity.learningInfo = @"Interactions between people and the environment; physical characteristics of places and regions; pro-relationships with Adults";
     [self.activities addObject:activity];
-    
-    
     
 }
 
