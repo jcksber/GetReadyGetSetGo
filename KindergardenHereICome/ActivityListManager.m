@@ -23,6 +23,7 @@
 - (void) initializeData
 {
     [self initializeArray];
+    [self.activities sortUsingDescriptors:[NSArray arrayWithObject:[[NSSortDescriptor alloc] initWithKey:@"title" ascending:YES]]];
     self.currentActivity = [self.activities firstObject];
 }
 
@@ -41,8 +42,7 @@
             }
         }
     }
-
-    // TODO: Sort alphabetically
+    [tags sortUsingSelector:@selector(compare:)];
     return tags;
 }
 
@@ -54,7 +54,7 @@
             [taggedActivities addObject:activity];
         }
     }
-    // TODO: Sort alphabetically
+    [taggedActivities sortUsingDescriptors:[NSArray arrayWithObject:[[NSSortDescriptor alloc] initWithKey:@"title" ascending:YES]]];
     return taggedActivities;
 }
 

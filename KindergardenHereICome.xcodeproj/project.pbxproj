@@ -71,6 +71,16 @@
 		A891B6211836706A0063F861 /* Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = A891B6201836706A0063F861 /* Activity.m */; };
 		A891B6241836707F0063F861 /* Kid.m in Sources */ = {isa = PBXBuildFile; fileRef = A891B6231836707F0063F861 /* Kid.m */; };
 		A891B627183670A00063F861 /* ApplicationState.m in Sources */ = {isa = PBXBuildFile; fileRef = A891B626183670A00063F861 /* ApplicationState.m */; };
+		A8E9A4091837C50300BF98FB /* tint.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E9A4081837C50300BF98FB /* tint.png */; };
+		A8E9A40B1837C51900BF98FB /* money.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E9A40A1837C51900BF98FB /* money.png */; };
+		A8E9A40D1837C52100BF98FB /* heart-green.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E9A40C1837C52100BF98FB /* heart-green.png */; };
+		A8E9A4151837C57000BF98FB /* bold-green.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E9A40E1837C57000BF98FB /* bold-green.png */; };
+		A8E9A4161837C57000BF98FB /* music-green.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E9A40F1837C57000BF98FB /* music-green.png */; };
+		A8E9A4171837C57000BF98FB /* book-green.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E9A4101837C57000BF98FB /* book-green.png */; };
+		A8E9A4181837C57000BF98FB /* globe-green.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E9A4111837C57000BF98FB /* globe-green.png */; };
+		A8E9A4191837C57000BF98FB /* plane-green.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E9A4121837C57000BF98FB /* plane-green.png */; };
+		A8E9A41A1837C57000BF98FB /* truck-green.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E9A4131837C57000BF98FB /* truck-green.png */; };
+		A8E9A41B1837C57000BF98FB /* pencil-green.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E9A4141837C57000BF98FB /* pencil-green.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,8 +94,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8002C18B1837B33B0033D0BA /* cloud-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cloud-green.png"; path = "Icons/FontAwesomeGreen/cloud-green.png"; sourceTree = "<group>"; };
-		8002C18D1837B52E0033D0BA /* medkit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = medkit.png; path = Icons/FontAwesomeGreen/medkit.png; sourceTree = "<group>"; };
+		8002C18B1837B33B0033D0BA /* cloud-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cloud-green.png"; path = "KindergardenHereICome/Icons/FontAwesomeGreen/cloud-green.png"; sourceTree = "<group>"; };
+		8002C18D1837B52E0033D0BA /* medkit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = medkit.png; path = KindergardenHereICome/Icons/FontAwesomeGreen/medkit.png; sourceTree = "<group>"; };
 		8002C1971837C2EB0033D0BA /* Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Icons; sourceTree = "<group>"; };
 		8002C1991837C35A0033D0BA /* Design Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Design Images"; sourceTree = "<group>"; };
 		806ECAF9183655B90099CBD9 /* KindergardenHereICome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindergardenHereICome.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,6 +178,16 @@
 		A891B6231836707F0063F861 /* Kid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kid.m; sourceTree = "<group>"; };
 		A891B625183670A00063F861 /* ApplicationState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationState.h; sourceTree = "<group>"; };
 		A891B626183670A00063F861 /* ApplicationState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationState.m; sourceTree = "<group>"; };
+		A8E9A4081837C50300BF98FB /* tint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tint.png; path = KindergardenHereICome/Icons/FontAwesomeGreen/tint.png; sourceTree = "<group>"; };
+		A8E9A40A1837C51900BF98FB /* money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = money.png; path = KindergardenHereICome/Icons/FontAwesomeGreen/money.png; sourceTree = "<group>"; };
+		A8E9A40C1837C52100BF98FB /* heart-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "heart-green.png"; path = "KindergardenHereICome/Icons/FontAwesomeGreen/heart-green.png"; sourceTree = "<group>"; };
+		A8E9A40E1837C57000BF98FB /* bold-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bold-green.png"; path = "KindergardenHereICome/Icons/FontAwesomeGreen/bold-green.png"; sourceTree = "<group>"; };
+		A8E9A40F1837C57000BF98FB /* music-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "music-green.png"; path = "KindergardenHereICome/Icons/FontAwesomeGreen/music-green.png"; sourceTree = "<group>"; };
+		A8E9A4101837C57000BF98FB /* book-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "book-green.png"; path = "KindergardenHereICome/Icons/FontAwesomeGreen/book-green.png"; sourceTree = "<group>"; };
+		A8E9A4111837C57000BF98FB /* globe-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "globe-green.png"; path = "KindergardenHereICome/Icons/FontAwesomeGreen/globe-green.png"; sourceTree = "<group>"; };
+		A8E9A4121837C57000BF98FB /* plane-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plane-green.png"; path = "KindergardenHereICome/Icons/FontAwesomeGreen/plane-green.png"; sourceTree = "<group>"; };
+		A8E9A4131837C57000BF98FB /* truck-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "truck-green.png"; path = "KindergardenHereICome/Icons/FontAwesomeGreen/truck-green.png"; sourceTree = "<group>"; };
+		A8E9A4141837C57000BF98FB /* pencil-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pencil-green.png"; path = "KindergardenHereICome/Icons/FontAwesomeGreen/pencil-green.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,8 +253,6 @@
 			children = (
 				8002C1991837C35A0033D0BA /* Design Images */,
 				8002C1971837C2EB0033D0BA /* Icons */,
-				8002C18D1837B52E0033D0BA /* medkit.png */,
-				8002C18B1837B33B0033D0BA /* cloud-green.png */,
 				A6B820E118368AE6006078AF /* ViewControllers */,
 				A891B61B183670480063F861 /* Model */,
 				806ECB0B183655B90099CBD9 /* AppDelegate.h */,
@@ -304,9 +322,21 @@
 		A6B832991836918C006078AF /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				A8E9A4081837C50300BF98FB /* tint.png */,
+				A8E9A40A1837C51900BF98FB /* money.png */,
+				A8E9A40C1837C52100BF98FB /* heart-green.png */,
 				A88D60DA183787F200759B9F /* score.png */,
 				A88D60DC18378F3100759B9F /* search.png */,
+				A8E9A40E1837C57000BF98FB /* bold-green.png */,
+				A8E9A40F1837C57000BF98FB /* music-green.png */,
+				A8E9A4101837C57000BF98FB /* book-green.png */,
+				A8E9A4111837C57000BF98FB /* globe-green.png */,
+				A8E9A4121837C57000BF98FB /* plane-green.png */,
+				A8E9A4131837C57000BF98FB /* truck-green.png */,
+				A8E9A4141837C57000BF98FB /* pencil-green.png */,
 				A88D60E218378F9700759B9F /* facebook-color.png */,
+				8002C18D1837B52E0033D0BA /* medkit.png */,
+				8002C18B1837B33B0033D0BA /* cloud-green.png */,
 				A88D60E618378FA700759B9F /* star.png */,
 				A88D60E318378F9700759B9F /* twitter-color.png */,
 				A88D60DD18378F3100759B9F /* user3.png */,
@@ -451,6 +481,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8E9A4161837C57000BF98FB /* music-green.png in Resources */,
 				A88D60E518378F9700759B9F /* twitter-color.png in Resources */,
 				A813CB181836B53B00AC8E19 /* one.jpg in Resources */,
 				A813CB011836A8FC00AC8E19 /* RSG_GreyBkrd.png in Resources */,
@@ -468,15 +499,20 @@
 				A88D60E418378F9700759B9F /* facebook-color.png in Resources */,
 				80CDF4BC1836B2FA00EDF82C /* jean-background.png in Resources */,
 				A88D60DB183787F300759B9F /* score.png in Resources */,
+				A8E9A40D1837C52100BF98FB /* heart-green.png in Resources */,
 				A813CB001836A8FC00AC8E19 /* RSG_GreenBkrd.png in Resources */,
 				80CDF4BD1836B2FA00EDF82C /* red-background.png in Resources */,
 				80CDF4B91836AAD700EDF82C /* RSG_Star-04.png in Resources */,
 				806ECB07183655B90099CBD9 /* InfoPlist.strings in Resources */,
 				A813CB041836A8FC00AC8E19 /* RSG_Yellowscreen-05.png in Resources */,
 				A88D60E018378F3100759B9F /* user3.png in Resources */,
+				A8E9A4181837C57000BF98FB /* globe-green.png in Resources */,
 				A813CB191836B53B00AC8E19 /* rosie.jpg in Resources */,
+				A8E9A41A1837C57000BF98FB /* truck-green.png in Resources */,
 				8002C1981837C2EB0033D0BA /* Icons in Resources */,
 				806ECB0F183655B90099CBD9 /* Images.xcassets in Resources */,
+				A8E9A4091837C50300BF98FB /* tint.png in Resources */,
+				A8E9A4151837C57000BF98FB /* bold-green.png in Resources */,
 				A813CB131836B53B00AC8E19 /* doug.jpg in Resources */,
 				A813CB1A1836B53B00AC8E19 /* sleepy.jpg in Resources */,
 				8002C18C1837B33B0033D0BA /* cloud-green.png in Resources */,
@@ -485,7 +521,11 @@
 				A813CB151836B53B00AC8E19 /* howmany.jpg in Resources */,
 				A88D60DF18378F3100759B9F /* search.png in Resources */,
 				A813CB1B1836B53B00AC8E19 /* train.jpg in Resources */,
+				A8E9A4171837C57000BF98FB /* book-green.png in Resources */,
+				A8E9A4191837C57000BF98FB /* plane-green.png in Resources */,
 				A6B820E0183674D2006078AF /* Storyboard.storyboard in Resources */,
+				A8E9A40B1837C51900BF98FB /* money.png in Resources */,
+				A8E9A41B1837C57000BF98FB /* pencil-green.png in Resources */,
 				8002C19A1837C35A0033D0BA /* Design Images in Resources */,
 				A813CB161836B53B00AC8E19 /* iaint.jpg in Resources */,
 				80CDF4C31836B9A100EDF82C /* RSG_worm-01.png in Resources */,
