@@ -50,15 +50,17 @@
                 case SLComposeViewControllerResultDone:
                     NSLog(@"Facebook Success!");
                     //Show them an update message
+                    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Facebook updated" message:@"Message was posted on Facebook" delegate:nil cancelButtonTitle:@"Okay" otherButtonTitles:nil];
+                    [alert show];
                     break;
             }
             
         };
         
-        NSString *message = [NSString stringWithFormat:@"%@ and I just did an activity together!\n\n%@", [ApplicationState getInstance].currentKid.name, self.title];
+        NSString *message = [NSString stringWithFormat:@"%@ and I just did an activity together!\n\n%@\n", [ApplicationState getInstance].currentKid.name, self.title];
         [compose setInitialText:message];
-        [compose addURL:[NSURL URLWithString:@"http://bit.ly/2V6CFi"]];
-        [compose addImage:self.picture];
+//        [compose addURL:[NSURL URLWithString:@"http://bit.ly/2V6CFi"]];
+        [compose addImage:self.icon];
         
         [controller presentViewController:compose animated:YES completion:nil];
     }
