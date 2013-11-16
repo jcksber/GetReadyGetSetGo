@@ -7,6 +7,7 @@
 //
 
 #import "ActivityInfoViewController.h"
+#import "ActivityLearningInfoViewController.h"
 
 @interface ActivityInfoViewController ()
 
@@ -27,6 +28,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    self.actTitle.text = self.activity.title;
+    self.summary.text = self.activity.summary;
 }
 
 - (void)didReceiveMemoryWarning
@@ -42,5 +45,21 @@
     self.summary.text = activity.summary;
     
 }
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    ((ActivityLearningInfoViewController*)segue.destinationViewController).activity = _activity;    
+}
+
+- (IBAction)completed:(id)sender {
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Congratulations!" message:@"You've completed 3 Activities this week!" delegate:Nil cancelButtonTitle:@"Okay" otherButtonTitles:nil];
+    [alert show];
+}
+
+- (IBAction)shareOnFacebook:(id)sender {
+    
+    [_activity shareOnFacebookFromViewController:self];
+}
+
 
 @end

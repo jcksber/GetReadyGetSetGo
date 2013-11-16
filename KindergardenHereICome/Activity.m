@@ -96,7 +96,7 @@
         NSString *message = [NSString stringWithFormat:@"%@ and I just did an activity together!\n\n%@", [ApplicationState getInstance].currentKid.name, self.title];
         [compose setInitialText:message];
         [compose addURL:[NSURL URLWithString:@"http://bit.ly/2V6CFi"]];
-        [compose addImage:self.picture];
+        [compose addImage:self.icon];
         
         [controller presentViewController:compose animated:YES completion:nil];
     }

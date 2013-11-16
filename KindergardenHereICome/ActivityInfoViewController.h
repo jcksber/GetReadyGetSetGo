@@ -15,6 +15,8 @@
 
 @property (weak, nonatomic) IBOutlet UITextView *summary;
 @property (weak, nonatomic) IBOutlet UILabel *actTitle;
-
+@property (weak, nonatomic) IBOutlet UIImageView *icon;
+- (IBAction)completed:(id)sender;
+- (IBAction)shareOnFacebook:(id)sender;
 
 @end
