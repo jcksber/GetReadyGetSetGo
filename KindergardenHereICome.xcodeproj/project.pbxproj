@@ -56,6 +56,7 @@
 		A813CB1B1836B53B00AC8E19 /* train.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A813CB101836B53B00AC8E19 /* train.jpg */; };
 		A813CB1C1836B53B00AC8E19 /* updown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A813CB111836B53B00AC8E19 /* updown.jpg */; };
 		A813CB1D1836B53B00AC8E19 /* whoseshoes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A813CB121836B53B00AC8E19 /* whoseshoes.jpg */; };
+		A88D60DB183787F300759B9F /* score.png in Resources */ = {isa = PBXBuildFile; fileRef = A88D60DA183787F200759B9F /* score.png */; };
 		A891B61E1836705C0063F861 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = A891B61D1836705C0063F861 /* Book.m */; };
 		A891B6211836706A0063F861 /* Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = A891B6201836706A0063F861 /* Activity.m */; };
 		A891B6241836707F0063F861 /* Kid.m in Sources */ = {isa = PBXBuildFile; fileRef = A891B6231836707F0063F861 /* Kid.m */; };
@@ -137,6 +138,7 @@
 		A813CB101836B53B00AC8E19 /* train.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = train.jpg; sourceTree = "<group>"; };
 		A813CB111836B53B00AC8E19 /* updown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = updown.jpg; sourceTree = "<group>"; };
 		A813CB121836B53B00AC8E19 /* whoseshoes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whoseshoes.jpg; sourceTree = "<group>"; };
+		A88D60DA183787F200759B9F /* score.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = score.png; sourceTree = "<group>"; };
 		A891B61C1836705C0063F861 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
 		A891B61D1836705C0063F861 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 		A891B61F1836706A0063F861 /* Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Activity.h; sourceTree = "<group>"; };
@@ -275,6 +277,7 @@
 		A6B832991836918C006078AF /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				A88D60DA183787F200759B9F /* score.png */,
 				80CDF4C71836D12A00EDF82C /* Icons */,
 				A813CB071836B51D00AC8E19 /* Books */,
 				A813CB051836B3CA00AC8E19 /* greenCheck.png */,
@@ -425,6 +428,7 @@
 				80CDF4B81836AAD700EDF82C /* RSG_Star-01.png in Resources */,
 				A6B8329B1836919F006078AF /* photo.png in Resources */,
 				80CDF4BC1836B2FA00EDF82C /* jean-background.png in Resources */,
+				A88D60DB183787F300759B9F /* score.png in Resources */,
 				A813CB001836A8FC00AC8E19 /* RSG_GreenBkrd.png in Resources */,
 				80CDF4BD1836B2FA00EDF82C /* red-background.png in Resources */,
 				80CDF4B91836AAD700EDF82C /* RSG_Star-04.png in Resources */,
