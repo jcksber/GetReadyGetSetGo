@@ -41,7 +41,6 @@
             }
         }
     }
-    // TODO: Sort alphabetically
     [tags sortUsingSelector:@selector(compare:)];
     return tags;
 }
@@ -149,6 +148,9 @@
     activity.summary = @"Check out the RADical Days calendar for FREE events happening in Allegheny County.";
     activity.learningInfo = @"Interactions between people and the environment; physical characteristics of places and regions; pro-relationships with Adults";
     [self.activities addObject:activity];
+    
+    
+    
     
 }
 
