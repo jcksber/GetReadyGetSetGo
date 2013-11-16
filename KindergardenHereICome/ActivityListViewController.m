@@ -9,6 +9,7 @@
 #import "ActivityListViewController.h"
 #import "ApplicationState.h"
 #import "ActivityCell.h"
+#import "ActivityInfoViewController.h"
 
 @interface ActivityListViewController ()
 
@@ -80,5 +81,18 @@
     
     return cell;
 }
+
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    Activity *activity =[_activities objectAtIndex:indexPath.row];
+    
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Storyboard" bundle:nil];
+    ActivityInfoViewController * vc = (ActivityInfoViewController *)[sb instantiateViewControllerWithIdentifier:@"Activity"];
+    vc.activity = activity;
+    [self.navigationController pushViewController:vc animated:YES];
+    
+}
+
 
 @end
