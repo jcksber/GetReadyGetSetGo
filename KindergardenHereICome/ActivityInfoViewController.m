@@ -35,4 +35,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)setActivity:(Activity *)activity
+{
+    _activity = activity;
+    self.actTitle.text = activity.title;
+    self.summary.text = activity.summary;
+    
+}
+
 @end

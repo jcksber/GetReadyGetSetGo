@@ -9,6 +9,7 @@
 #import "ActivityListViewController.h"
 #import "ApplicationState.h"
 #import "ActivityCell.h"
+#import "ActivityInfoViewController.h"
 
 @interface ActivityListViewController ()
 
@@ -76,9 +77,22 @@
     Activity *activity = [_activities objectAtIndex:indexPath.row];
     cell.titleLabel.text = activity.title;
     // TODO:
-    //cell.activityImageView setImage:[]
+    [cell.activityImageView setImage:activity.icon];
     
     return cell;
 }
+
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    Activity *activity =[_activities objectAtIndex:indexPath.row];
+    
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Storyboard" bundle:nil];
+    ActivityInfoViewController * vc = (ActivityInfoViewController *)[sb instantiateViewControllerWithIdentifier:@"Activity"];
+    vc.activity = activity;
+    [self.navigationController pushViewController:vc animated:YES];
+    
+}
+
 
 @end
