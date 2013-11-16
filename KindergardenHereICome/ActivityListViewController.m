@@ -39,10 +39,12 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     if ( _tag != nil ) {
         _activities = [[[ApplicationState getInstance] activityListManager] activitiesWithTag:_tag];
+        NSLog(@"Tagged list - %@ - %@", _tag, _activities.debugDescription);
     } else {
         _activities = [[[ApplicationState getInstance] activityListManager] activities];
+        NSLog(@"Full list");
     }
-    
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning
