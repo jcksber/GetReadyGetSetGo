@@ -51,4 +51,15 @@
     ((ActivityLearningInfoViewController*)segue.destinationViewController).activity = _activity;    
 }
 
+- (IBAction)completed:(id)sender {
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Congratulations!" message:@"You've completed 3 Activities this week!" delegate:Nil cancelButtonTitle:@"Okay" otherButtonTitles:nil];
+    [alert show];
+}
+
+- (IBAction)shareOnFacebook:(id)sender {
+    
+    [_activity shareOnFacebookFromViewController:self];
+}
+
+
 @end
