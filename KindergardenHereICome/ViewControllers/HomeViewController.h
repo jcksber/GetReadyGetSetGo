@@ -10,9 +10,11 @@
 #import "Book.h"
 #import "Activity.h"
 
-@interface HomeViewController : UIViewController
+@interface HomeViewController: UIViewController
+
 @property (strong, nonatomic) IBOutlet UILabel *activityTitle;
 @property (strong, nonatomic) IBOutlet UILabel *activityDescription;
+@property (strong, nonatomic) IBOutlet UIImageView *activityIcon;
 @property (strong, nonatomic)Activity *activity;
 
 @property (strong, nonatomic) IBOutlet UIImageView *bookCoverImageView;
@@ -20,10 +22,10 @@
 @property (strong, nonatomic) IBOutlet UILabel *bookAuthor;
 @property (strong, nonatomic)Book *book;
 
-@property (strong, nonatomic) IBOutlet UIImageView *shareActivityFacebook;
-@property (strong, nonatomic) IBOutlet UIImageView *shareActivityTwitter;
+@property (strong, nonatomic) IBOutlet UIButton *shareActivityFacebook;
+@property (strong, nonatomic) IBOutlet UIButton *shareActivityTwitter;
 
-@property (strong, nonatomic) IBOutlet UIImageView *shareBookFacebook;
-@property (strong, nonatomic) IBOutlet UIImageView *shareBookTwitter;
+@property (strong, nonatomic) IBOutlet UIButton *shareBookFacebook;
+@property (strong, nonatomic) IBOutlet UIButton *shareBookTwitter;
 
 @end
