@@ -19,4 +19,7 @@
 - (IBAction)completed:(id)sender;
 - (IBAction)shareOnFacebook:(id)sender;
 
+
+@property (weak, nonatomic) IBOutlet UIImageView *checkmark;
+
 @end
