@@ -88,22 +88,6 @@
     [self loadRandomActivityAndBook];
 }
 
--(void)shareActivityOnFacebookTapped{
-    [self.activity shareOnFacebookFromViewController:self];
-}
-
--(void)shareActivityOnTwitterTapped{
-    [self.activity shareOnFacebookFromViewController:self];
-}
-
--(void)shareBookOnFacebookTapped{
-    [self.book shareOnFacebookFromViewController:self];
-}
-
--(void)shareBookOnTwitterTapped{
-    [self.book shareOnTwitterFromViewController:self];
-}
-
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -117,6 +101,22 @@
     }else     if ([segue.identifier isEqualToString:@"activity"]) {
         ((ActivityInfoViewController*)segue.destinationViewController).activity = self.todaysActivity;
     }
+}
+
+-(IBAction)shareActivityOnFacebook:(id)sender {
+    [_todaysActivity shareOnFacebookFromViewController:self];
+}
+
+-(IBAction)shareActivityOnTwitter:(id)sender {
+    [_todaysActivity shareOnTwitterFromViewController:self];
+}
+
+-(IBAction)shareBookOnFacebook:(id)sender {
+    [_todaysBook shareOnFacebookFromViewController:self];
+}
+
+-(IBAction)shareBookOnTwitter:(id)sender {
+    [_todaysBook shareOnTwitterFromViewController:self];
 }
 
 @end

@@ -218,6 +218,9 @@
                                         <state key="normal">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="shareActivityOnFacebook:" destination="MFz-bK-r9n" eventType="touchUpInside" id="B7d-MD-r6l"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nJw-kH-iC0">
                                         <rect key="frame" x="224" y="172" width="30" height="30"/>
@@ -225,6 +228,9 @@
                                         <state key="normal">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="shareActivityOnTwitter:" destination="MFz-bK-r9n" eventType="touchUpInside" id="Dcz-Qd-h87"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.15128751090000001" green="0.27466011260000001" blue="0.47131878399999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -285,6 +291,9 @@
                                         <state key="normal">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="shareBookOnFacebook:" destination="MFz-bK-r9n" eventType="touchUpInside" id="bud-bb-rIi"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNc-bP-Oqr">
                                         <rect key="frame" x="226" y="174" width="30" height="30"/>
@@ -292,6 +301,9 @@
                                         <state key="normal">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="shareBookOnTwitter:" destination="MFz-bK-r9n" eventType="touchUpInside" id="RfP-2b-MfK"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.4027740803" green="0.55966894960000002" blue="0.57319972829999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -312,10 +324,6 @@
                         <outlet property="bookAuthor" destination="z3Z-iv-My1" id="523-Vo-Biu"/>
                         <outlet property="bookCoverImageView" destination="5F1-DM-myl" id="e0k-uC-8gn"/>
                         <outlet property="bookTitle" destination="V9f-ht-OT5" id="Fq7-xG-BYo"/>
-                        <outlet property="shareActivityFacebook" destination="RYH-sg-xDs" id="yX8-xn-qYL"/>
-                        <outlet property="shareActivityTwitter" destination="nJw-kH-iC0" id="ni4-bl-f97"/>
-                        <outlet property="shareBookFacebook" destination="gpE-Ag-9bJ" id="o58-L0-u9Y"/>
-                        <outlet property="shareBookTwitter" destination="qNc-bP-Oqr" id="wme-TZ-Zz9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rg9-xV-iGb" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -728,6 +736,7 @@
         <image name="jean-background.png" width="640" height="1136"/>
         <image name="score.png" width="472" height="265"/>
         <image name="search.png" width="32" height="32"/>
+        <image name="star.png" width="30" height="32"/>
         <image name="twitter-color.png" width="133" height="133"/>
         <image name="user3.png" width="32" height="32"/>
     </resources>

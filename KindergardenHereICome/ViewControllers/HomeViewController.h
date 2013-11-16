@@ -22,10 +22,11 @@
 @property (strong, nonatomic) IBOutlet UILabel *bookAuthor;
 @property (strong, nonatomic)Book *book;
 
-@property (strong, nonatomic) IBOutlet UIButton *shareActivityFacebook;
-@property (strong, nonatomic) IBOutlet UIButton *shareActivityTwitter;
+- (IBAction)shareActivityOnFacebook:(id)sender;
+- (IBAction)shareActivityOnTwitter:(id)sender;
 
-@property (strong, nonatomic) IBOutlet UIButton *shareBookFacebook;
-@property (strong, nonatomic) IBOutlet UIButton *shareBookTwitter;
+- (IBAction)shareBookOnFacebook:(id)sender;
+- (IBAction)shareBookOnTwitter:(id)sender;
+
 
 @end
