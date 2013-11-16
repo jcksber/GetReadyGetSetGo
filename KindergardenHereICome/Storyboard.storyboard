@@ -96,7 +96,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ActivityTagCell" textLabel="Lph-po-Yyi" rowHeight="74" style="IBUITableViewCellStyleDefault" id="xBQ-9X-ZKl" customClass="ActivityTagCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="74"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="74"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xBQ-9X-ZKl" id="QiT-W6-xlx">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="73"/>
@@ -300,6 +300,8 @@
                     <tabBarItem key="tabBarItem" title="Home" image="home2.png" id="bvL-Ie-47Q"/>
                     <navigationItem key="navigationItem" title="Get Ready, Set, Go!" id="LBT-12-btc"/>
                     <connections>
+                        <outlet property="activityDescription" destination="p3z-Wz-8va" id="knP-MO-wZW"/>
+                        <outlet property="activityIcon" destination="LCq-tS-IRd" id="loJ-Qk-Bnu"/>
                         <outlet property="activityTitle" destination="tEj-kA-ilb" id="fy0-y9-Rzs"/>
                         <outlet property="bookAuthor" destination="z3Z-iv-My1" id="523-Vo-Biu"/>
                         <outlet property="bookCoverImageView" destination="5F1-DM-myl" id="e0k-uC-8gn"/>
@@ -458,7 +460,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="BookCell" rowHeight="100" id="WYC-vw-koU" customClass="BookCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="100"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WYC-vw-koU" id="AEG-AO-Cle">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
@@ -515,7 +517,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="BookCell" rowHeight="100" id="6cv-UE-J4a" customClass="BookCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="100"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6cv-UE-J4a" id="lgW-TM-nJD">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
@@ -571,7 +573,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ActivityCell" id="Sxv-1X-UEZ" customClass="ActivityCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Sxv-1X-UEZ" id="B9n-nb-mhv">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -677,7 +679,6 @@
         <!--Navigation Controller - Ready, Set, Go!-->
         <scene sceneID="LuR-MK-KCC">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bRv-lX-2yG" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController title="Ready, Set, Go!" automaticallyAdjustsScrollViewInsets="NO" id="hgg-7S-MlC" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Lhx-vT-2Ke">
@@ -689,6 +690,7 @@
                         <segue destination="ZfH-Rl-adG" kind="relationship" relationship="rootViewController" id="SYC-Gt-Qk2"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bRv-lX-2yG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3118" y="-694"/>
         </scene>
