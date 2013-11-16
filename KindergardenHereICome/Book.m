@@ -50,6 +50,8 @@
                 case SLComposeViewControllerResultDone:
                     NSLog(@"Facebook Success!");
                     //Show them an update message
+                    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Facebook updated" message:@"Message was posted on Facebook" delegate:nil cancelButtonTitle:@"Okay" otherButtonTitles:nil];
+                    [alert show];
                     break;
             }
             

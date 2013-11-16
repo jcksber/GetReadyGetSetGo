@@ -50,7 +50,7 @@
 {
     [[self bookDescription] setText:[self.book bookDescription]];
     [[self bookTitle] setText:[self.book title]];
-    [[self bookAuthor] setText:[self.book author]];
+    [[self bookAuthor] setText:[NSString stringWithFormat:@"By %@",[self.book author]]];
     [[self bookCoverImageView] setImage:[self.book picture]];
     [self setTitle:@"Book"];
     

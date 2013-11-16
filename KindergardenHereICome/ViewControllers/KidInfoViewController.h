@@ -12,5 +12,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *kidNameLabel;
 @property (strong, nonatomic) IBOutlet UILabel *kidAgeLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *kidPortraitImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *scoreView;
 
 @end

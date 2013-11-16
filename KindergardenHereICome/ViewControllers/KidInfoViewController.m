@@ -33,6 +33,8 @@
     [self.kidAgeLabel setText:[NSString stringWithFormat:@"Age: %@", [ApplicationState getInstance].currentKid.age]];
     [self.kidNameLabel setText:[ApplicationState getInstance].currentKid.name];
     [self.kidPortraitImageView setImage:[ApplicationState getInstance].currentKid.picture];
+
+    self.parentViewController.navigationItem.title = @"Child";
 }
 
 - (void)didReceiveMemoryWarning
