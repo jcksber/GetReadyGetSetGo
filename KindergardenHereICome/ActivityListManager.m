@@ -107,6 +107,7 @@
     activity.icon = [UIImage imageNamed:@("bold-green.png")];
     activity.summary = @"Ask your child to say the alphabet. Singing works too, but ask them to say the letters.";
     activity.learningInfo = @"Helps build the child's vocabulary; saying letters instead of singing them helps the child recognize individual                          letters instead of memorizing a song.";
+    activity.childHasCompleted = YES;
     [self.activities addObject:activity];
     
     activity = [[Activity alloc] init];
@@ -115,6 +116,7 @@
     activity.icon = [UIImage imageNamed: @("pencil-green.png")];
     activity.summary = @"Ask your child to write letters that you say to them. If they can correctly write the letter ask them to write their name";
     activity.learningInfo = @"Illustrates connection between hearing letters and recognizing them in written form.";
+        activity.childHasCompleted = YES;
     [self.activities addObject:activity];
     
     activity = [[Activity alloc] init];
@@ -123,6 +125,7 @@
     activity.icon = [UIImage imageNamed: @("book-green.png")];
     activity.summary = @"Can your child recognize the first letter of their first name? Ask them to pronounce the sound that each letter makes.  See list of books in app.";
     activity.learningInfo = @"Illustrates reading and analyzing written text.";
+        activity.childHasCompleted = YES;
     [self.activities addObject:activity];
     
     activity = [[Activity alloc] init];

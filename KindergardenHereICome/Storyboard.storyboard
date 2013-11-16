@@ -383,12 +383,17 @@
                                 <rect key="frame" x="20" y="84" width="40" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greenCheck.png" translatesAutoresizingMaskIntoConstraints="NO" id="dVD-eb-DhE">
+                                <rect key="frame" x="235" y="396" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="BcA-3a-4zI"/>
                     <connections>
                         <outlet property="actTitle" destination="Lkj-Jr-IHV" id="duY-TE-wia"/>
+                        <outlet property="checkmark" destination="dVD-eb-DhE" id="0NN-39-Xen"/>
                         <outlet property="icon" destination="BEZ-7U-tfz" id="gxi-go-Xrh"/>
                         <outlet property="summary" destination="NgX-2u-l5X" id="Jvg-7l-A1K"/>
                     </connections>
@@ -713,8 +718,6 @@
     </scenes>
     <resources>
         <image name="RSG_worm-01.png" width="500" height="500"/>
-        <image name="RSG_worm-01.png" width="500" height="500"/>
-        <image name="facebook-color.png" width="133" height="133"/>
         <image name="facebook-color.png" width="133" height="133"/>
         <image name="greenCheck.png" width="100" height="90"/>
         <image name="home2.png" width="32" height="32"/>
@@ -722,7 +725,6 @@
         <image name="score.png" width="472" height="265"/>
         <image name="search.png" width="32" height="32"/>
         <image name="star.png" width="30" height="32"/>
-        <image name="twitter-color.png" width="133" height="133"/>
         <image name="twitter-color.png" width="133" height="133"/>
         <image name="user3.png" width="32" height="32"/>
     </resources>
