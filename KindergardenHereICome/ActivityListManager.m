@@ -70,7 +70,7 @@
     
     activity = [[Activity alloc] init];
     activity.title = @"Colors";
-    activity.tags = @[@"Colors"];
+    activity.tags = @[@"Colors", @"Shapes"];
     activity.icon = [UIImage imageNamed:@("tint.png")];
     activity.summary = @"Ask your child to name the color of different things you see around the house. For instance, \"Can you tell me what color an apple is?\" or \"Can you go find something that is blue?\"";
     activity.learningInfo = @"This activity enables your child to recognize colors in the natural environment.";
