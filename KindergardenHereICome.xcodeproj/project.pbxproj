@@ -451,7 +451,7 @@
 				ORGANIZATIONNAME = PAEYC;
 				TargetAttributes = {
 					806ECAF8183655B90099CBD9 = {
-						DevelopmentTeam = Q854D49RR4;
+						DevelopmentTeam = LXQPWHDUGR;
 					};
 					806ECB13183655B90099CBD9 = {
 						TestTargetID = 806ECAF8183655B90099CBD9;

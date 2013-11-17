@@ -63,7 +63,7 @@
     
     Activity *activity = [[Activity alloc] init];
     activity.title = @"Weather or Not?";
-    activity.tags = @[@"Science", @"Self-concept", @"Clothes"];
+    activity.tags = @[@"Science", @"Self-concepts", @"Clothes"];
     activity.icon = [UIImage imageNamed:@("cloud-green.png")];
     activity.summary = @"What's the weather going to be today? Ask your child what you should wear.";
     activity.learningInfo = @"This activity enables your child to learn about the different seasons and appropriate clothes for the seasons.";
